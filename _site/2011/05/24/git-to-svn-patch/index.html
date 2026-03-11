@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>git to svn patch | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="git to svn patch" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="After discovering git I practically fell in love with it. So I decided to use the git Apache mirror for Pig for this year’s GSoC. One problem i found is that the ASF (Apache Software Foundation) uses svn (subversion) patches, but git by default produces a slightly different diff format that is not readily understood by the patch utility. A simple workaround for this issue is to use the –no-prefix option of git diff. (it should also work to use -p1 instead of -p0 in the patch command). To make completely transparent that I am using a different repository, I also keep a separate pristine tree checked out of svn and always up to date with trunk. To try my modifications, I can simply check out the branch I want to try out, generate a patch, apply it on the fly on the pristine svn tree and run ant test while I continue working on the git tree. To generate the final patch to submit I resort again to svn." />
+<meta property="og:description" content="After discovering git I practically fell in love with it. So I decided to use the git Apache mirror for Pig for this year’s GSoC. One problem i found is that the ASF (Apache Software Foundation) uses svn (subversion) patches, but git by default produces a slightly different diff format that is not readily understood by the patch utility. A simple workaround for this issue is to use the –no-prefix option of git diff. (it should also work to use -p1 instead of -p0 in the patch command). To make completely transparent that I am using a different repository, I also keep a separate pristine tree checked out of svn and always up to date with trunk. To try my modifications, I can simply check out the branch I want to try out, generate a patch, apply it on the fly on the pristine svn tree and run ant test while I continue working on the git tree. To generate the final patch to submit I resort again to svn." />
+<link rel="canonical" href="http://localhost:4000/2011/05/24/git-to-svn-patch/" />
+<meta property="og:url" content="http://localhost:4000/2011/05/24/git-to-svn-patch/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-05-24T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="git to svn patch" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2011-05-24T00:00:00+02:00","datePublished":"2011-05-24T00:00:00+02:00","description":"After discovering git I practically fell in love with it. So I decided to use the git Apache mirror for Pig for this year’s GSoC. One problem i found is that the ASF (Apache Software Foundation) uses svn (subversion) patches, but git by default produces a slightly different diff format that is not readily understood by the patch utility. A simple workaround for this issue is to use the –no-prefix option of git diff. (it should also work to use -p1 instead of -p0 in the patch command). To make completely transparent that I am using a different repository, I also keep a separate pristine tree checked out of svn and always up to date with trunk. To try my modifications, I can simply check out the branch I want to try out, generate a patch, apply it on the fly on the pristine svn tree and run ant test while I continue working on the git tree. To generate the final patch to submit I resort again to svn.","headline":"git to svn patch","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2011/05/24/git-to-svn-patch/"},"url":"http://localhost:4000/2011/05/24/git-to-svn-patch/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">git to svn patch</h1>
+    <p class="post-meta">
+      <time datetime="2011-05-24T00:00:00+02:00">
+        May 24, 2011
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/technology">Technology</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/git">#git</a>
+      
+        <a class="tag" href="/tag/gsoc">#GSoC</a>
+      
+        <a class="tag" href="/tag/patch">#patch</a>
+      
+        <a class="tag" href="/tag/pig">#pig</a>
+      
+        <a class="tag" href="/tag/svn">#svn</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>After discovering <strong>git</strong> I practically fell in love with it.
+So I decided to use the <a href="http://git.apache.org/">git Apache mirror</a> for <a href="//git.apache.org/pig.git">Pig</a> for this year’s GSoC.
+One problem i found is that the ASF (Apache Software Foundation) uses svn (subversion) patches, but git by default produces a slightly different diff format that is not readily understood by the <em>patch</em> utility. A simple workaround for this issue is to use the <em>–no-prefix</em> option of <em>git diff</em>. (it should also work to use -p1 instead of -p0 in the patch command).
+To make completely transparent that I am using a different repository, I also keep a separate <em>pristine</em> tree checked out of svn and always up to date with trunk. To try my modifications, I can simply check out the branch I want to try out, generate a patch, apply it on the fly on the pristine svn tree and run <em>ant test</em> while I continue working on the git tree. To generate the final patch to submit I resort again to svn.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+git co PIG-XXXX
+git diff trunk --no-prefix | patch -p0 -d ../pigpristine/
+cd ../pigpristine/ &amp;&amp; svn diff &gt; PIG-XXXX.patch
+
+</code></pre></div></div>
+
+<p>In the snippet I assume the git and svn tree are siblings in the filesystem, and that the svn tree is called <em>pigpristine</em>.</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2011/05/19/golden-brown/">Golden Brown</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2011/06/06/the-cloud/">The Cloud</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

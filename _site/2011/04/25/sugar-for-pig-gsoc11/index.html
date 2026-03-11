@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Sugar for Pig @ GSoC’11 | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Sugar for Pig @ GSoC’11" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My proposal for this year’s Google Summer of Code (GSoC) has been accepted! Also this year I will be working on Apache Pig. Last year I worked on the backend and on improving performance. This year instead I will work on the front end and on improving usability. I will implement a couple of “syntactic sugar” features for Pig/Latin." />
+<meta property="og:description" content="My proposal for this year’s Google Summer of Code (GSoC) has been accepted! Also this year I will be working on Apache Pig. Last year I worked on the backend and on improving performance. This year instead I will work on the front end and on improving usability. I will implement a couple of “syntactic sugar” features for Pig/Latin." />
+<link rel="canonical" href="http://localhost:4000/2011/04/25/sugar-for-pig-gsoc11/" />
+<meta property="og:url" content="http://localhost:4000/2011/04/25/sugar-for-pig-gsoc11/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-04-25T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Sugar for Pig @ GSoC’11" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2011-04-25T00:00:00+02:00","datePublished":"2011-04-25T00:00:00+02:00","description":"My proposal for this year’s Google Summer of Code (GSoC) has been accepted! Also this year I will be working on Apache Pig. Last year I worked on the backend and on improving performance. This year instead I will work on the front end and on improving usability. I will implement a couple of “syntactic sugar” features for Pig/Latin.","headline":"Sugar for Pig @ GSoC’11","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2011/04/25/sugar-for-pig-gsoc11/"},"url":"http://localhost:4000/2011/04/25/sugar-for-pig-gsoc11/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Sugar for Pig @ GSoC'11</h1>
+    <p class="post-meta">
+      <time datetime="2011-04-25T00:00:00+02:00">
+        April 25, 2011
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/technology">Technology</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/cheers">#cheers</a>
+      
+        <a class="tag" href="/tag/gsoc">#GSoC</a>
+      
+        <a class="tag" href="/tag/pig">#pig</a>
+      
+        <a class="tag" href="/tag/syntactic-sugar">#syntactic sugar</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>My proposal for this year’s Google Summer of Code (GSoC) has been accepted!
+Also this year I will be working on <a href="http://pig.apache.org/">Apache Pig</a>.
+<a href="http://melmeric.wordpress.com/2010/09/01/gsoc-wrap-up/">Last year</a> I worked on the backend and on improving performance. This year instead I will work on the front end and on improving usability. I will implement a couple of “<a href="http://en.wikipedia.org/wiki/Syntactic_sugar">syntactic sugar</a>” features for Pig/Latin.</p>
+
+<ul>
+  <li>
+    <p>Variable argument for SAMPLE and LIMIT. (<a href="https://issues.apache.org/jira/browse/PIG-1926">PIG-1926</a>)
+Currently, SAMPLE and LIMIT only take a constant argument. It would be better to be able to use a variable (scalar) in the place of a constant.</p>
+  </li>
+  <li>
+    <p>Default SPLIT destination. (<a href="https://issues.apache.org/jira/browse/PIG-1904">PIG-1904</a>)
+SPLIT partitions a relation into two or more relations.
+It would be useful to have a default destination for tuples that are not assigned to any other relation, in a fashion similar to a switch/case/default statement.</p>
+  </li>
+</ul>
+
+<p>These features are simple but quite useful. <a href="http://socghop.appspot.com/gsoc/proposal/review/google/gsoc2011/azaroth/1">My proposal</a> outlines some interesting use cases.</p>
+
+<p>This year I will be mentored by Thejas Nair. I am very happy to be able to contribute again to this very interesting open source project.</p>
+
+<p>It’s a pity I didn’t start GSoCing before and this will be my last year (blame my memory, on my first year as a PhD student I missed the deadline by 3 days…).</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2011/04/18/wikipedia-miner/">Wikipedia Miner</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2011/05/07/tough-environment/">Tough environment</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

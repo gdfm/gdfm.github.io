@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Distributed stream processing showdown: S4 vs Storm | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Distributed stream processing showdown: S4 vs Storm" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="S4 and Storm are two distributed, scalable platforms for processing continuous unbounded streams of data." />
+<meta property="og:description" content="S4 and Storm are two distributed, scalable platforms for processing continuous unbounded streams of data." />
+<link rel="canonical" href="http://localhost:4000/2013/01/02/distributed-stream-processing-showdown-s4-vs-storm/" />
+<meta property="og:url" content="http://localhost:4000/2013/01/02/distributed-stream-processing-showdown-s4-vs-storm/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-01-02T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Distributed stream processing showdown: S4 vs Storm" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2013-01-02T00:00:00+01:00","datePublished":"2013-01-02T00:00:00+01:00","description":"S4 and Storm are two distributed, scalable platforms for processing continuous unbounded streams of data.","headline":"Distributed stream processing showdown: S4 vs Storm","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2013/01/02/distributed-stream-processing-showdown-s4-vs-storm/"},"url":"http://localhost:4000/2013/01/02/distributed-stream-processing-showdown-s4-vs-storm/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Distributed stream processing showdown: S4 vs Storm</h1>
+    <p class="post-meta">
+      <time datetime="2013-01-02T00:00:00+01:00">
+        January 2, 2013
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/research">Research</a>, 
+        
+          <a href="/category/technology">Technology</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/big-data">#big data</a>
+      
+        <a class="tag" href="/tag/distributed-systems">#distributed systems</a>
+      
+        <a class="tag" href="/tag/s4">#S4</a>
+      
+        <a class="tag" href="/tag/showdown">#showdown</a>
+      
+        <a class="tag" href="/tag/storm">#Storm</a>
+      
+        <a class="tag" href="/tag/stream-processing">#stream processing</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>S4 and Storm are two distributed, scalable platforms for processing continuous unbounded streams of data.</p>
+
+<p>I have been involved in the development of S4 (I designed the fault-recovery module) and I have used Storm for my latest project, so I have gained a bit of experience on both and I want to share my views on these two very similar and competing platforms.</p>
+
+<p>First, some commonalities.
+Both are distributed stream processing platforms, run on the JVM (S4 is pure Java while Storm is part Java part Clojure), are open source (Apache/Eclipse licenses), are inspired by MapReduce and are quite new. Both frameworks use keyed streams as their basic building block.</p>
+
+<p>Now for some differences.</p>
+
+<h3 id="programming-model">Programming model.</h3>
+
+<p>S4 implements the Actors programming paradigm. You define your program in terms of Processing Elements (PEs) and Adapters, and the framework instantiates one PE per each unique key in the stream. This means that the logic inside a PE can be very simple, very much like MapReduce.</p>
+
+<p>Storm does not have an explicit programming paradigm. You define your program in terms of bolts and spouts that process partitions of streams. The number of bolts to instantiate is defined a-priori and each bolt will see a partition of the stream.</p>
+
+<p>To make things more clear, let’s use the classic “hello world” program from MapReduce: word count.</p>
+
+<p>Let’s say we want to implement a streaming word count. In S4, we can define a word to be a key, and our PE would need to keep track of the number of instances it processes by using a single long (again, very much like MapReduce). In Storm, we need to program each bolt as if it had to process the whole stream, so we would use a data structure like a Map&lt;String, Long&gt; to keep track of the word counts. The distribution and parallelism are orthogonal to the program.</p>
+
+<p>In synthesis, in S4 you program for a single key, in Storm you program for the whole stream. Storm gives you the basic tools to build a framework, while S4 gives you a well-defined framework. To use an analogy from Java build systems, Storm is more like Ant and S4 is more like Maven.</p>
+
+<p>My personal preference here goes to S4, as it makes programming much easier. Most of the times in Storm you will anyway end mimicking the Actors model by implementing a hash based structure on a key, like in the example above.</p>
+
+<h3 id="data-pipeline">Data pipeline.</h3>
+
+<p>S4 uses a push model, events are pushed to the next PE as fast as possible. If receiver buffers get full events are dropped, and this can happen at any stage in the pipeline (from the Adapter to any PE).</p>
+
+<p>Storm uses a pull model. Each bolt pulls event from its source, be it a spout or another bolt. Event loss can thus happen only at ingestion time, in the spouts if they cannot keep up with the external event rate.</p>
+
+<p>In this case my preference goes to Storm, as it makes deployment much easier: you need to tune buffer sizes in order to deal peaks and event loss only at single place, the spout. If your deployment is badly sized in terms of parallelism level, at worst you get a performance hit in terms of throughput and latency, but the algorithm will produce the same result.</p>
+
+<h3 id="fault-tolerance">Fault tolerance.</h3>
+
+<p>S4 provides state recovery via uncoordinated checkpointing. When a node crashes, a new node takes over its task and restarts from a recent snapshot of its state. Events sent after the last checkpoint and before the recovery are lost. Indeed, events can be lost in any case due to overload, so this design makes perfect sense. State recovery is very important for long running machine learning programs, where the state represents days or weeks worth of data.</p>
+
+<p>Storm provides guaranteed delivery of events/tuples. Each tuple traverses the entire pipeline within a time interval or is declared as failed and can be replayed from the start by the spout. Spouts are responsible to keep tuples around for replay, or can rely on external services to do so (like Apache Kafka). However, the framework provides no state recovery.</p>
+
+<p>I declare a tie here. State recovery is needed for many ML applications, although guaranteed delivery makes it easier to reason about the state of applications. Having both would be ideal, but implementing both of them without performance penalties is not trivial.</p>
+
+<h3 id="summary">Summary.</h3>
+
+<p>There are many other differences, but for sake of brevity I just present a short summary of the pros of each platform that the other one lacks.</p>
+
+<h4 id="s4-pros">S4 pros:</h4>
+
+<ul>
+  <li>
+    <p>Clean programming model.</p>
+  </li>
+  <li>
+    <p>State recovery.</p>
+  </li>
+  <li>
+    <p>Inter-app communication.</p>
+  </li>
+  <li>
+    <p>Classpath isolation.</p>
+  </li>
+  <li>
+    <p>Tools for packaging and deployment.</p>
+  </li>
+  <li>
+    <p>Apache incubation.</p>
+  </li>
+</ul>
+
+<h4 id="storm-pros">Storm pros:</h4>
+
+<ul>
+  <li>
+    <p>Pull model.</p>
+  </li>
+  <li>
+    <p>Guaranteed processing.</p>
+  </li>
+  <li>
+    <p>More mature, more traction, larger community.</p>
+  </li>
+  <li>
+    <p>High performance.</p>
+  </li>
+  <li>
+    <p>Thread programming support.</p>
+  </li>
+  <li>
+    <p>Advanced features (transactional topologies, Trident).</p>
+  </li>
+</ul>
+
+<p>Now the hard question: <em>“Which one should I use for my new project?”</em>.</p>
+
+<p>Unfortunately there is no easy answer, it mostly depends on your needs. I think the biggest factor to consider is whether you need guaranteed processing of events or state recovery. Also worth considering, Storm has a larger and more active user community, but the project is mainly a one-man effort, while S4 is in incubation with the ASF. This difference might be important if you are a large organization trying to decide on which platform to invest for the long term.</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2012/12/31/2012-in-review/">2012 in review</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2013/01/02/storm-parallelism/">Storm parallelism</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

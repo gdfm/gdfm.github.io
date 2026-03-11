@@ -1,0 +1,19 @@
+---
+layout: post
+title: "GSoC wrap-up"
+date: 2010-09-01
+categories: ["Technology"]
+tags: ["GSoC", "pig"]
+author: "melmeric"
+permalink: /2010/09/01/gsoc-wrap-up/
+---
+
+GSoC 2010 is over!
+
+It was a great experience. First time for me contributing to a top class project. I must say that I was a bit worried at the beginning: understanding a big and complex project like [Apache Pig](http://hadoop.apache.org/pig/) is not an easy task.
+
+I managed to get my project done and I passed the final evaluation. I want to thank my mentor Daniel Dai for the support he gave me during the project and for his patience. The result of my efforts was a 10x improvement in speed of the comparator I worked on. This translated to a ~20% improvement to target queries in the standard PigMix2 bench suite. Neat!
+
+All the code has already been integrated in Pig and will be out with the 0.8 release (branched a few days ago).
+
+Now I am eager to get my hands on my GSoC t-shirt :)

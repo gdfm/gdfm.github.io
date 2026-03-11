@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="home">
+  <h2 class="post-list-heading">Recent Posts</h2>
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+    <li class="post-item">
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.categories.size > 0 %}
+      <p class="post-cats">
+        {% for cat in post.categories %}
+          <span class="cat-label">{{ cat }}</span>
+        {% endfor %}
+      </p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a class="prev" href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
+    {% endif %}
+    <span class="page-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a class="next" href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</div>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Social Content Matching in MapReduce @ VLDB | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Social Content Matching in MapReduce @ VLDB" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My last work “Social Content Matching in MapReduce” got accepted in VLDB (Very Large Data Bases)." />
+<meta property="og:description" content="My last work “Social Content Matching in MapReduce” got accepted in VLDB (Very Large Data Bases)." />
+<link rel="canonical" href="http://localhost:4000/2011/03/19/social-content-matching-in-mapreduce-vldb/" />
+<meta property="og:url" content="http://localhost:4000/2011/03/19/social-content-matching-in-mapreduce-vldb/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-03-19T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Social Content Matching in MapReduce @ VLDB" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2011-03-19T00:00:00+01:00","datePublished":"2011-03-19T00:00:00+01:00","description":"My last work “Social Content Matching in MapReduce” got accepted in VLDB (Very Large Data Bases).","headline":"Social Content Matching in MapReduce @ VLDB","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2011/03/19/social-content-matching-in-mapreduce-vldb/"},"url":"http://localhost:4000/2011/03/19/social-content-matching-in-mapreduce-vldb/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Social Content Matching in MapReduce @ VLDB</h1>
+    <p class="post-meta">
+      <time datetime="2011-03-19T00:00:00+01:00">
+        March 19, 2011
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/phd">PhD</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/content">#content</a>
+      
+        <a class="tag" href="/tag/graph">#graph</a>
+      
+        <a class="tag" href="/tag/mapreduce">#mapreduce</a>
+      
+        <a class="tag" href="/tag/matching">#matching</a>
+      
+        <a class="tag" href="/tag/paper">#paper</a>
+      
+        <a class="tag" href="/tag/vldb">#vldb</a>
+      
+        <a class="tag" href="/tag/yahoo">#Yahoo</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>My last work <em>“Social Content Matching in MapReduce”</em> got accepted in VLDB
+(Very Large Data Bases).</p>
+
+<p>YES!!!</p>
+
+<p>(as you might tell, I am extremely happy about this :) )</p>
+
+<p>In the paper we tackle the problem of content distribution in a social media web site like flickr, model the problem as a b-matching problem on a graph and solve it with a smart iterative algorithm in MapReduce. We also show how to design a scalable greedy algorithm for the same problem in MapReduce.</p>
+
+<p>Here the abstract:</p>
+
+<blockquote>
+
+  <p>Matching problems are ubiquitous. They occur in economic markets, labor markets, internet advertising, and elsewhere. In this paper we focus on an application of matching for social media. Our goal is to distribute content from information suppliers to information consumers. 
+We seek to maximize the overall relevance of the matched content from suppliers to consumers while regulating the overall activity, e.g., ensuring that no consumer is overwhelmed with data and that all suppliers have chances to deliver their content.</p>
+</blockquote>
+
+<p>We propose two matching algorithms, GreedyMR and StackMR, geared for the MapReduce paradigm. Both algorithms have provable approximation guarantees, and in practice they produce high-quality solutions. While both algorithms scale extremely well, we can show that StackMR requires only a poly-logarithmic number of MapReduce steps, making it an attractive option for applications with very large datasets. We experimentally show the trade-offs between quality and efficiency of our solutions on two large datasets coming from real-world social-media web sites.</p>
+
+<p>On a final note, thanks to my co-authors for their hard work and guidance:
+Aris Gionis from Yahoo! Research and Mauro Sozio from Max Planck Institut.</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2011/03/14/people-just-dont-understand/">People just don't understand</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2011/03/19/v-i-p/">V.I.P.</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

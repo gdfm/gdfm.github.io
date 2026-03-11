@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>BSP with Hadoop (and without) | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="BSP with Hadoop (and without)" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I have recently started to look at the BSP (Bulk Synchronous Parallel) model of computation for large scale graph analysis. The model itself is quite old, but it has seen a resurgence lately mainly because of the Pregel system by Google. Here the paper. The idea of Pregel is to use synchronous barriers to cleanly separate messages in rounds. In each step, a vertex can read the messages sent to it in the previous step, perform some computation, and generate messages for the next step. When all the nodes vote to halt the  algorithm and no more messages arrive, the computation stops." />
+<meta property="og:description" content="I have recently started to look at the BSP (Bulk Synchronous Parallel) model of computation for large scale graph analysis. The model itself is quite old, but it has seen a resurgence lately mainly because of the Pregel system by Google. Here the paper. The idea of Pregel is to use synchronous barriers to cleanly separate messages in rounds. In each step, a vertex can read the messages sent to it in the previous step, perform some computation, and generate messages for the next step. When all the nodes vote to halt the  algorithm and no more messages arrive, the computation stops." />
+<link rel="canonical" href="http://localhost:4000/2011/11/19/bsp-with-hadoop-and-without/" />
+<meta property="og:url" content="http://localhost:4000/2011/11/19/bsp-with-hadoop-and-without/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-11-19T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="BSP with Hadoop (and without)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2011-11-19T00:00:00+01:00","datePublished":"2011-11-19T00:00:00+01:00","description":"I have recently started to look at the BSP (Bulk Synchronous Parallel) model of computation for large scale graph analysis. The model itself is quite old, but it has seen a resurgence lately mainly because of the Pregel system by Google. Here the paper. The idea of Pregel is to use synchronous barriers to cleanly separate messages in rounds. In each step, a vertex can read the messages sent to it in the previous step, perform some computation, and generate messages for the next step. When all the nodes vote to halt the  algorithm and no more messages arrive, the computation stops.","headline":"BSP with Hadoop (and without)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2011/11/19/bsp-with-hadoop-and-without/"},"url":"http://localhost:4000/2011/11/19/bsp-with-hadoop-and-without/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">BSP with Hadoop (and without)</h1>
+    <p class="post-meta">
+      <time datetime="2011-11-19T00:00:00+01:00">
+        November 19, 2011
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/phd">PhD</a>, 
+        
+          <a href="/category/technology">Technology</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/cloud">#cloud</a>
+      
+        <a class="tag" href="/tag/giraph">#giraph</a>
+      
+        <a class="tag" href="/tag/graph">#graph</a>
+      
+        <a class="tag" href="/tag/hadoop">#hadoop</a>
+      
+        <a class="tag" href="/tag/hama">#hama</a>
+      
+        <a class="tag" href="/tag/programming">#programming</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>I have recently started to look at the <a href="http://en.wikipedia.org/wiki/Bulk_Synchronous_Parallel">BSP (Bulk Synchronous Parallel)</a> model of computation for large scale graph analysis.
+The model itself is quite old, but it has seen a resurgence lately mainly because of the <a href="http://googleresearch.blogspot.com/2009/06/large-scale-graph-computing-at-google.html">Pregel</a> system by Google. Here the <a href="http://kowshik.github.com/JPregel/pregel_paper.pdf">paper</a>.
+The idea of Pregel is to use synchronous barriers to cleanly separate messages in rounds.
+In each step, a vertex can read the messages sent to it in the previous step, perform some computation, and generate messages for the next step.
+When all the nodes vote to halt the  algorithm and no more messages arrive, the computation stops.</p>
+
+<p>As with MapReduce and Hadoop, a number of clones of Pregel have popped up.
+I will briefly review the most interesting ones in this post.</p>
+
+<p> </p>
+
+<p><a href="https://github.com/aching/Giraph">Apache Giraph</a></p>
+
+<p>Giraph is a Hadoop-based graph processing engine open sourced by Yahoo! and now in the Apache Incubator.
+It is at a very early stage, but the community looks very active and diverse. Giraph developers play in the same backyard of Hadoop, Pig and Hive developers, and this makes me feel confident about its future.
+Giraph uses Hadoop for scheduling its workers and get the data loaded in memory, but then implements its own communication protocol using HadoopRPC. It also uses Zookeeper for fault tolerance by periodic checkpointing.
+Interestingly, Giraph does not require installing anything on the cluster, so you can try it out on your existing Hadoop infrastructure. A Giraph job runs like a normal map-only job. It can actually be thought as a graph-specific Hadoop library.
+However, because of this fact, the API currently lack encapsulation. Users need to write a custom  Reader + Writer + InputFormat + OutputFormat for each Vertex program they create. A library to read common graph formats would be a nice addition.</p>
+
+<p>**The good:
+**Very active community with people from the Hadoop ecosystem.
+Runs directly on Hadoop.</p>
+
+<p><strong>The bad:
+**Early stage.</strong>
+**Hadoop leaks in the API.</p>
+
+<p> </p>
+
+<p><a href="https://github.com/aching/Giraph">Apache Hama</a></p>
+
+<p>Hama is a Hadoop-like solution and is the oldest member in the group. Currently it is in the Apache Incubator and it was initially developed by an independent Korean programmer.
+Hama focuses on general BSP computations, so it is not only for graphs. For example there are algorithms for matrix inversion and linear algebra (I know, one could argue that a graph and a matrix are actually the same data structure).
+Unfortunately, the project seems to be moving slowly even though lately there has been a spike of activity, probably caused mainly by the GSoC (it works!).
+Currently it is still at a <strong>very</strong> early stage:  the current version doesn’t provide a proper I/O API and data partitioner. From my understanding there is no fault-tolerance either.
+From the technical point of view, Hama uses Zookeeper for  coordination and HDFS for data persistence. It is designed to be “The Hadoop of BSP”.
+Given its focus on general BSP, the kind of primitives that it provides are at a low level of abstraction, very much like a restricted version of MPI.</p>
+
+<p>**The good:
+**General BSP.
+Complete system.
+The <a href="http://incubator.apache.org/hama/images/hama_paint_logo.png">logo</a> is cute.</p>
+
+<p>**The bad:
+**Early stage.
+Requires additional infrastructure.
+Graph processing library not yet released.</p>
+
+<p> </p>
+
+<p><a href="http://www.goldenorbos.org/">GoldenOrb</a></p>
+
+<p>GoldenOrb is a Hadoop based Pregel clone open sourced by Ravel. It should be in the process of getting into the Apache Incubator.
+It is a close clone of Pregel and very similar to Giraph: a system to run distributed iterative algorithms on graphs.
+The components of the system like vertex values (state), edges and messages are built on top of the Hadoop Writables system.
+One thing I don’t understand is why they didn’t leverage Java generics. To get the value of a message you need to do ugly explicit casts:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@Override public void compute(Collection&lt;IntMessage&gt; messages) {
+  int _maxValue = 0;
+  for(IntMessage m: messages) {
+    int msgValue = ((IntWritable)m.getMessageValue()).get();
+    _maxValue = Math.max(_maxValue, msgValue);
+  }
+}
+</code></pre></div></div>
+
+<p>As with Giraph, Hadoop details leak into the API. However, GoldenOrb requires additional infrastructure to run. An OrbTracker needs to be running on each Hadoop node. It Also uses HadoopRPC for communication. The administrator can define the number of partitions to assign to each OrbTracker and the threads per node to launch can be configured on a per-job basis.</p>
+
+<p>**The good:
+**Commercial support.</p>
+
+<p>**The bad:
+**Early stage, not yet in Incubator.
+API has rough edges.
+Requires additional infrastructure.</p>
+
+<p> </p>
+
+<p><a href="http://kowshik.github.com/JPregel">JPregel</a></p>
+
+<p>A final mention goes to JPregel. It is a Java clone of Pregel which is<strong> not</strong> Hadoop based.
+The programming interface is thought from the ground up and is very clean.
+Right now it is at a <strong>very very</strong> early stage of development, e.g. messages can only be doubles and the system itself is not yet finalized.
+Interestingly, no explicit halting primitive is present. From what I understood it automatically deduces the termination by the absence of new messages.
+It is a very nice piece of work, especially considering the fact that it has been done by only a couple of first year master students.</p>
+
+<p> </p>
+
+<p>PS: I waited too much before publishing this post and I was beaten on time by one of the Giraph committers, even though he reviews also some other piece of software. Have a look at his <a href="http://blog.acaro.org/entry/google-pregel-the-rise-of-the-clones">post</a>.</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2011/11/05/quote-of-the-day-4/">Quote of the day</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2011/12/19/google-20/">Google 20%</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

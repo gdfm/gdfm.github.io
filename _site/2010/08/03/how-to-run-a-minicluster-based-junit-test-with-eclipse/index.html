@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>How to run a MiniCluster based JUnit test with Eclipse | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="How to run a MiniCluster based JUnit test with Eclipse" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Here is a little trick I had to learn while developing Apache Pig." />
+<meta property="og:description" content="Here is a little trick I had to learn while developing Apache Pig." />
+<link rel="canonical" href="http://localhost:4000/2010/08/03/how-to-run-a-minicluster-based-junit-test-with-eclipse/" />
+<meta property="og:url" content="http://localhost:4000/2010/08/03/how-to-run-a-minicluster-based-junit-test-with-eclipse/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-08-03T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="How to run a MiniCluster based JUnit test with Eclipse" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2010-08-03T00:00:00+02:00","datePublished":"2010-08-03T00:00:00+02:00","description":"Here is a little trick I had to learn while developing Apache Pig.","headline":"How to run a MiniCluster based JUnit test with Eclipse","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2010/08/03/how-to-run-a-minicluster-based-junit-test-with-eclipse/"},"url":"http://localhost:4000/2010/08/03/how-to-run-a-minicluster-based-junit-test-with-eclipse/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">How to run a MiniCluster based JUnit test with Eclipse</h1>
+    <p class="post-meta">
+      <time datetime="2010-08-03T00:00:00+02:00">
+        August 3, 2010
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/technology">Technology</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/cloud">#cloud</a>
+      
+        <a class="tag" href="/tag/gsoc">#GSoC</a>
+      
+        <a class="tag" href="/tag/junit">#junit</a>
+      
+        <a class="tag" href="/tag/mapreduce">#mapreduce</a>
+      
+        <a class="tag" href="/tag/pig">#pig</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>Here is a little trick I had to learn while developing Apache Pig.</p>
+
+<p>Pig uses JUnit as test framework. JUnit tests are very useful for unit testing, but end-to-end testing is not as easy. Even more in the case of Pig, that uses <a href="http://hadoop.apache.org/">Hadoop</a> (a distributed MapReduce engine) to execute its scripts. The <code class="language-plaintext highlighter-rouge">MiniCluster</code> class addresses this issue: it simulates a full execution environment on the local machine, with HDFS and everything you need. More information <a href="http://wiki.apache.org/pig/HowToContribute">here</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">MiniCluster</code> is very easy to use, assuming you are running your tests via ant. But if you want to debug and trace your test (using Eclipse, for instance) there are a couple of catches. Basically, you need to reproduce the environment the ant script builds inside Eclipse.</p>
+
+<p>The first thing to set is the <code class="language-plaintext highlighter-rouge">hadoop.log.dir</code> property, that tells where to put logs. Its default value is <code class="language-plaintext highlighter-rouge">build/test/logs</code>. To set it, go in the Run Configurations screen, Arguments tab, and add this line to the VM arguments:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+-Dhadoop.log.dir=build/test/logs
+
+</code></pre></div></div>
+
+<p>If you forget to set this, you will get a nice NullPonterException:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ERROR mapred.MiniMRCluster: Job tracker crashed
+java.lang.NullPointerException
+at java.io.File.&lt;init&gt;(File.java:222)
+at org.apache.hadoop.mapred.JobHistory.init(JobHistory.java:151)
+at org.apache.hadoop.mapred.JobTracker.&lt;init&gt;(JobTracker.java:1617)
+at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:183)
+at org.apache.hadoop.mapred.MiniMRCluster$JobTrackerRunner.run(MiniMRCluster.java:106)
+at java.lang.Thread.run(Thread.java:619)
+</code></pre></div></div>
+
+<p>The other thing to take care of is where to find <code class="language-plaintext highlighter-rouge">MiniCluster</code>’s configuration file. For Pig, you should first create it by running the <code class="language-plaintext highlighter-rouge">ant test</code> target once from the command line. This will create a standard minimum configuration file for your use in <code class="language-plaintext highlighter-rouge">${HOME}/pigtest/conf</code>. To set it, you should add this directory to the classpath in the Classpath tab, under User Entries using the Advanced… button.</p>
+
+<p>If you forget to set this, you get a nice <code class="language-plaintext highlighter-rouge">ExecException</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>org.apache.pig.backend.executionengine.ExecException: ERROR 4010: Cannot find hadoop configurations in 
+ classpath (neither hadoop-site.xml nor core-site.xml was found in the classpath).If you plan to use 
+ local mode, please put -x local option in command line
+ at org.apache.pig.backend.hadoop.executionengine.HExecutionEngine.init(HExecutionEngine.java:149)
+ at org.apache.pig.backend.hadoop.executionengine.HExecutionEngine.init(HExecutionEngine.java:114)
+ at org.apache.pig.impl.PigContext.connect(PigContext.java:183)
+ at org.apache.pig.PigServer.&lt;init&gt;(PigServer.java:216)
+ at org.apache.pig.PigServer.&lt;init&gt;(PigServer.java:205)
+ at org.apache.pig.PigServer.&lt;init&gt;(PigServer.java:201)
+ at org.apache.pig.test.TestSecondarySort.setUp(TestSecondarySort.java:73)
+ at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+ at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+ at java.lang.reflect.Method.invoke(Method.java:597)
+ at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+ at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+ at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+ at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:27)
+ at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+ at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:73)
+ at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:46)
+ at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+ at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+ at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+ at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+ at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+ at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+ at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:49)
+ at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+ at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:467)
+ at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:683)
+ at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:390)
+ at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:197)
+</code></pre></div></div>
+
+<p>Even after this, you will still get some exceptions (regarding threads, manifest files, jars), but they are not a problem and debugging will work.</p>
+
+<p>Hope this helps!</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2010/07/28/continuous-growth/">Continuous growth</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2010/08/07/zebras-do-not-have-feelings/">Zebras do not have feelings</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

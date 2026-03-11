@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>The rise of the Dremel clones | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="The rise of the Dremel clones" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="It looks like people are now realizing the need for powerful real-time analytics engines. Dremel was designed by Google as an interactive query engine for cluster environments. Dremel is a scalable, interactive ad-hoc query system for analysis of read-only nested data. It’s the perfect tool to power your Big Data dashboards. Now a bunch of open source clones are appearing. Will they have the same luck as Hadoop?" />
+<meta property="og:description" content="It looks like people are now realizing the need for powerful real-time analytics engines. Dremel was designed by Google as an interactive query engine for cluster environments. Dremel is a scalable, interactive ad-hoc query system for analysis of read-only nested data. It’s the perfect tool to power your Big Data dashboards. Now a bunch of open source clones are appearing. Will they have the same luck as Hadoop?" />
+<link rel="canonical" href="http://localhost:4000/2012/10/27/the-rise-of-the-dremel-clones/" />
+<meta property="og:url" content="http://localhost:4000/2012/10/27/the-rise-of-the-dremel-clones/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-10-27T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="The rise of the Dremel clones" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2012-10-27T00:00:00+02:00","datePublished":"2012-10-27T00:00:00+02:00","description":"It looks like people are now realizing the need for powerful real-time analytics engines. Dremel was designed by Google as an interactive query engine for cluster environments. Dremel is a scalable, interactive ad-hoc query system for analysis of read-only nested data. It’s the perfect tool to power your Big Data dashboards. Now a bunch of open source clones are appearing. Will they have the same luck as Hadoop?","headline":"The rise of the Dremel clones","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2012/10/27/the-rise-of-the-dremel-clones/"},"url":"http://localhost:4000/2012/10/27/the-rise-of-the-dremel-clones/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">The rise of the Dremel clones</h1>
+    <p class="post-meta">
+      <time datetime="2012-10-27T00:00:00+02:00">
+        October 27, 2012
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/technology">Technology</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/apache">#Apache</a>
+      
+        <a class="tag" href="/tag/big-data">#big data</a>
+      
+        <a class="tag" href="/tag/cloudera">#Cloudera</a>
+      
+        <a class="tag" href="/tag/dremel">#dremel</a>
+      
+        <a class="tag" href="/tag/drill">#drill</a>
+      
+        <a class="tag" href="/tag/druid">#druid</a>
+      
+        <a class="tag" href="/tag/google">#Google</a>
+      
+        <a class="tag" href="/tag/hadoop">#hadoop</a>
+      
+        <a class="tag" href="/tag/impala">#impala</a>
+      
+        <a class="tag" href="/tag/mapreduce">#mapreduce</a>
+      
+        <a class="tag" href="/tag/open-source">#open source</a>
+      
+        <a class="tag" href="/tag/real-time-analytics">#real-time analytics</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>It looks like people are now realizing the need for powerful real-time analytics engines. <a href="http://research.google.com/pubs/pub36632.html">Dremel</a> was designed by Google as an interactive query engine for cluster environments. Dremel is a scalable, interactive ad-hoc query system for analysis of read-only nested data. It’s the perfect tool to power your Big Data dashboards. Now a bunch of open source clones are appearing. Will they have the same luck as Hadoop?</p>
+
+<p>Here the contenders:</p>
+
+<ul>
+  <li>
+    <p>The regular: <a href="http://incubator.apache.org/drill/">Apache Drill</a>
+Mainly supported by MapR Technologies and currently in incubator. At the moment of writing there are a total of 12 issues in Jira (for a comparison, we just got to 3000 in Pig this week). Even the name <a href="https://issues.apache.org/jira/browse/DRILL-12">still needs to be confirmed</a>. As usual in the Apache style, this will most likely be a community-driven project, with all the pros and cons of the case. The Java + Maven + Git combo should be familiar and enable contributors to get up to speed quickly.</p>
+  </li>
+  <li>
+    <p>The challenger: <a href="https://github.com/cloudera/impala">Cloudera Impala</a>Just open-sourced <a href="http://blog.cloudera.com/blog/2012/10/cloudera-impala-real-time-queries-in-apache-hadoop-for-real/">a couple of days ago</a>. Surprisingly, it even offers the possibility of joining tables (something Dremel didn’t do for efficiency reasons). Unfortunately it is all C++, which I have hanged on the nail after my master’s thesis. I hope this choice won’t scare away contributors. However I suspect that Cloudera wants to drive most of the development in-house rather than build a community project.</p>
+  </li>
+  <li>
+    <p>The outsider: <a href="http://metamarkets.com/druid/">Metamarkets Druid</a>Even though it has <a href="http://metamarkets.com/2011/druid-part-i-real-time-analytics-at-a-billion-rows-per-second/">been around for a year</a>, it has only <a href="http://metamarkets.com/2012/metamarkets-open-sources-druid/">recently become open source</a>. It’s interesting to read how these guys were frustrated by existing technology so they just decided to roll their own solution. My (unsupported) feeling is that this is by far the most mature of the three clones. One interesting feature of Druid is real-time ingestion of data. From what I gather, Impala relies on Hive tables and Drill on Avro files, so my guess is that both of them cannot do the same. (For the records, also here Java + Maven + Git).</p>
+  </li>
+</ul>
+
+<p>As a technical side note, and a personal curiosity, I wonder whether these project would benefit from YARN integration. I guess it will be easier for Drill than for the others. However startup latency could be an issue in this case.</p>
+
+<p>The whole situation seems like a déjà vu of the Giraph/Hama/GoldenOrb clones of Pregel. Who will win the favor of the Big Data crowd?
+Who will be able to grow the largest community? Technical issues are only a part of the equation in this case.</p>
+
+<p>I am quite excited to see this missing piece of the Big Data ecosystem getting more attention and thrilled by the competition.</p>
+
+<p><strong>PS</strong>: I have read somewhere around the Web that this will be the end of Hadoop and MapReduce. Nothing can be more wrong than this idea. Dremel is the perfect complement for MapReduce. Indeed, how better could you analyze the results of you MapReduce computation? Often the results are at least as big as the inputs, so you need a way to quickly generate small summaries. Hadoop counters have been (ab)used for this purpose, but more flexible and powerful post-processing capabilities are needed.</p>
+
+<p><strong>PPS</strong>: Just to be clear, there is nothing tremendously innovative in the science behind these products. Distributed query execution engines have been around for a while in parallel database systems. What’s yet to see is whether they can deliver their promise of extreme scalability, which parallel database system have failed to offer.</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2012/10/02/the-amazing-power-of-software/">The amazing power of software</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2012/11/07/democracy-in-the-usa/">Democracy in the USA</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

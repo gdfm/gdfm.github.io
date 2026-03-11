@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Wikipedia Miner | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Wikipedia Miner" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I have been playing with Wikipedia Miner for my new research project. Wikipedia Miner is a toolkit that does many interesting things with Wikipedia. The one I am using is “wikification”, that is “The process of adding wiki links to specific named entities and other appropriate phrases in an arbitrary text.” It is a very useful procedure to enrich a text. “The process consists of automatic keyword extraction, word sense disambiguation, and automatically adding links to documents to Wikipedia”. In my case, I am more interested in topic detection so I care only about the first two (emphasized) phases." />
+<meta property="og:description" content="I have been playing with Wikipedia Miner for my new research project. Wikipedia Miner is a toolkit that does many interesting things with Wikipedia. The one I am using is “wikification”, that is “The process of adding wiki links to specific named entities and other appropriate phrases in an arbitrary text.” It is a very useful procedure to enrich a text. “The process consists of automatic keyword extraction, word sense disambiguation, and automatically adding links to documents to Wikipedia”. In my case, I am more interested in topic detection so I care only about the first two (emphasized) phases." />
+<link rel="canonical" href="http://localhost:4000/2011/04/18/wikipedia-miner/" />
+<meta property="og:url" content="http://localhost:4000/2011/04/18/wikipedia-miner/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2011-04-18T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Wikipedia Miner" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2011-04-18T00:00:00+02:00","datePublished":"2011-04-18T00:00:00+02:00","description":"I have been playing with Wikipedia Miner for my new research project. Wikipedia Miner is a toolkit that does many interesting things with Wikipedia. The one I am using is “wikification”, that is “The process of adding wiki links to specific named entities and other appropriate phrases in an arbitrary text.” It is a very useful procedure to enrich a text. “The process consists of automatic keyword extraction, word sense disambiguation, and automatically adding links to documents to Wikipedia”. In my case, I am more interested in topic detection so I care only about the first two (emphasized) phases.","headline":"Wikipedia Miner","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2011/04/18/wikipedia-miner/"},"url":"http://localhost:4000/2011/04/18/wikipedia-miner/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Wikipedia Miner</h1>
+    <p class="post-meta">
+      <time datetime="2011-04-18T00:00:00+02:00">
+        April 18, 2011
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/phd">PhD</a>, 
+        
+          <a href="/category/technology">Technology</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/data-mining">#data mining</a>
+      
+        <a class="tag" href="/tag/wikipedia">#Wikipedia</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>I have been playing with <a href="http://wikipedia-miner.sourceforge.net/">Wikipedia Miner</a> for my new research project. Wikipedia Miner is a toolkit that does many interesting things with Wikipedia. The one I am using is <em>“wikification”</em>, that is “The process of adding wiki links to specific named entities and other appropriate phrases in an arbitrary text.” It is a very useful procedure to enrich a text. “The process consists of <em>automatic keyword extraction</em>, <em>word sense disambiguation</em>, and automatically adding links to documents to Wikipedia”. In my case, I am more interested in topic detection so I care only about the first two (emphasized) phases.</p>
+
+<p>Even though the software is a great piece of work, and the online demo works flawlessly, setting it up locally is a nightmare. The main reason is the very limited documentation. The main problem is that the Requirements section is missing all the version numbers for the required software.</p>
+
+<p>To prevent others from suffering my same trial, I write here what I discovered about the set up of Wikipedia Miner.</p>
+
+<ul>
+  <li><strong>MySQL</strong>. You can use any version, but beware if you use version 4. Varchars over 255 in length get automatically converted to the smallest text fields that can contain it. Because text fields can not be fully indexed, you need to specify how much of it you want to index. Otherwise you will get this nice exception “java.sql.SQLException: Syntax error or access violation message from server: BLOB/TEXT column used in key specification without a key length”. Therefore, to make it work, add the bold/underlined parts (that specify the index length) to WikipediaDatabase.java:150 and recompile.</li>
+</ul>
+
+<p>`
+createStatements.put(“anchor”, “CREATE TABLE anchor (“</p>
+<ul>
+  <li>“an_text varchar(300) binary NOT NULL, “</li>
+  <li>“an_to int(8) unsigned NOT NULL, “</li>
+  <li>“an_count int(8) unsigned NOT NULL, “</li>
+  <li>“PRIMARY KEY (an_text<strong><em>(300)</em></strong>, an_to), “</li>
+  <li>“KEY (an_to)) ENGINE=MyISAM DEFAULT CHARSET=utf8;”) ;
+`
+`
+createStatements.put(“anchor_occurance”, “CREATE TABLE anchor_occurance (“</li>
+  <li>“ao_text varchar(300) binary NOT NULL, “</li>
+  <li>“ao_linkCount int(8) unsigned NOT NULL, “</li>
+  <li>“ao_occCount int(8) unsigned NOT NULL, “</li>
+  <li>
+    <p>“PRIMARY KEY (ao_text<strong><em>(300)</em></strong>)) ENGINE=MyISAM DEFAULT CHARSET=utf8;”);
+`</p>
+  </li>
+  <li>
+    <p><strong>Connector/J</strong>. Use version 3.0.17 or set the property jdbcCompliantTruncation=false. If you don’t you will get a nice “com.mysql.jdbc.MysqlDataTruncation: Data truncation” exception.</p>
+  </li>
+  <li><strong>Weka</strong>. Use version 3.6.4, otherwise you will get deserialization exceptions when loading the models (in my case “java.io.InvalidClassException: weka.classifiers.Classifier; local class incompatible: stream classdesc serialVersionUID = 6502780192411755341, local class serialVersionUID = 66924060442623804”).</li>
+</ul>
+
+<p>So far I din’t have any problems with trove and servlet-api.</p>
+
+<p>This confirms a well know fact: that one of the biggest problems of open source is lack of documentation. I should learn from this experience as well :)</p>
+
+<p>I hope this spares some hours of work to somebody.</p>
+
+<p>And kudos to David Milne for creating and releasing Wikipedia Miner as open source.
+This is the proper way to do science!</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2011/04/16/quote-of-the-day-3/">Quote of the day</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2011/04/25/sugar-for-pig-gsoc11/">Sugar for Pig @ GSoC'11</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

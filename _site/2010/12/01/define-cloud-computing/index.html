@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>define: Cloud Computing | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="define: Cloud Computing" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I have been looking for a good definition of Cloud Computing for a while. Cloud Computing is of course a buzzword, so no wonder its meaning is fuzzy. The official definition of NIST reminds me of some standards: put everything together to make everyone happy." />
+<meta property="og:description" content="I have been looking for a good definition of Cloud Computing for a while. Cloud Computing is of course a buzzword, so no wonder its meaning is fuzzy. The official definition of NIST reminds me of some standards: put everything together to make everyone happy." />
+<link rel="canonical" href="http://localhost:4000/2010/12/01/define-cloud-computing/" />
+<meta property="og:url" content="http://localhost:4000/2010/12/01/define-cloud-computing/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-12-01T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="define: Cloud Computing" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2010-12-01T00:00:00+01:00","datePublished":"2010-12-01T00:00:00+01:00","description":"I have been looking for a good definition of Cloud Computing for a while. Cloud Computing is of course a buzzword, so no wonder its meaning is fuzzy. The official definition of NIST reminds me of some standards: put everything together to make everyone happy.","headline":"define: Cloud Computing","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2010/12/01/define-cloud-computing/"},"url":"http://localhost:4000/2010/12/01/define-cloud-computing/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">define: Cloud Computing</h1>
+    <p class="post-meta">
+      <time datetime="2010-12-01T00:00:00+01:00">
+        December 1, 2010
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/phd">PhD</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/cloud">#cloud</a>
+      
+        <a class="tag" href="/tag/definition">#definition</a>
+      
+        <a class="tag" href="/tag/scalability">#scalability</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>I have been looking for a good definition of Cloud Computing for a while. Cloud Computing is of course a <strong>buzzword</strong>, so no wonder its meaning is <strong>fuzzy</strong>. The <a href="http://csrc.nist.gov/groups/SNS/cloud-computing/">official definition of NIST</a> reminds me of some standards: put everything together to make everyone happy.</p>
+
+<p>Even <a href="http://en.wikipedia.org/wiki/Cloud_computing">Wikipedia</a> gets a bit fuzzy about Cloud Computing, basically because it mixes up technical definitions, marketing, business models and a lot of other things. Also the critics do not help to define the thing, as they say things like “Cloud is everything we do” or “Technologies now dubbed as Cloud existed long before the name”.</p>
+
+<p>Given that a definition is always an <em>approximation</em> (ontologically, because it is just a categorization for our mind), the best technical definition (what I am interested in) I found was given in <a href="http://intotheinfrastructure.blogspot.com/2009/04/just-what-is-cloud-computing.html">this blog post</a>. I summarize it here <strong>“Distributed location-independent scale-free cooperative agents”</strong>. You can check the post to see what each piece of  the definition means.</p>
+
+<p>While this was the best definition I found, it is not exactly what I have in mind when I think about Cloud Computing. Also, this does not encompass a lot of technologies that I can think of when I say Cloud (one for all, MapReduce). So I will take a stab at defining what Cloud Computing is:</p>
+
+<p><strong>“Distributed, transparent, scale-free computing system”</strong></p>
+
+<p>Yes, it doesn’t change much, does it? But the core point here is that I do not care what kind of system we are talking about, but I just care that the system is distributed and scale-free. Furthermore location independence is not the only interesting property: access, failure and replication transparency are important as well. You should aim to the best transparency you can get without impacting performance (too much transparency hinders optimization).</p>
+
+<p>The rationale is that a Cloud Computing is such that you can solve a problem faster/better just throwing more hardware at it. So <strong>scalability</strong> is the key feature, and in particular being <strong>scale-free</strong> (the scale of the system is not a design parameter).</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2010/11/01/the-problem-of%C2%A0the%C2%A0world/">The problem of the world</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2010/12/09/night-thought/">Night thought</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>

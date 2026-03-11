@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenkyuu</title>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpeg">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>GSoC 2012: the other side of the fence | Kenkyuu</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="GSoC 2012: the other side of the fence" />
+<meta name="author" content="melmeric" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="And here it comes again as every year, Google Summer of Code!" />
+<meta property="og:description" content="And here it comes again as every year, Google Summer of Code!" />
+<link rel="canonical" href="http://localhost:4000/2012/05/24/gsoc-2012-the-other-side-of-the-fence/" />
+<meta property="og:url" content="http://localhost:4000/2012/05/24/gsoc-2012-the-other-side-of-the-fence/" />
+<meta property="og:site_name" content="Kenkyuu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-05-24T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="GSoC 2012: the other side of the fence" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"melmeric"},"dateModified":"2012-05-24T00:00:00+02:00","datePublished":"2012-05-24T00:00:00+02:00","description":"And here it comes again as every year, Google Summer of Code!","headline":"GSoC 2012: the other side of the fence","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2012/05/24/gsoc-2012-the-other-side-of-the-fence/"},"url":"http://localhost:4000/2012/05/24/gsoc-2012-the-other-side-of-the-fence/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Kenkyuu" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="/">Kenkyuu</a>
+      <p class="site-description">Ideas about computers and life</p>
+      <nav class="site-nav">
+        <a href="/">About</a>
+        <a href="/research/">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="site-banner">
+    <img src="/assets/media/2009/12/sakurahealed.jpg" alt="" />
+  </div>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <article class="post">
+  <header class="post-header">
+    <h1 class="post-title">GSoC 2012: the other side of the fence</h1>
+    <p class="post-meta">
+      <time datetime="2012-05-24T00:00:00+02:00">
+        May 24, 2012
+      </time>
+       &middot; melmeric
+      
+        &middot;
+        
+          <a href="/category/research">Research</a>, 
+        
+          <a href="/category/technology">Technology</a>
+        
+      
+    </p>
+    
+    <p class="post-tags">
+      
+        <a class="tag" href="/tag/gsoc">#GSoC</a>
+      
+        <a class="tag" href="/tag/mentor">#mentor</a>
+      
+        <a class="tag" href="/tag/pig">#pig</a>
+      
+        <a class="tag" href="/tag/rank">#rank</a>
+      
+    </p>
+    
+  </header>
+
+  <div class="post-content">
+    <p>And here it comes again as every year, <a href="http://code.google.com/soc/">Google Summer of Code</a>!</p>
+
+<p>As usual, I will be working for <a href="http://pig.apache.org">Apache Pig</a> also this summer. However, I will be working from the other side of the fence this time: I will be mentoring!</p>
+
+<p>As I have already graduated and I am no more a student (shock!) I cannot take part as a student (no way!). So I decided to mentor.</p>
+
+<ul>
+  <li>
+    <p>Pro: you need much less time to mentor compared to being a student.</p>
+  </li>
+  <li>
+    <p>Con: you don’t learn as much, nor have as much fun, nor get the same recognition, nor get paid as much. ;)</p>
+  </li>
+</ul>
+
+<p>However, the great thing about mentoring is that you propose ideas you would like to see realized in the project, and then students make them real!
+Indeed, the project I am mentoring this year is about an idea I had some while ago.
+It happens very often (to me and to my colleagues as well) to have a list of tuples and to need to attach a unique number to it.
+For example when creating the lexicon for a collection of documents you have a list of unique words appearing in the collection, and you want to transform each word into a numerical id to reduce memory usage and ease later processing.</p>
+
+<p>A while ago I implemented a MapReduce algorithm for this task that scales very well (i.e. no single reducer that does all the work).
+However this same problem comes up very often and it is cumbersome to fit a MR job in the middle of a Pig pipeline while you are building the script in an iterative way (read: you don’t know what you are doing), especially because the code I wrote is not general enough to be applied as is, so each time I need to customize it a bit.
+“Indeed, why the hell Pig does not do it already?”  was my reaction. So <a href="https://issues.apache.org/jira/browse/PIG-2353">PIG-2353</a> was born.</p>
+
+<p><a href="https://issues.apache.org/jira/browse/PIG-2353">PIG-2353</a> is quite a stretch for a night’s coding, so it stayed there for a while. Until an interested student got interested in it for GSoC. Enter Allan Avendaño.</p>
+
+<p>You can follow Allan’s progress also on <a href="http://blog.espol.edu.ec/xallam/">his blog</a>.
+He has already got his first patch in (<a href="https://issues.apache.org/jira/browse/PIG-2583">PIG-2583</a>) and started working on the main project this week.
+I expect great stuff coming out of this project!</p>
+
+<p>I am ready for a great summer, “flipping bits not burgers”.</p>
+
+  </div>
+
+  <nav class="post-nav">
+    
+    <div class="prev">
+      &larr; <a href="/2012/05/12/140-character-slogan/">140 character slogan</a>
+    </div>
+    
+    
+    <div class="next">
+      <a href="/2012/05/24/reclaim-unused-memory-on-os-x/">Reclaim unused memory on OS X</a> &rarr;
+    </div>
+    
+  </nav>
+</article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; 2026 Gianmarco De Francisci Morales</p>
+    </div>
+  </footer>
+</body>
+</html>
