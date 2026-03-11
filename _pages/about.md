@@ -26,3 +26,13 @@ In my private life I love reading, cooking, traveling, and learning new language
 Feel free to drop me an email: gdfm@acm.org
 
 All the content published on this website is distributed under an Attribution-ShareAlike 3.0 Unported Creative Commons license [(CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/), unless otherwise specified.
+
+## Links
+
+* [My Bluesky](https://bsky.app/profile/gdfm.bsky.social)
+* [My Curriculum Vitae](https://melmeric.wordpress.com/wp-content/uploads/2025/02/cv-gdfm-20250209.pdf)
+* [My GitHub](http://github.com/gdfm)
+* [My GPG key](http://pgp.mit.edu/pks/lookup?op=get&search=0x6D26F8392A7AAA60)
+* [My LinkedIn](http://www.linkedin.com/in/gianmarcodfm)
+* [My Speaker Deck](https://speakerdeck.com/u/gdfm)
+* [My Zotero](https://www.zotero.org/gdfm)

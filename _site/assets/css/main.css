@@ -2,15 +2,16 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 :root {
-  --text: #2c2c2c;
-  --text-muted: #666;
-  --accent: #2563eb;
-  --accent-hover: #1d4ed8;
-  --bg: #ffffff;
-  --bg-code: #f4f4f5;
-  --border: #e4e4e7;
+  --text: #3d2b2b;
+  --text-muted: #9e7a7a;
+  --accent: #c0607a;
+  --accent-hover: #a84d67;
+  --bg: #fdf6f0;
+  --bg-header: #fff8f5;
+  --bg-code: #f5ebe6;
+  --border: #edd8d0;
   --max-width: 720px;
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-sans: Georgia, "Times New Roman", serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
@@ -31,12 +32,30 @@ body {
   padding: 0 1.5rem;
 }
 
+/* White center column */
+.site-column {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background: #ffffff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  min-height: 100vh;
+}
+
+.site-header,
+.site-banner,
+.page-content,
+.site-footer {
+  max-width: 100%;
+}
+
 /* Banner image */
 .site-banner {
   width: 100%;
   max-width: var(--max-width);
-  margin: 0 auto 2rem;
-  padding: 0 1.5rem;
+  margin: 0 auto 0;
+  padding: 0;
+  background: #ffffff;
 }
 
 .site-banner img {
@@ -45,14 +64,13 @@ body {
   height: 160px;
   object-fit: cover;
   object-position: center 40%;
-  border-radius: 4px;
 }
 
 /* Header */
 .site-header {
-  padding: 2rem 0 1rem;
+  padding: 2rem 1.5rem 1rem;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 2.5rem;
+  margin-bottom: 0;
 }
 
 .site-title {
@@ -84,7 +102,13 @@ body {
 .site-nav a:hover { color: var(--accent); }
 
 /* Main content */
-.page-content { padding-bottom: 4rem; }
+.page-content {
+  padding-bottom: 4rem;
+}
+
+.page-content .wrapper {
+  padding-top: 2.5rem;
+}
 
 /* Post list */
 .post-list { list-style: none; padding: 0; margin: 0; }
@@ -257,7 +281,9 @@ body {
 .page-title { font-size: 1.8rem; margin: 0; }
 .page-content p { margin: 0 0 1.25rem; }
 .page-content a { color: var(--accent); }
-.page-content ul, .page-content ol { padding-left: 1.5rem; margin-bottom: 1.25rem; }
+.page-content ul, .page-content ol { padding-left: 1.5rem; margin-bottom: 0.5rem; }
+.page-content li { margin-bottom: 0.15rem; line-height: 1.5; }
+.page-content li p { margin: 0; }
 .page-content h2 { font-size: 1.4rem; margin: 2rem 0 0.75rem; }
 .page-content h3 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem; }
 .page-content img { max-width: 100%; height: auto; border-radius: 4px; }
@@ -280,7 +306,7 @@ body {
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
-  padding: 1.5rem 0;
+  padding: 1.5rem 1.5rem;
   font-size: 0.85rem;
   color: var(--text-muted);
 }

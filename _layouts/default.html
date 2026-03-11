@@ -10,6 +10,7 @@
   {% feed_meta %}
 </head>
 <body>
+  <div class="site-column">
   <header class="site-header">
     <div class="wrapper">
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -36,5 +37,6 @@
       <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</p>
     </div>
   </footer>
+  </div><!-- /.site-column -->
 </body>
 </html>
