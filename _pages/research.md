@@ -311,8 +311,7 @@ WebSci '17: ACM International Conference on Web Science, pp. 43−52, Troy, 2017
 WebSci '17: ACM International Conference on Web Science, pp. 263−266, Troy, 2017.
 
 - E. Hussein, A. Ghanem, V. V. dos Santos Dias, C. H. C. Teixeira, G. AbuOda,  
-M. Serafini, G. Siganos, G. De Francisci Morales, A. Aboulnaga, M. Zaki  
-  
+M. Serafini, G. Siganos, G. De Francisci Morales, A. Aboulnaga, M. Zaki
 [“Graph Data Mining with Arabesque”](/assets/media/2010/05/graph-data-mining-with-arabesque.pdf)  
 SIGMOD '17: ACM International Conference on Management of Data, pp. 1647−1650, Chicago, 2017. [demo]
 
@@ -453,7 +452,7 @@ SIGIR '13: ACM International Conference on Research and Development in Informati
 RAMSS '13: International Workshop on Real-Time Analysis and Mining of Social Streams, @WWW, pp. 777−778, Rio De Janeiro, 2013. [extended abstract]
 
 - R. Blanco, G. De Francisci Morales, F. Silvestri  
-[“Towards Leveraging Closed Captions for News Retrieval](/assets/media/2010/05/towards-leveraging-closed-captions-for-news-retrieval.pdf)[”](/assets/media/2010/05/towards-leveraging-closed-captions-for-news-retrieval.pdf)***  
+[“Towards Leveraging Closed Captions for News Retrieval”](/assets/media/2010/05/towards-leveraging-closed-captions-for-news-retrieval.pdf)  
 [(/assets/media/2010/05/towards-leveraging-closed-captions-for-news-retrieval.pdf)**WWW '13: International World Wide Web Conference, pp. 135−136, Rio de Janeiro, 2013. [poster]
 
 - G. De Francisci Morales, A. Shekhawat  
@@ -504,190 +503,122 @@ DSD '08: 11th Euromicro Conference on Digital System Design, pp. 656−659, Par
 
 - “Echo Chambers on Social Media”  
 Human and Network Sciences: Graph Computing for Humanities and Social Science Research, London, 18 Oct 2024. [[slides](https://speakerdeck.com/gdfm/echo-chambers-on-social-media)]
-
 - “Learning Agent-Based Models from Data”  
 Statistical and Probabilistic Methods in Algorithmic Data Analysis, Dagstuhl, 23 Sep 2024. [[slides](https://speakerdeck.com/gdfm/learning-agent-based-models-from-data)]
-
 - “Learning Agent-Based Models from Data”  
 Complex networks: from socio-economic systems to biology and the brain, Lipari, 6 Jul 2024. [[slides](https://speakerdeck.com/gdfm/learning-agent-based-models-from-data)]
-
 - “Tracing AI's Transformation from 'WarGames' to the Social Media Era”  
 The Impact of Artificial Intelligence on Geopolitics, Luxembourg, 14 Dec 2023.
-
 - “Repurpose, Reuse, Recycle the building blocks of Machine Learning”  
 Keynote Machine Learning Day @KTH, 17 May 2023. [[slides](https://speakerdeck.com/gdfm/repurpose-reuse-recycle-the-building-blocks-of-machine-learning)]
-
 - “How I Learned to Stop Worrying and Love the Risk”  
 Keynote MIDAS workshop @ECMLPKDD, 17 Sep 2021. [[slides](https://speakerdeck.com/gdfm/how-i-learned-to-stop-worrying-and-love-the-risk)]
-
 - “Controversy on Social Media: Collective Attention, Echo Chambers, and Price of Bipartisanship”  
 Controverse Workshop, Montpellier, 22 Nov 2019. [[slides](https://speakerdeck.com/gdfm/controversy-on-social-media-collective-attention-echo-chambers-and-price-of-bipartisanship-1ccdff9e-7c4f-4a22-87c1-2317bf9048d0)]
-
 - “Controversy on Social Media: Collective Attention, Echo Chambers, and Price of Bipartisanship”  
 Telecom ParisTech, Paris, 4 Jul 2019. [[slides](https://speakerdeck.com/gdfm/controversy-on-social-media-collective-attention-echo-chambers-and-price-of-bipartisanship-1ccdff9e-7c4f-4a22-87c1-2317bf9048d0)]
-
 - “Controversy on Social Media: Collective Attention, Echo Chambers, and Price of Bipartisanship”  
 EPFL, Lausanne, 19 Sep 2018. [[slides](https://speakerdeck.com/gdfm/controversy-on-social-media-collective-attention-echo-chambers-and-price-of-bipartisanship)]
-
 - “Quantifying and Reducing Controversy in Social Media”  
 IIIT, Hyderabad, 27 Jun 2018. [[slides](https://speakerdeck.com/gdfm/quantifying-and-reducing-controversy-in-social-media)]
-
 - “Quantifying and Reducing Controversy in Social Media”  
 QCRI, Doha, 3 May 2017. [[slides](https://speakerdeck.com/gdfm/quantifying-and-reducing-controversy-in-social-media)]
-
 - “Big Data Streams: The Next Frontier”  
 KTH, Stockholm, 24 Jun 2015. [[slides](https://speakerdeck.com/gdfm/big-data-streams-the-next-frontier)]
-
 - “To Stream or Not To Stream? The Landscape of Online Analytics”  
 EVAM Solutions Day, Istanbul, 28 May 2015. [[slides](https://speakerdeck.com/gdfm/to-stream-or-not-to-stream-the-landscape-of-online-analytics)]
-
 - “Mining Big Data Streams: Better Algorithms or Faster Systems?”  
 KAIST, Seoul, 20 April 2015. [[slides](https://speakerdeck.com/gdfm/mining-big-data-streams-better-algorithms-or-faster-systems)]
-
 - “SAMOA: A Platform for Mining Big Data Streams”  
 Strata ’14, Barcelona, 20 Nov 2014. [[slides](https://speakerdeck.com/gdfm/samoa-at-strata-barcelona-2014)]
-
 - “Mining Big Data Streams”  
 Workshop on "Online Social Networks: Emerging Trends", University of Cyprus, Nicosia, 8 Oct 2014. [[slides](https://speakerdeck.com/gdfm/mining-big-data-streams-better-algorithms-or-faster-systems)]
-
 - “SAMOA: A Platform for Mining Big Data Streams”  
 University Federico Santa Maria / University of Chile / University of Santiago, Santiago de Chile, Aug 2014. [[slides](https://speakerdeck.com/gdfm/samoa-a-platform-for-mining-big-data-streams-2)]
-
 - “SAMOA: Scalable Advanced Massive Online Analysis”  
-NoSQL Matters '13, Barcelona, 30 Nov 2013. [[video](http://www.youtube.com/watch?v=7WsDKNU1A7o)|[slides](https://speakerdeck.com/gdfm/samoa-a-platform-for-mining-big-data-streams-1)]
-
+NoSQL Matters '13, Barcelona, 30 Nov 2013. [[video](http://www.youtube.com/watch?v=7WsDKNU1A7o)\|[slides](https://speakerdeck.com/gdfm/samoa-a-platform-for-mining-big-data-streams-1)]
 - “SAMOA: A Platform for Mining Big Data Streams”  
 Keynote RAMSS '13 @WWW, Rio De Janeiro, 14 May 2013. [[slides](https://speakerdeck.com/gdfm/samoa-a-platform-for-mining-big-data-streams)]
-
 - “Big Data and the Web”  
 IMT Institute for Advanced Studies, Lucca, 21 March 2012. [[slides](https://speakerdeck.com/gdfm/big-data-and-the-web-algorithms-for-data-intensive-scalable-computing)]
-
 - “Harnessing the Real-Time Web for Personalized News Recommendation”  
 Yahoo! Labs, Sunnyvale, 16 February 2012. [[slides](https://speakerdeck.com/gdfm/harnessing-the-real-time-web-for-personalized-news-recommendation)]
-
 - “Big Data and the Web: Algorithms for Data Intensive Scalable Computing”  
 WSDM'12 Doctoral Consortium,  Seattle, 8 February 2012.
-
 - “Social Content Matching in MapReduce”  
 Yahoo! Research, Barcelona, 10 March 2011. [[slides](https://speakerdeck.com/gdfm/social-content-matching-in-mapreduce)]
-
 - “Cloud Computing for Large Scale Data Analysis”  
 Yahoo! Research, Barcelona, 2 December 2010. [[slides](https://speakerdeck.com/gdfm/how-to-survive-the-data-deluge-cloud-computing-for-large-scale-data-analysis)]
-
 - “Scaling Out All Pairs Similarity Search with MapReduce”  
 Summer School on Social Networks, Lipari, 6 July 2010. [[slides](https://speakerdeck.com/gdfm/similarity-self-join-with-mapreduce)]
-
 - “How to Survive the Data Deluge: Petabyte Scale Cloud Computing”  
 ISTI-CNR, Pisa, 18 January 2010. [[slides](https://speakerdeck.com/gdfm/how-to-survive-the-data-deluge-petabyte-scale-cloud-computing)]
 
 ## Patents
 
 - “Method for estimating the default risk of companies, taking into account network contagion through the trade credit channel”, Italy Patent No. 102021000003788, 18 Feb 2021.
-
 - “Method and system for displaying content relating to a subject matter of a displayed media program”, U.S. Patent No. US9817911B2, 14 Nov 2017.
-
 - “Method and system for recommending relevant web content to second screen application users”, U.S. Patent No. US9268861B2, 23 Feb 2016.
-
 - “Method and apparatus to build flowcharts for e-shopping recommendations”, U.S. Patent No. US20140358720A1, 04 Dec 2014.
-
 - “System and method of matching content items and consumers”, U.S. Patent No. US8660975B2, 25 Feb 2014.
 
 ## Community Service
 
-- Tutorials:  
-“Learning from Big Data Streams: Algorithm and System Design” @EAIA '18 Advanced School on Data Science for Big Data [[web](http://eaia2018.dcc.fc.up.pt)]  
-“Polarization on Social Media” @ICWSM '17, @WWW '18, @KDD '18, @EuroCSS '19. [[web](https://gvrkiran.github.io/polarization/)]  
-“IoT Big Data Stream Mining” @KDD '16, @CIKM '16, @AAAI '17, @SDM '17. [[web](https://sites.google.com/site/bigdatastreamminingtutorial)]  
-“Centrality Measures on Big Graphs: Exact, Approximated, and Distributed Algorithms” @WWW '16. [[web](http://matteo.rionda.to/centrtutorial)]  
-“Big Data Stream Mining” @IEEE BigData '14. [[web](https://sites.google.com/site/bigdatastreamminingtutorial)|[slides](/assets/media/2010/05/big-data-stream-mining-tutorial.pdf)]
+Tutorials:  
+- “Learning from Big Data Streams: Algorithm and System Design” @EAIA '18 Advanced School on Data Science for Big Data [[web](http://eaia2018.dcc.fc.up.pt)]  
+- “Polarization on Social Media” @ICWSM '17, @WWW '18, @KDD '18, @EuroCSS '19. [[web](https://gvrkiran.github.io/polarization/)]  
+- “IoT Big Data Stream Mining” @KDD '16, @CIKM '16, @AAAI '17, @SDM '17. [[web](https://sites.google.com/site/bigdatastreamminingtutorial)]  
+- “Centrality Measures on Big Graphs: Exact, Approximated, and Distributed Algorithms” @WWW '16. [[web](http://matteo.rionda.to/centrtutorial)]
+- “Big Data Stream Mining” @IEEE BigData '14. [[web](https://sites.google.com/site/bigdatastreamminingtutorial)\|[slides](/assets/media/2010/05/big-data-stream-mining-tutorial.pdf)]
 
-- ICWSM '24 Best Paper Award Committee Member
-
-- General Chair:
-
+General Chair:
 - SNOW '13-14-16-17 (Social News on the Web, workshop @WWW).
-
 - NOCAPS '24 (Networks and Opinions on Climate Action in the Public Sphere, workshop @ICWSM). [[web](https://no-caps.github.io/2024)]
 
-- PC Chair:
-
+PC Chair:
 - ECMLPKDD '23 ADS Track [[web](https://2023.ecmlpkdd.org/organisation/chairs/)]
-
 - ASONAM '24 Industrial Track
 
-- Senior PC member / Area chair:
-
+Senior PC member / Area chair:
 - WWW '23-24-26
-
 - KDD '26
-
 - ICWSM '22-23-24-25-26
-
 - WSDM '23
-
 - WebSci '23-24-25-26
-
 - ICDM '21
-
 - AAAI '21
-
 - ECMLPKDD '21-22-26
-
 - EuroPar '18
 
-- PC member:
-
+PC member:
 - ACL '25-'26
-
 - WWW '14-16-17-18-19-20-21-22
-
 - KDD '15-16-17-18-21-22-23-24
-
 - ICWSM '14-17-18-19-20-21-22
-
 - WSDM '13-14-16-17-18-19-20-21
-
 - WebSci '20-21-22
-
 - ICDM '16-17-18-19-20
-
 - SDM '22
-
 - IC2S2 '23
-
 - NetSci '20
-
 - CIKM '14-15-17
-
 - IJCAI '15-17
+- ECMLPKDD '15-16
 
-- ECMLPKDD '15-16  
----
-
+  ⠀  
+  
 - NECO '20
-
 - BigMine '14-15-16-17-18-19
-
 - NLP4IF '19
-
 - LSRS '15-16-17
-
 - DSSD '17
-
 - MAISoN '17
-
 - IIR '15-16
-
 - SMNews '16
-
 - RTStreams '15
 
-- Other:
-
+Other:
 - ICWSM '24 Best Paper Award Committee
-
 - ICWSM '25 Best Paper Award Committee
-
 - External reviewer: KDD '12, ICDE '13, ICDM '14, KDD '14, ICALP '14.
-
 - Reviewer: TWEB, TKDE, TKDD, WWWJ, VLDBJ, KAIS, PARCO, MACH, JPDC, Network Science, PeerJ.
