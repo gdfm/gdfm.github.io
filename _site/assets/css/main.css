@@ -15,7 +15,7 @@
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
-html { font-size: 18px; }
+html { font-size: 16px; }
 
 body {
   margin: 0;
@@ -94,9 +94,9 @@ body {
 }
 
 .site-nav a {
-  color: var(--text-muted);
+  color: var(--accent);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
 }
 
 .site-nav a:hover { color: var(--accent); }
