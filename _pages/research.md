@@ -31,7 +31,7 @@ CSUR: ACM Computing Surveys, _(), 2026.
 TCSS: IEEE Transactions on Computational Social Systems, 2026.
 
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
-[“DSP: A Statistically-Principled Structural Polarization Measure”](https://melmeric.wordpress.com/wp-content/uploads/2026/01/dsp-a-statistically-principled-structural-polarization-measure.pdf)  
+[“DSP: A Statistically-Principled Structural Polarization Measure”](/assets/media/2026/01/dsp-a-statistically-principled-structural-polarization-measure.pdf)  
 WSDM '26: ACM International Conference on Web Search and Data Mining, pp. 531−540, Bose, 2026.
 
 - B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
