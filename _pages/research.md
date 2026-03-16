@@ -457,7 +457,7 @@ RAMSS '13: International Workshop on Real-Time Analysis and Mining of Social Str
 
 - R. Blanco, G. De Francisci Morales, F. Silvestri  
 [“Towards Leveraging Closed Captions for News Retrieval”](/assets/media/2010/05/towards-leveraging-closed-captions-for-news-retrieval.pdf)  
-[(/assets/media/2010/05/towards-leveraging-closed-captions-for-news-retrieval.pdf)**WWW '13: International World Wide Web Conference, pp. 135−136, Rio de Janeiro, 2013. [poster]
+WWW '13: International World Wide Web Conference, pp. 135−136, Rio de Janeiro, 2013. [poster]
 
 - G. De Francisci Morales, A. Shekhawat  
 [“The Future of Second Screen Experience”](/assets/media/2010/05/the-future-of-second-screen-experience.pdf)  
