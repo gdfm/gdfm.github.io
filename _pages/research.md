@@ -7,7 +7,7 @@ permalink: /research/
 ## Publications
 
 - A. Attanasio, F. Corso, G. De Francisci Morales, F. Pierri  
-“Effects of Mainstream Visibility on Conspiracy Communities: Reddit after Epstein's 'Suicide'”  
+[“Effects of Mainstream Visibility on Conspiracy Communities: Reddit after Epstein's 'Suicide'”](https://arxiv.org/abs/2512.24351)  
 ICWSM '26: International AAAI Conference on Web and Social Media, pp. _−_, Los Angeles, 2026.
 
 - S. Feuerriegel, C. Barrie, M. J. Crockett, L. K. Globig, K. L. McLoughlin, D.-M. Mirea, A. Spirling, D. Yang, T. Althoff, M. Antoniak, L. P. Argyle, A. Ashokkumar, M. Atari, H. Bailey, K. Bauer, U. Bhatt, H. Daumé III, G. De Francisci Morales, M. Dehghani, D. Dillion, J. C. Eichstaedt, K. Forster, D. Geissler, K. Gray, T. L. Griffiths, J. Hartmann, O. P. Hauser, J. K. He, F. Holzmeister, A. H.-C. Hwang, T. Hu, A. A. Ivanova, N. Köbis, Y. Kyrychenko, H. Lakkaraju, A. Maarouf, S. Maier, L. Meincke, R. Mihalcea, B. Mittelstadt, S. M. Mohammad, M. Naaman, O. Netzer, D. C. Ong, B. Plank, F. Pierri, I. Rahwan, C. E. Robertson, D. M. Rothschild, M. J. Salganik, E. Schulz, C. Shah, Y. R. Shrestha, E. Shutova, A. A. Siegel, H. Sun, M. Toetzke, J. J. Van Bavel, M. Vaccaro, J. W. Vaughan, E. Vayena, B. Vecchione, A. Wang, R. West, R. Willer, D. U. Wulff, S. Zhang, S. Rathje, M. H. Ribeiro  
@@ -15,7 +15,7 @@ ICWSM '26: International AAAI Conference on Web and Social Media, pp. _−_, Los
 NatHB: (under review), 2026.
 
 - J. Lenti, G. De Francisci Morales  
-“Estimating Parameters of Agent-Based Models from Data: A Methodological Review”  
+[“Estimating Parameters of Agent-Based Models from Data: A Methodological Review”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6275619)  
 PhysRep: Physics Reports, (under review), 2026.
 
 - C. Borile, J. Lenti, V. Ghidini, C. Monti, G. De Francisci Morales  
@@ -31,7 +31,7 @@ CSUR: ACM Computing Surveys, _(), 2026.
 TCSS: IEEE Transactions on Computational Social Systems, 2026.
 
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
-[“DSP: A Statistically-Principled Structural Polarization Measure”](/assets/media/2026/01/dsp-a-statistically-principled-structural-polarization-measure.pdf)  
+[“DSP: A Statistically-Principled Structural Polarization Measure”](https://arxiv.org/abs/2512.03937)  
 WSDM '26: ACM International Conference on Web Search and Data Mining, pp. 531−540, Bose, 2026.
 
 - B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
