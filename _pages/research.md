@@ -11,7 +11,7 @@ permalink: /research/
 ICWSM '26: International AAAI Conference on Web and Social Media, pp. _−_, Los Angeles, 2026.
 
 - S. Feuerriegel, C. Barrie, M. J. Crockett, L. K. Globig, K. L. McLoughlin, D.-M. Mirea, A. Spirling, D. Yang, T. Althoff, M. Antoniak, L. P. Argyle, A. Ashokkumar, M. Atari, H. Bailey, K. Bauer, U. Bhatt, H. Daumé III, G. De Francisci Morales, M. Dehghani, D. Dillion, J. C. Eichstaedt, K. Forster, D. Geissler, K. Gray, T. L. Griffiths, J. Hartmann, O. P. Hauser, J. K. He, F. Holzmeister, A. H.-C. Hwang, T. Hu, A. A. Ivanova, N. Köbis, Y. Kyrychenko, H. Lakkaraju, A. Maarouf, S. Maier, L. Meincke, R. Mihalcea, B. Mittelstadt, S. M. Mohammad, M. Naaman, O. Netzer, D. C. Ong, B. Plank, F. Pierri, I. Rahwan, C. E. Robertson, D. M. Rothschild, M. J. Salganik, E. Schulz, C. Shah, Y. R. Shrestha, E. Shutova, A. A. Siegel, H. Sun, M. Toetzke, J. J. Van Bavel, M. Vaccaro, J. W. Vaughan, E. Vayena, B. Vecchione, A. Wang, R. West, R. Willer, D. U. Wulff, S. Zhang, S. Rathje, M. H. Ribeiro  
-“GUIDE-LLM: A consensus-based reporting checklist for large language models in behavioral and social science”  
+[“GUIDE-LLM: A consensus-based reporting checklist for large language models in behavioral and social science”](https://www.llm-checklist.com)  
 NatHB: (under review), 2026.
 
 - J. Lenti, G. De Francisci Morales  
