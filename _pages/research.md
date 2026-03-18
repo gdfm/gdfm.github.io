@@ -95,7 +95,7 @@ PRE: Physical Review E, 109, L053301, 2024.
 VLDBJ: The VLDB Journal, 10.1007/s00778-024-00851-2, 2024.
 
 - E. Colacrai, F. Cinus, G. De Francisci Morales, M. Starnini  
-[“Navigating Multidimensional Ideologies with Reddit’s Political Compass: Economic Conflict and Social Affinity”](https://arxiv.org/pdf/2401.13656)  
+[“Navigating Multidimensional Ideologies with Reddit's Political Compass: Economic Conflict and Social Affinity”](https://arxiv.org/pdf/2401.13656)  
 WWW '24: The Web Conference, pp. 2582−2593, Singapore, 2024.
 
 - G. D'Acunto, F. Bonchi, G. De Francisci Morales, G. Petri  
@@ -314,8 +314,7 @@ WebSci '17: ACM International Conference on Web Science, pp. 43−52, Troy, 2017
 [“Factors in Recommending Contrarian Content on Social Media”](/assets/media/2010/05/factors-in-recommending-contrarian-content-on-social-media.pdf)  
 WebSci '17: ACM International Conference on Web Science, pp. 263−266, Troy, 2017.
 
-- E. Hussein, A. Ghanem, V. V. dos Santos Dias, C. H. C. Teixeira, G. AbuOda,  
-M. Serafini, G. Siganos, G. De Francisci Morales, A. Aboulnaga, M. Zaki
+- E. Hussein, A. Ghanem, V. V. dos Santos Dias, C. H. C. Teixeira, G. AbuOda, M. Serafini, G. Siganos, G. De Francisci Morales, A. Aboulnaga, M. Zaki  
 [“Graph Data Mining with Arabesque”](/assets/media/2010/05/graph-data-mining-with-arabesque.pdf)  
 SIGMOD '17: ACM International Conference on Management of Data, pp. 1647−1650, Chicago, 2017. [demo]
 
@@ -534,7 +533,7 @@ EVAM Solutions Day, Istanbul, 28 May 2015. [[slides](https://speakerdeck.com/gd
 - “Mining Big Data Streams: Better Algorithms or Faster Systems?”  
 KAIST, Seoul, 20 April 2015. [[slides](https://speakerdeck.com/gdfm/mining-big-data-streams-better-algorithms-or-faster-systems)]
 - “SAMOA: A Platform for Mining Big Data Streams”  
-Strata ’14, Barcelona, 20 Nov 2014. [[slides](https://speakerdeck.com/gdfm/samoa-at-strata-barcelona-2014)]
+Strata '14, Barcelona, 20 Nov 2014. [[slides](https://speakerdeck.com/gdfm/samoa-at-strata-barcelona-2014)]
 - “Mining Big Data Streams”  
 Workshop on "Online Social Networks: Emerging Trends", University of Cyprus, Nicosia, 8 Oct 2014. [[slides](https://speakerdeck.com/gdfm/mining-big-data-streams-better-algorithms-or-faster-systems)]
 - “SAMOA: A Platform for Mining Big Data Streams”  
