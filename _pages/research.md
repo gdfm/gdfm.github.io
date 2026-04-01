@@ -10,7 +10,7 @@ permalink: /research/
 [“Effects of Mainstream Visibility on Conspiracy Communities: Reddit after Epstein's 'Suicide'”](https://arxiv.org/abs/2512.24351)  
 ICWSM '26: International AAAI Conference on Web and Social Media, pp. _−_, Los Angeles, 2026.
 
-- S. Feuerriegel, C. Barrie, M. J. Crockett, L. K. Globig, K. L. McLoughlin, D.-M. Mirea, A. Spirling, D. Yang, T. Althoff, M. Antoniak, L. P. Argyle, A. Ashokkumar, M. Atari, H. Bailey, K. Bauer, U. Bhatt, H. Daumé III, G. De Francisci Morales, M. Dehghani, D. Dillion, J. C. Eichstaedt, K. Forster, D. Geissler, K. Gray, T. L. Griffiths, J. Hartmann, O. P. Hauser, J. K. He, F. Holzmeister, A. H.-C. Hwang, T. Hu, A. A. Ivanova, N. Köbis, Y. Kyrychenko, H. Lakkaraju, A. Maarouf, S. Maier, L. Meincke, R. Mihalcea, B. Mittelstadt, S. M. Mohammad, M. Naaman, O. Netzer, D. C. Ong, B. Plank, F. Pierri, I. Rahwan, C. E. Robertson, D. M. Rothschild, M. J. Salganik, E. Schulz, C. Shah, Y. R. Shrestha, E. Shutova, A. A. Siegel, H. Sun, M. Toetzke, J. J. Van Bavel, M. Vaccaro, J. W. Vaughan, E. Vayena, B. Vecchione, A. Wang, R. West, R. Willer, D. U. Wulff, S. Zhang, S. Rathje, M. H. Ribeiro  
+- S. Feuerriegel, C. Barrie, M. J. Crockett, L. K. Globig, K. L. McLoughlin, D. M. Mirea, A. Spirling, D. Yang, T. Althoff, M. Antoniak, L. P. Argyle, A. Ashokkumar, M. Atari, H. Bailey, K. Bauer, U. Bhatt, H. Daumé III, G. De Francisci Morales, M. Dehghani, D. Dillion, J. C. Eichstaedt, K. Forster, D. Geissler, K. Gray, T. L. Griffiths, J. Hartmann, O. P. Hauser, J. K. He, F. Holzmeister, A. H.-C. Hwang, T. Hu, A. A. Ivanova, N. Köbis, Y. Kyrychenko, H. Lakkaraju, A. Maarouf, S. Maier, L. Meincke, R. Mihalcea, B. Mittelstadt, S. M. Mohammad, M. Naaman, O. Netzer, D. C. Ong, B. Plank, F. Pierri, I. Rahwan, C. E. Robertson, D. M. Rothschild, M. J. Salganik, E. Schulz, C. Shah, Y. R. Shrestha, E. Shutova, A. A. Siegel, H. Sun, M. Toetzke, J. J. Van Bavel, M. Vaccaro, J. W. Vaughan, E. Vayena, B. Vecchione, A. Wang, R. West, R. Willer, D. U. Wulff, S. Zhang, S. Rathje, M. H. Ribeiro  
 [“GUIDE-LLM: A consensus-based reporting checklist for large language models in behavioral and social science”](https://www.llm-checklist.com)  
 NatHB: (under review), 2026.
 
@@ -24,7 +24,7 @@ RSOS: Royal Society Open Science, 13(3):[251253](https://royalsocietypublishing.
 
 - A. Pera, G. De Francisci Morales, L. M. Aiello  
 [“Measuring Behavior Change with Observational Studies: a Review”](https://arxiv.org/pdf/2310.19951)  
-CSUR: ACM Computing Surveys, _(), 2026.
+CSUR: ACM Computing Surveys, 58(10):1−36, 2026.
 
 - J. Lenti, F. Silvestri, G. De Francisci Morales  
 [“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/pdf/2403.05358)   
@@ -156,7 +156,7 @@ SocInfo '22: International Conference on Social Informatics, pp. 3−19, Glasgo
 
 - Y. Mejova, J. An, G. De Francisci Morales, H. Kwak  
 [“Modeling Political Activism around Gun Debate via Social Media”](/assets/media/2022/05/modeling-political-activism-around-gun-debate-via-social-media.pdf)  
-TSC: ACM Transactions on Social Computing, 5(1-4):2, 2022.
+TSC: ACM Transactions on Social Computing, 5(1−4):2, 2022.
 
 - S. De Candia, C. Monti, G. De Francisci Morales, F. Bonchi  
 [“Social Norms on Reddit: A Demographic Analysis”](/assets/media/2022/04/social-norms-on-reddit-a-demographic-analysis.pdf)  
@@ -621,7 +621,7 @@ PC member:
 - RTStreams '15
 
 Other:
-- ICWSM '24 Best Paper Award Committee
 - ICWSM '25 Best Paper Award Committee
+- ICWSM '24 Best Paper Award Committee
 - External reviewer: KDD '12, ICDE '13, ICDM '14, KDD '14, ICALP '14.
 - Reviewer: TWEB, TKDE, TKDD, WWWJ, VLDBJ, KAIS, PARCO, MACH, JPDC, Network Science, PeerJ.
