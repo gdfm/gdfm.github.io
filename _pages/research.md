@@ -32,7 +32,7 @@ TCSS: IEEE Transactions on Computational Social Systems, 2026.
 
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
 [“DSP: A Statistically-Principled Structural Polarization Measure”](https://arxiv.org/abs/2512.03937)  
-WSDM '26: ACM International Conference on Web Search and Data Mining, pp. 531−540, Bose, 2026.
+WSDM '26: ACM International Conference on Web Search and Data Mining, pp. 531−540, Boise, 2026.
 
 - B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
 [“Comparing Data Assimilation and Likelihood-Based Inference on Latent State Estimation in Agent-Based Models”](http://arxiv.org/abs/2509.17625)  
