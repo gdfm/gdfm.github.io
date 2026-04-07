@@ -6,6 +6,10 @@ permalink: /research/
 
 ## Publications
 
+- F. Corso, G. Russo, F. Pierri, G. De Francisci Morales  
+[“Among Us: Language of Conspiracy Theorists on Mainstream Reddit”](https://arxiv.org/abs/2506.05086)  
+ACL '26: Annual Meeting of the Association for Computational Linguistics, pp. _−_, San Diego, 2026.
+
 - A. Attanasio, F. Corso, G. De Francisci Morales, F. Pierri  
 [“Effects of Mainstream Visibility on Conspiracy Communities: Reddit after Epstein's 'Suicide'”](https://arxiv.org/abs/2512.24351)  
 ICWSM '26: International AAAI Conference on Web and Social Media, pp. _−_, Los Angeles, 2026.
@@ -48,7 +52,7 @@ ECMLPKDD '25: European Conference on Machine Learning and Principles and Practic
 
 - F. Corso, F. Pierri, G. De Francisci Morales  
 [“Conspiracy theories and where to find them on TikTok”](https://arxiv.org/pdf/2407.12545)  
-ACL '25: Annual Meeting of the Association for Computational Linguistics, pp. 8346−8362, 2025.
+ACL '25: Annual Meeting of the Association for Computational Linguistics, pp. 8346−8362, Vienna, 2025.
 
 - J. Lenti, F. Silvestri, G. De Francisci Morales  
 [“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/pdf/2403.05358)   
