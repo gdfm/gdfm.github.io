@@ -6,9 +6,17 @@ permalink: /research/
 
 ## Publications
 
+- C. Monti, A. Capozzi, Y. Mejova, G. De Francisci Morales  
+[“Conditional Publics: Shared Events and Divergent Meanings in the European Twitter Debate on the Ukraine War”](https://arxiv.org/abs/2604.05800)  
+arXiv:2604.05800, 2026.
+
 - F. Corso, G. Russo, F. Pierri, G. De Francisci Morales  
 [“Among Us: Language of Conspiracy Theorists on Mainstream Reddit”](https://arxiv.org/abs/2506.05086)  
 ACL '26: Annual Meeting of the Association for Computational Linguistics, pp. _−_, San Diego, 2026.
+
+- B. N. Doan, G. Russo, G. De Francisci Morales, R. West  
+[“Beyond the Rabbit Hole: Mapping the Relational Harms of QAnon Radicalization”](https://arxiv.org/abs/2601.17658)  
+arXiv:2601.17658, 2026.
 
 - A. Attanasio, F. Corso, G. De Francisci Morales, F. Pierri  
 [“Effects of Mainstream Visibility on Conspiracy Communities: Reddit after Epstein's 'Suicide'”](https://arxiv.org/abs/2512.24351)  
@@ -37,6 +45,10 @@ TCSS: IEEE Transactions on Computational Social Systems, 2026.
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
 [“DSP: A Statistically-Principled Structural Polarization Measure”](https://arxiv.org/abs/2512.03937)  
 WSDM '26: ACM International Conference on Web Search and Data Mining, pp. 531−540, Boise, 2026.
+
+- F. Corso, F. Pierri, G. De Francisci Morales  
+[“Do Androids Dream of Unseen Puppeteers? Probing for a Conspiracy Mindset in Large Language Models”](https://arxiv.org/abs/2511.03699)  
+arXiv:2511.03699, 2025.
 
 - B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
 [“Comparing Data Assimilation and Likelihood-Based Inference on Latent State Estimation in Agent-Based Models”](http://arxiv.org/abs/2509.17625)  
