@@ -40,7 +40,7 @@ CSUR: ACM Computing Surveys, 58(10):1−36, 2026.
 
 - J. Lenti, F. Silvestri, G. De Francisci Morales  
 [“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/pdf/2403.05358)   
-TCSS: IEEE Transactions on Computational Social Systems, 2026.
+TCSS: IEEE Transactions on Computational Social Systems _(_):_, 2026.
 
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
 [“DSP: A Statistically-Principled Structural Polarization Measure”](https://arxiv.org/abs/2512.03937)  
