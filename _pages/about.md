@@ -8,7 +8,7 @@ permalink: /
 
 Hello, world!
 
-My name is *Gianmarco De Francisci Morales* and I work as Principal Researcher in the AI Lab of [Intesa Sanpaolo Innovation Center](https://www.intesasanpaoloinnovationcenter.com).
+My name is *Gianmarco De Francisci Morales* and I work as Senior Principal Researcher in the AI Lab of [Intesa Sanpaolo Innovation Center](https://www.intesasanpaoloinnovationcenter.com).
 In the past I worked as Principal Researcher at [CENTAI](https://centai.eu), where I led the Social Algorithmics Team (SALT), as Senior Research Scientist at [ISI Foundation](https://www.isi.it/en/home), as Scientist at [QCRI](http://www.qcri.com), as Visiting Scientist at [Aalto University](http://www.aalto.fi/en), as Research Scientist at [Yahoo Labs](http://labs.yahoo.com), and as Research Associate at the [HPC Lab](http://hpc.isti.cnr.it) of [ISTI-CNR](http://www.isti.cnr.it).
 
 I hold a Ph.D. in CSE (Computer Science and Engineering) from [IMT Lucca](http://www.imtlucca.it), and Master's and Bachelor's degrees in Computer Engineering from [University of Catania](http://www2.unict.it/en/).
