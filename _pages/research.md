@@ -6,6 +6,10 @@ permalink: /research/
 
 ## Publications
 
+- B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
+[“Comparing Data Assimilation and Likelihood-Based Inference on Latent State Estimation in Agent-Based Models”](http://arxiv.org/abs/2509.17625)  
+PNAS Nexus, _, 2026.
+
 - C. Monti, A. Capozzi, Y. Mejova, G. De Francisci Morales  
 [“Conditional Publics: Shared Events and Divergent Meanings in the European Twitter Debate on the Ukraine War”](https://arxiv.org/abs/2604.05800)  
 arXiv:2604.05800, 2026.
@@ -32,7 +36,7 @@ PhysRep: Physics Reports, (under review), 2026.
 
 - C. Borile, J. Lenti, V. Ghidini, C. Monti, G. De Francisci Morales  
 [“Bias and Identifiability in the Bounded Confidence Model”](https://arxiv.org/abs/2506.11751)  
-RSOS: Royal Society Open Science, 13(3):[251253](https://royalsocietypublishing.org/rsos/article/13/3/1/480677/Bias-and-identifiability-in-the-bounded-confidence?guestAccessKey=a2f3a8f2-3abd-496a-80c6-3d2c0f26fbd5), 2026.
+RSOS: Royal Society Open Science, 13(3):[251253](https://royalsocietypublishing.org/rsos/article/13/3/1/480677/Bias-and-identifiability-in-the-bounded-confidence), 2026.
 
 - A. Pera, G. De Francisci Morales, L. M. Aiello  
 [“Measuring Behavior Change with Observational Studies: a Review”](https://arxiv.org/pdf/2310.19951)  
@@ -49,10 +53,6 @@ WSDM '26: ACM International Conference on Web Search and Data Mining, pp. 531−
 - F. Corso, F. Pierri, G. De Francisci Morales  
 [“Do Androids Dream of Unseen Puppeteers? Probing for a Conspiracy Mindset in Large Language Models”](https://arxiv.org/abs/2511.03699)  
 arXiv:2511.03699, 2025.
-
-- B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
-[“Comparing Data Assimilation and Likelihood-Based Inference on Latent State Estimation in Agent-Based Models”](http://arxiv.org/abs/2509.17625)  
-arXiv:2509.17625, 2025.
 
 - L. Betti, P. Bajardi, G. De Francisci Morales  
 [“Moral Judgments in Online Discourse are not Biased by Gender”](https://arxiv.org/pdf/2408.12872)  
