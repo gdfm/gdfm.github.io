@@ -33,9 +33,11 @@ All the content published on this website is distributed under an Attribution-Sh
 ## Links
 
 * [My Curriculum Vitae](assets/media/2025/02/cv-gdfm-20250209.pdf)
+* [My Google Scholar](https://scholar.google.com/citations?user=R0JCEqMAAAAJ)
 * [My Bluesky](https://bsky.app/profile/gdfm.bsky.social)
 * [My LinkedIn](http://www.linkedin.com/in/gianmarcodfm)
 * [My Speaker Deck](https://speakerdeck.com/u/gdfm)
 * [My Zotero](https://www.zotero.org/gdfm)
 * [My GitHub](http://github.com/gdfm)
+* [My ORCID](https://orcid.org/0000-0002-2415-494X)
 * [My GPG key](http://pgp.mit.edu/pks/lookup?op=get&search=0x6D26F8392A7AAA60)
