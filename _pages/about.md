@@ -2,6 +2,7 @@
 layout: page
 title: "About me"
 permalink: /
+schema: person
 ---
 
 <img src="/assets/media/2009/03/bw.jpg" alt="Just a picture of me" style="float:right;margin:0 0 1.5rem 2rem;max-width:280px;width:45%;">
