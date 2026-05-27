@@ -8,7 +8,7 @@ permalink: /research/
 
 - B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
 [“Comparing Data Assimilation and Likelihood-Based Inference on Latent State Estimation in Agent-Based Models”](http://arxiv.org/abs/2509.17625)  
-PNAS Nexus, _, 2026.
+PNAS Nexus, 5(5):[pgag161](https://doi.org/10.1093/pnasnexus/pgag161), 2026.
 
 - C. Monti, A. Capozzi, Y. Mejova, G. De Francisci Morales  
 [“Conditional Publics: Shared Events and Divergent Meanings in the European Twitter Debate on the Ukraine War”](https://arxiv.org/abs/2604.05800)  
@@ -28,7 +28,7 @@ ICWSM '26: International AAAI Conference on Web and Social Media, pp. _−_, Los
 
 - S. Feuerriegel, C. Barrie, M. J. Crockett, L. K. Globig, K. L. McLoughlin, D. M. Mirea, A. Spirling, D. Yang, T. Althoff, M. Antoniak, L. P. Argyle, A. Ashokkumar, M. Atari, H. Bailey, K. Bauer, U. Bhatt, H. Daumé III, G. De Francisci Morales, M. Dehghani, D. Dillion, J. C. Eichstaedt, K. Forster, D. Geissler, K. Gray, T. L. Griffiths, J. Hartmann, O. P. Hauser, J. K. He, F. Holzmeister, A. H.-C. Hwang, T. Hu, A. A. Ivanova, N. Köbis, Y. Kyrychenko, H. Lakkaraju, A. Maarouf, S. Maier, L. Meincke, R. Mihalcea, B. Mittelstadt, S. M. Mohammad, M. Naaman, O. Netzer, D. C. Ong, B. Plank, F. Pierri, I. Rahwan, C. E. Robertson, D. M. Rothschild, M. J. Salganik, E. Schulz, C. Shah, Y. R. Shrestha, E. Shutova, A. A. Siegel, H. Sun, M. Toetzke, J. J. Van Bavel, M. Vaccaro, J. W. Vaughan, E. Vayena, B. Vecchione, A. Wang, R. West, R. Willer, D. U. Wulff, S. Zhang, S. Rathje, M. H. Ribeiro  
 [“GUIDE-LLM: A consensus-based reporting checklist for large language models in behavioral and social science”](https://www.llm-checklist.com)  
-NatHB: (under review), 2026.
+NatHB: Nature Human Behaviour, _, 2026.
 
 - J. Lenti, G. De Francisci Morales  
 [“Estimating Parameters of Agent-Based Models from Data: A Methodological Review”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6275619)  
@@ -96,7 +96,7 @@ PRX: Physical Review X, 14, [031032](https://journals.aps.org/prx/abstract/10.11
 
 - D. Bär, F. Pierri, G. De Francisci Morales, S. Feuerriegel  
 [“Systematic discrepancies in the delivery of political ads on Facebook and Instagram”](https://arxiv.org/abs/2310.10001)  
-PNAS Nexus, [pgae247](https://doi.org/10.1093/pnasnexus/pgae247), 2024.
+PNAS Nexus, 3(7):[pgae247](https://doi.org/10.1093/pnasnexus/pgae247), 2024.
 
 - F. Corso, F. Pierri, G. De Francisci Morales  
 [“What we can learn from TikTok through its Research API”](/assets/media/2024/05/what-we-can-learn-from-tiktok-through-its-research-api.pdf)  
