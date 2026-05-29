@@ -1,13 +1,33 @@
 ---
-layout: post
+layout: "post"
 title: "American style breakfast"
-date: 2012-07-07
-categories: ["Travel"]
-tags: ["breakfast", "cookie", "latte", "Starbucks", "USA"]
+date: "2012-07-07 16:36:34"
+last_modified_at: "2012-07-07 16:36:34"
 author: "melmeric"
-permalink: /2012/07/07/american-style-breakfast/
+permalink: "/blog/2012/07/american-style-breakfast/"
+categories:
+  - "travel"
+tags:
+  - "breakfast"
+  - "cookie"
+  - "latte"
+  - "starbucks"
+  - "usa"
+category_names:
+  - "Travel"
+tag_names:
+  - "breakfast"
+  - "cookie"
+  - "latte"
+  - "Starbucks"
+  - "USA"
+comments: false
+sitemap: false
+wp_id: 753
+wp_slug: "american-style-breakfast"
+permalink_slug: "american-style-breakfast"
+wp_url: "https://gdfm.me/2012/07/07/american-style-breakfast/"
 ---
 
-![American style breakfast](/assets/media/2012/04/cookie-latte.jpg)[](/assets/media/2012/04/cookie-latte.jpg)
-
+[![American style breakfast](/assets/media/2012/04/cookie-latte.jpg "Cookie Latte")](/assets/media/2012/04/cookie-latte.jpg)
 Latte from the original Starbucks shop (1971), peanut butter cookie from Cinnamon Works, in Pike Place Market, Seattle, 2012.

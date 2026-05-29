@@ -1,11 +1,34 @@
 ---
-layout: post
+layout: "post"
 title: "No comment..."
-date: 2012-07-08
-categories: ["Fun"]
-tags: ["business", "CEO", "comic", "dilbert", "resume", "Yahoo"]
+date: "2012-07-08 15:21:53"
+last_modified_at: "2012-07-08 15:21:53"
 author: "melmeric"
-permalink: /2012/07/08/no-comment/
+permalink: "/blog/2012/07/no-comment/"
+categories:
+  - "fun"
+tags:
+  - "business"
+  - "ceo"
+  - "comic"
+  - "dilbert"
+  - "resume"
+  - "yahoo"
+category_names:
+  - "Fun"
+tag_names:
+  - "business"
+  - "CEO"
+  - "comic"
+  - "dilbert"
+  - "resume"
+  - "Yahoo"
+comments: false
+sitemap: false
+wp_id: 810
+wp_slug: "no-comment"
+permalink_slug: "no-comment"
+wp_url: "https://gdfm.me/2012/07/08/no-comment/"
 ---
 
-![](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/60000/3000/300/163333/163333.strip.gif)[](http://dilbert.com/strips/comic/2012-7-7)
+[![](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/60000/3000/300/163333/163333.strip.gif "No comment...")](http://dilbert.com/strips/comic/2012-7-7)

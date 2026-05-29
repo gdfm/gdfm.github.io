@@ -1,0 +1,28 @@
+---
+layout: "default"
+title: "Tag: Microsoft"
+permalink: "/blog/tag/microsoft/"
+hidden: true
+nav_exclude: true
+exclude_from_nav: true
+sitemap: false
+---
+
+<p><a href="{{ '/tags/' | relative_url }}">&larr; All tags</a></p>
+
+{% assign found_posts = false %}
+<ul class="post-list">
+{% for post in site.posts %}
+  {% if post.tags contains "microsoft" %}
+    {% assign found_posts = true %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y-%m-%d' }}</time>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% unless found_posts %}
+<p>No posts found.</p>
+{% endunless %}

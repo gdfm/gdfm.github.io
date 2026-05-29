@@ -1,11 +1,32 @@
 ---
-layout: post
+layout: "post"
 title: "PhD thesis title"
-date: 2012-01-10
-categories: ["Fun", "PhD"]
-tags: ["comic", "phdcomics", "thesis", "title"]
+date: "2012-01-10 18:56:30"
+last_modified_at: "2012-01-13 10:28:30"
 author: "melmeric"
-permalink: /2012/01/10/phd-thesis-title/
+permalink: "/blog/2012/01/phd-thesis-title/"
+categories:
+  - "fun"
+  - "phd"
+tags:
+  - "comic"
+  - "phdcomics"
+  - "thesis"
+  - "title"
+category_names:
+  - "Fun"
+  - "PhD"
+tag_names:
+  - "comic"
+  - "phdcomics"
+  - "thesis"
+  - "title"
+comments: false
+sitemap: false
+wp_id: 691
+wp_slug: "phd-thesis-title"
+permalink_slug: "phd-thesis-title"
+wp_url: "https://gdfm.me/2012/01/10/phd-thesis-title/"
 ---
 
-![PhD Comics - How to choose your PhD thesis title](http://www.phdcomics.com/comics/archive/phd053106s.gif)
+![PhD Comics - How to choose your PhD thesis title](http://www.phdcomics.com/comics/archive/phd053106s.gif "How to choose your PhD thesis title")

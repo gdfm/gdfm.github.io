@@ -1,15 +1,34 @@
 ---
-layout: post
+layout: "post"
 title: "Quote of the day - Science vs Engineering"
-date: 2011-10-12
-categories: ["Musing", "Technology"]
-tags: ["abstraction", "engineer", "quote", "science"]
+date: "2011-10-12 16:45:33"
+last_modified_at: "2011-10-12 16:49:34"
 author: "melmeric"
-permalink: /2011/10/12/quote-of-the-day-science-vs-engineering/
+permalink: "/blog/2011/10/quote-of-the-day-science-vs-engineering/"
+categories:
+  - "musing"
+  - "technology"
+tags:
+  - "abstraction"
+  - "engineer"
+  - "quote"
+  - "science"
+category_names:
+  - "Musing"
+  - "Technology"
+tag_names:
+  - "abstraction"
+  - "engineer"
+  - "quote"
+  - "science"
+comments: false
+sitemap: false
+wp_id: 629
+wp_slug: "quote-of-the-day-science-vs-engineering"
+permalink_slug: "quote-of-the-day-science-vs-engineering"
+wp_url: "https://gdfm.me/2011/10/12/quote-of-the-day-science-vs-engineering/"
 ---
 
-> 
+> In science, if you know what you are doing, you should not be doing it. In engineering, if you do not know what you are doing, you should not be doing it. Of course, you seldom, if ever, see either pure state.
 
-In science, if you know what you are doing, you should not be doing it. In engineering, if you do not know what you are doing, you should not be doing it. Of course, you seldom, if ever, see either pure state.
-
-* Richard Hamming, The Art of Doing Science and Engineering*
+*Richard Hamming, The Art of Doing Science and Engineering*

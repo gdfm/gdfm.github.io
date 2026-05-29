@@ -16,24 +16,30 @@ bundle exec jekyll serve
 
 ## Structure
 
-```
+```text
 .
-├── _config.yml          # Site configuration
-├── _layouts/            # HTML templates
+├── _config.yml              # Site configuration
+├── _layouts/                # HTML templates
 │   ├── default.html
 │   ├── home.html
 │   ├── post.html
 │   └── page.html
-├── _posts/              # Blog posts (155 posts)
-├── _pages/              # Static pages (about, research)
+├── _posts/                  # Migrated blog posts, flat Jekyll post files
+├── _pages/                  # Static pages
+├── blog/
+│   ├── index.html           # Hidden blog landing page at /blog/
+│   ├── category/            # Blog-scoped category archive pages
+│   └── tag/                 # Blog-scoped tag archive pages
+├── category/                # WordPress-compatible category URLs
+├── tag/                     # WordPress-compatible tag URLs
+├── categories/              # Category index
+├── tags/                    # Tag index
 ├── assets/
-│   ├── css/main.css     # Stylesheet
-│   ├── media/           # ← Unzip your WordPress media export here
-│   └── pdfs/            # PDF files
-├── _data/
-│   └── attachments.txt  # List of original WordPress media URLs
-├── CNAME                # Custom domain: gdfm.me
-├── index.html           # Homepage (paginated post list)
+│   ├── css/main.css
+│   ├── media/               # WordPress media export goes here
+│   └── pdfs/
+├── CNAME                    # Custom domain: gdfm.me
+├── index.html               # Main homepage
 └── 404.html
 ```
 
@@ -61,6 +67,6 @@ For a full list of original attachment URLs, see `_data/attachments.txt`.
 - `jekyll-feed` — RSS feed at `/feed.xml`
 - `jekyll-seo-tag` — Meta tags for SEO
 - `jekyll-sitemap` — Sitemap at `/sitemap.xml`
-- `jekyll-paginate` — 10 posts per page on homepage
+- `jekyll-paginate` — pagination for the hidden blog index at `/blog/`
 
 All plugins are on GitHub Pages' [safe list](https://pages.github.com/versions/).

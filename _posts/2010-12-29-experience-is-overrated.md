@@ -1,13 +1,25 @@
 ---
-layout: post
+layout: "post"
 title: "Experience is overrated"
-date: 2010-12-29
-categories: ["Fun"]
-tags: ["experience"]
+date: "2010-12-29 15:11:27"
+last_modified_at: "2010-12-29 15:11:27"
 author: "melmeric"
-permalink: /2010/12/29/experience-is-overrated/
+permalink: "/blog/2010/12/experience-is-overrated/"
+categories:
+  - "fun"
+tags:
+  - "experience"
+category_names:
+  - "Fun"
+tag_names:
+  - "experience"
+comments: false
+sitemap: false
+wp_id: 221
+wp_slug: "experience-is-overrated"
+permalink_slug: "experience-is-overrated"
+wp_url: "https://gdfm.me/2010/12/29/experience-is-overrated/"
 ---
 
-![Dilbert - 30 years of experience](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/00000/8000/700/108771/108771.strip.gif)[](http://dilbert.com/strips/comic/2010-12-23/)
-
+[![Dilbert - 30 years of experience](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/00000/8000/700/108771/108771.strip.gif "Dilbert - 30 years of experience")](http://dilbert.com/strips/comic/2010-12-23/ "Dilbert - 30 years of experience")
 Experience is only a chance to learn: [Experience is overrated](http://www.scottberkun.com/blog/2010/experienceisoverrated/), by Scott Berkun.
