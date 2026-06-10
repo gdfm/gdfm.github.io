@@ -17,4 +17,5 @@ comments: false
 
 If, out of kindness, I do something for you **once**,
 you should not automatically assume I will do it **every time** you want or need it.
+
 It's my own darn choice!

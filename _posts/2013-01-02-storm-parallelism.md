@@ -15,5 +15,6 @@ tags:
 comments: false
 ---
 
-Great explanation of workers, executors and tasks in Storm, one of the most confusing bits in my opinion, by Michael G. Noll.
-[Understanding the parallelism of a Storm topology](http://www.michael-noll.com/blog/2012/10/16/understanding-the-parallelism-of-a-storm-topology/ "Understanding the parallelism of a Storm topology")
+Great explanation of workers, executors and tasks in Storm, one of the most confusing bits in my opinion, by Michael G. Noll.
+
+[Understanding the parallelism of a Storm topology](http://www.michael-noll.com/blog/2012/10/16/understanding-the-parallelism-of-a-storm-topology/)

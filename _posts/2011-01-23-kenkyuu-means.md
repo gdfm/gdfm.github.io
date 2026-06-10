@@ -15,7 +15,10 @@ comments: false
 ---
 
 ...research, in Japanese.
+
 研究　<- Kanji
 けんきゅう　<- Hiragana
+
 just for the people reaching this blog looking for this word :)
+
 PS: yeah, I know, I am a geek

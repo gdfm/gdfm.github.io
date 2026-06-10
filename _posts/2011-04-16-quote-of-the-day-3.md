@@ -16,6 +16,7 @@ comments: false
 ---
 
 > Il computer non è una macchina intelligente che aiuta le persone stupide, anzi è una macchina stupida che funziona solo nelle mani delle persone intelligenti.
-> (A computer is not an intelligent machine which helps stupid people, rather it's a stupid machine that only works in the hands of intelligent people.)
+>
+> (A computer is not an intelligent machine which helps stupid people, rather it's a stupid machine that only works in the hands of intelligent people.)
 
 *Umberto Eco*

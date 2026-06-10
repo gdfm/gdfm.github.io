@@ -14,5 +14,7 @@ comments: false
 ---
 
 [![half marathon](/assets/media/2013/02/half-marathon.png)](/assets/media/2013/02/half-marathon.png)
+
 Yeeah!
+
 I got excited at the 18th km, when I realized I was going to be able to finish it :)

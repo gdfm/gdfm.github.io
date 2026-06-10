@@ -17,5 +17,6 @@ tags:
 comments: false
 ---
 
-*Say you have a stream of items of large and unknown length that we can only iterate over once. Create an algorithm that randomly chooses an item from* *this stream such that each item is equally likely to be selected.*
+*Say you have a stream of items of large and unknown length that we can only iterate over once. Create an algorithm that randomly chooses an item from* *this stream such that each item is equally likely to be selected.*
+
 [Algorithms Every Data Scientist Should Know: Reservoir Sampling](http://blog.cloudera.com/blog/2013/04/hadoop-stratified-randosampling-algorithm/)

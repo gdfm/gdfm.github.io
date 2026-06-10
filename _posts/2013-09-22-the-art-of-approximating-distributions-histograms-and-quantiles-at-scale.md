@@ -15,5 +15,6 @@ tags:
 comments: false
 ---
 
-Nice blog post on approximate quantiles by the guys behind Druid at Metamarkets. The basic technique they use is the histogram proposed by Ben-Haim & Tom-Tov for their [Streaming Parallel Decision Tree](http://jmlr.org/papers/volume11/ben-haim10a/ben-haim10a.pdf).
+Nice blog post on approximate quantiles by the guys behind Druid at Metamarkets. The basic technique they use is the histogram proposed by Ben-Haim & Tom-Tov for their [Streaming Parallel Decision Tree](http://jmlr.org/papers/volume11/ben-haim10a/ben-haim10a.pdf).
+
 [Read the blog post](http://metamarkets.com/2013/histograms/).

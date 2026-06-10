@@ -17,4 +17,5 @@ comments: false
 ---
 
 The Big Data scientist equivalent to...
+
 [![Image](/assets/media/2011/12/compiling.png)](http://xkcd.com/303)

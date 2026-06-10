@@ -19,4 +19,5 @@ comments: false
 ---
 
 Seems like much research on Twitter data going on nowadays would benefit from reading xkcd.
+
 [![](http://imgs.xkcd.com/comics/frequentists_vs_bayesians.png)](http://xkcd.com/1132/)

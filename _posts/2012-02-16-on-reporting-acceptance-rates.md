@@ -15,10 +15,13 @@ comments: false
 ---
 
 Just to be clear, this is my own biased opinion on the issue.
+
 To people that report acceptance rates in their publication list:
 
 - Science is not a race.
+
 - Published papers are not awards.
+
 - Conferences are not exclusive clubs.
 
 If you really need to boast, at least do it with more taste, please.

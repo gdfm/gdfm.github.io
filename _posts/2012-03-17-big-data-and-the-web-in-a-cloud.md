@@ -14,5 +14,6 @@ tags:
 comments: false
 ---
 
-Directly from [my PhD thesis](/assets/media/2012/03/big-data-and-the-web.pdf "Big Data and the Web").
+Directly from [my PhD thesis](/assets/media/2012/03/big-data-and-the-web.pdf).
+
 [![](/assets/media/2012/03/thesis-word-cloud.png "thesis word cloud")](/assets/media/2012/03/thesis-word-cloud.png)

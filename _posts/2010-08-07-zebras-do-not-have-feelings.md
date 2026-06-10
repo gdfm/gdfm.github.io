@@ -14,4 +14,5 @@ comments: false
 ---
 
 [Be a zebra!](http://dresdencodak.com/2006/03/23/be-a-zebra/)
+
 [![Zebra face](/assets/media/2010/08/zebra-face.jpg "zebra-face")](/assets/media/2010/08/zebra-face.jpg)

@@ -16,5 +16,6 @@ comments: false
 ---
 
 > Every act of creation is first an act of destruction.
+>
 
-*Pablo Picasso*
+*Pablo Picasso*

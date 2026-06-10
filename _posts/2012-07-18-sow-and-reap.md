@@ -24,5 +24,6 @@ comments: false
 > Sow an action, reap a habit.
 > Sow a habit, reap a character.
 > Sow a character, reap a destiny.
+> *Old Chinese saying  (allegedly)*
 >
-> *Old Chinese saying  (allegedly)*
+>

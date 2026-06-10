@@ -17,4 +17,5 @@ comments: false
 ---
 
 [![American style breakfast](/assets/media/2012/04/cookie-latte.jpg "Cookie Latte")](/assets/media/2012/04/cookie-latte.jpg)
+
 Latte from the original Starbucks shop (1971), peanut butter cookie from Cinnamon Works, in Pike Place Market, Seattle, 2012.

@@ -14,8 +14,9 @@ tags:
 comments: false
 ---
 
-@@WXR\_RAW\_BLOCK\_0@@
+<pre>:g/^\(\w\+\).*\n\1\@!./pu_</pre>
 Inserts a blank after every line that does not start with the same word as the immediately following line.
 Extremely useful for .tsv and .csv files.
 (might need some tweaking for non-word characters)
+
 Vim awesomeness.

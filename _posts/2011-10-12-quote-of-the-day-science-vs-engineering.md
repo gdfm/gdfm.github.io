@@ -16,6 +16,9 @@ tags:
 comments: false
 ---
 
+>
 > In science, if you know what you are doing, you should not be doing it. In engineering, if you do not know what you are doing, you should not be doing it. Of course, you seldom, if ever, see either pure state.
+>
+>
 
 *Richard Hamming, The Art of Doing Science and Engineering*

@@ -16,6 +16,6 @@ tags:
 comments: false
 ---
 
-> [Apple Inc.](https://en.wikipedia.org/wiki/Apple_Inc. "Apple Inc.") employee [Jef Raskin](https://en.wikipedia.org/wiki/Jef_Raskin "Jef Raskin") named the [Macintosh](https://en.wikipedia.org/wiki/Macintosh "Macintosh") line of personal computers after the [McIntosh](https://en.wikipedia.org/wiki/McIntosh_(apple)). He deliberately misspelled the name to avoid conflict with the hi-fi equipment manufacturer [McIntosh Laboratory](https://en.wikipedia.org/wiki/McIntosh_Laboratory "McIntosh Laboratory").
+> [Apple Inc.](https://en.wikipedia.org/wiki/Apple_Inc.) employee [Jef Raskin](https://en.wikipedia.org/wiki/Jef_Raskin) named the [Macintosh](https://en.wikipedia.org/wiki/Macintosh) line of personal computers after the [McIntosh](https://en.wikipedia.org/wiki/McIntosh_(apple)). He deliberately misspelled the name to avoid conflict with the hi-fi equipment manufacturer [McIntosh Laboratory](https://en.wikipedia.org/wiki/McIntosh_Laboratory).
 
-<https://en.wikipedia.org/wiki/McIntosh_(apple)>
+[https://en.wikipedia.org/wiki/McIntosh_(apple)](https://en.wikipedia.org/wiki/McIntosh_(apple))

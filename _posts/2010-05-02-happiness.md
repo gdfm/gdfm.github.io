@@ -13,4 +13,5 @@ comments: false
 ---
 
 Happiness is not a mood, it is a decision.
+
 Happiness comes from inside.

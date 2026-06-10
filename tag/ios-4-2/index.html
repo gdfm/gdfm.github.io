@@ -1,5 +1,5 @@
 ---
-layout: "default"
+layout: "page"
 title: "Tag: iOS 4.2"
 permalink: "/tag/ios-4-2/"
 hidden: true
@@ -8,8 +8,10 @@ exclude_from_nav: true
 sitemap: false
 ---
 
-{% assign posts_for_archive = site.posts | where_exp: "post", "post.tags contains 'ios-4-2'" %}
-{% assign archive_posts = posts_for_archive %}
+<h1>Tag: iOS 4.2</h1>
+{% assign archive_slug = "ios-4-2" %}
+
+{% assign archive_posts = site.posts | where_exp: "post", "post.tags contains archive_slug" %}
 <ul class="post-list">
 {% for post in archive_posts %}
   <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>

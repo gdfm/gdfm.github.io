@@ -17,4 +17,5 @@ comments: false
 ---
 
 If it doesn’t, you’re not doing it right.
+
 And on why [research is not like sex](http://blog.regehr.org/archives/743).

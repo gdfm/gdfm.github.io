@@ -1,6 +1,6 @@
 ---
-layout: "default"
-title: "Blog categories"
+layout: "page"
+title: "Categories"
 permalink: "/blog/categories/"
 hidden: true
 nav_exclude: true
@@ -9,7 +9,10 @@ sitemap: false
 ---
 
 <ul>
-{% for item in site.data.blog_taxonomy.categories %}
-  <li><a href="{{ '/blog/category/' | append: item[0] | append: '/' | relative_url }}">{{ item[1].name }}</a> ({{ item[1].count }})</li>
+{% assign items = site.categories | sort %}
+{% for item in items %}
+  {% assign slug = item[0] %}
+  {% assign posts = item[1] %}
+  <li><a href="{{ '/blog/categorie/' | append: slug | append: '/' | relative_url }}">{{ slug | replace: '-', ' ' }}</a> ({{ posts | size }})</li>
 {% endfor %}
 </ul>

@@ -15,8 +15,9 @@ tags:
 comments: false
 ---
 
-> A lot of people seem to think performance is about doing the same thing, just doing it faster. That's not what performance is all about. If you can do something really fast really well, people start using it differently.
->
+> A lot of people seem to think performance is about doing the same thing, just doing it faster. That's not what performance is all about. If you can do something really fast really well, people start using it differently.
 > *Linus Torvalds (speaking about git)*
+>
+>
 
 Because more is not just more. More is different.

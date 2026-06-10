@@ -12,4 +12,5 @@ comments: false
 ---
 
 Cheat sheet for the IPython shell's keyboard shortcuts.
-Source: [Jupyter Keyboard Shortcuts | Sowing Seasons](http://sowingseasons.com/blog/jupyter-keyboard-shortcuts.html)
+
+Source: [Jupyter Keyboard Shortcuts \| Sowing Seasons](http://sowingseasons.com/blog/jupyter-keyboard-shortcuts.html)

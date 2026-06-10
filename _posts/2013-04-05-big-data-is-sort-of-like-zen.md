@@ -18,4 +18,4 @@ comments: false
 > It's something that's difficult to explain, has many interpretations,
 > and the best way to learn it is to do it.
 
-*Shamelessly copied from [The Apache Way](http://theapacheway.com)*
+*Shamelessly copied from [The Apache Way](http://theapacheway.com)*

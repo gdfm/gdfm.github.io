@@ -12,4 +12,5 @@ comments: false
 ---
 
 A brief explanation of our upcoming CIKM '15 paper!
-Source: [Scalable facility location for massive graphs on pregel-like systems | Northern Bytes](http://northernbytes.co/2015/10/10/scalable-facility-location-for-massive-graphs-on-pregel-like-systems/)
+
+Source: [Scalable facility location for massive graphs on pregel-like systems \| Northern Bytes](http://northernbytes.co/2015/10/10/scalable-facility-location-for-massive-graphs-on-pregel-like-systems/)
