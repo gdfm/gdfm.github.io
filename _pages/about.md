@@ -16,9 +16,9 @@ I hold a Ph.D. in CSE (Computer Science and Engineering) from [IMT Lucca](htt
 
 My main research interest is to understand how people form their opinions.
 For instance, understanding how controversial topics are discussed online, whether polarization is created or amplified by social media, and applying computational methods to understand online discussions.
-In the past, I also worked on scalable data mining (especially graphs and streams) and data-intensive scalable computing. Hence, I am a heavy user of the Apache Hadoop ecosystem. I am a committer for [Pig](http://pig.apache.org), and a contributor for [Hadoop](http://hadoop.apache.org), [Giraph](http://giraph.apache.org), [Storm](http://storm.apache.org), [Kafka](http://kafka.apache.org), [S4](http://incubator.apache.org/s4), and [Grafos](http://grafos.ml). I am also a PPMC member and one of the original creators of [SAMOA](http://samoa.incubator.apache.org), a platform for mining big data streams.
+In the past, I also worked on scalable data mining (especially graphs and streams) and data-intensive scalable computing. Hence, I am a heavy user of the Apache Hadoop ecosystem. I was a committer for [Pig](http://pig.apache.org), and a contributor for [Hadoop](http://hadoop.apache.org), [Giraph](http://giraph.apache.org), [Storm](http://storm.apache.org), [Kafka](http://kafka.apache.org), [S4](http://incubator.apache.org/s4), and [Grafos](http://grafos.ml). I was also a PPMC member and one of the original creators of [SAMOA](http://samoa.incubator.apache.org), a platform for mining big data streams.
 
-My Ph.D. thesis explored the issues around massive-scale Web mining using DISC.
+My Ph.D. thesis explored the issues around massive-scale Web mining using Data-Intensive Scalable Computing (DISC).
 [“Big Data and the Web: Algorithms for Data Intensive Scalable Computing”](/assets/media/2012/03/big-data-and-the-web.pdf).
 Here also my [PhD proposal](/assets/media/2010/02/thesis-proposal.pdf) for the (very) interested reader.
 
