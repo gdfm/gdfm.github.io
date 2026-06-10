@@ -12,22 +12,10 @@ tags:
   - "different"
   - "performance"
   - "scale"
-category_names:
-  - "Technology"
-tag_names:
-  - "big data"
-  - "different"
-  - "performance"
-  - "scale"
 comments: false
-sitemap: false
-wp_id: 979
-wp_slug: "performance-a-matter-of-scale"
-permalink_slug: "performance-a-matter-of-scale"
-wp_url: "https://gdfm.me/2013/08/30/performance-a-matter-of-scale/"
 ---
 
-> A lot of people seem to think performance is about doing the same thing, just doing it faster. That's not what performance is all about. If you can do something really fast really well, people start using it differently.
+> A lot of people seem to think performance is about doing the same thing, just doing it faster. That's not what performance is all about. If you can do something really fast really well, people start using it differently.
 >
 > *Linus Torvalds (speaking about git)*
 

@@ -11,18 +11,7 @@ tags:
   - "cloud"
   - "thesis"
   - "word"
-category_names:
-  - "PhD"
-tag_names:
-  - "cloud"
-  - "thesis"
-  - "word"
 comments: false
-sitemap: false
-wp_id: 722
-wp_slug: "big-data-and-the-web-in-a-cloud"
-permalink_slug: "big-data-and-the-web-in-a-cloud"
-wp_url: "https://gdfm.me/2012/03/17/big-data-and-the-web-in-a-cloud/"
 ---
 
 Directly from [my PhD thesis](/assets/media/2012/03/big-data-and-the-web.pdf "Big Data and the Web").

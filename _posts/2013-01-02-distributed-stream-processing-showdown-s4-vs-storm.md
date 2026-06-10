@@ -15,28 +15,13 @@ tags:
   - "showdown"
   - "storm"
   - "stream-processing"
-category_names:
-  - "Research"
-  - "Technology"
-tag_names:
-  - "big data"
-  - "distributed systems"
-  - "S4"
-  - "showdown"
-  - "Storm"
-  - "stream processing"
 comments: false
-sitemap: false
-wp_id: 860
-wp_slug: "distributed-stream-processing-showdown-s4-vs-storm"
-permalink_slug: "distributed-stream-processing-showdown-s4-vs-storm"
-wp_url: "https://gdfm.me/2013/01/02/distributed-stream-processing-showdown-s4-vs-storm/"
 ---
 
-S4 and Storm are two distributed, scalable platforms for processing continuous unbounded streams of data.
+S4 and Storm are two distributed, scalable platforms for processing continuous unbounded streams of data.
 I have been involved in the development of S4 (I designed the fault-recovery module) and I have used Storm for my latest project, so I have gained a bit of experience on both and I want to share my views on these two very similar and competing platforms.
 First, some commonalities.
-Both are distributed stream processing platforms, run on the JVM (S4 is pure Java while Storm is part Java part Clojure), are open source (Apache/Eclipse licenses), are inspired by MapReduce and are quite new. Both frameworks use keyed streams as their basic building block.
+Both are distributed stream processing platforms, run on the JVM (S4 is pure Java while Storm is part Java part Clojure), are open source (Apache/Eclipse licenses), are inspired by MapReduce and are quite new. Both frameworks use keyed streams as their basic building block.
 Now for some differences.
 
 ### Programming model.
@@ -45,7 +30,7 @@ S4 implements the Actors programming paradigm. You define your program in terms 
 Storm does not have an explicit programming paradigm. You define your program in terms of bolts and spouts that process partitions of streams. The number of bolts to instantiate is defined a-priori and each bolt will see a partition of the stream.
 To make things more clear, let's use the classic "hello world" program from MapReduce: word count.
 Let's say we want to implement a streaming word count. In S4, we can define a word to be a key, and our PE would need to keep track of the number of instances it processes by using a single long (again, very much like MapReduce). In Storm, we need to program each bolt as if it had to process the whole stream, so we would use a data structure like a Map<String, Long> to keep track of the word counts. The distribution and parallelism are orthogonal to the program.
-In synthesis, in S4 you program for a single key, in Storm you program for the whole stream. Storm gives you the basic tools to build a framework, while S4 gives you a well-defined framework. To use an analogy from Java build systems, Storm is more like Ant and S4 is more like Maven.
+In synthesis, in S4 you program for a single key, in Storm you program for the whole stream. Storm gives you the basic tools to build a framework, while S4 gives you a well-defined framework. To use an analogy from Java build systems, Storm is more like Ant and S4 is more like Maven.
 My personal preference here goes to S4, as it makes programming much easier. Most of the times in Storm you will anyway end mimicking the Actors model by implementing a hash based structure on a key, like in the example above.
 
 ### Data pipeline.

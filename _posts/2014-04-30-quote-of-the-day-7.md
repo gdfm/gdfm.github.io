@@ -12,19 +12,7 @@ tags:
   - "life"
   - "philosophy"
   - "quote"
-category_names:
-  - "Musing"
-tag_names:
-  - "change"
-  - "life"
-  - "philosophy"
-  - "quote"
 comments: false
-sitemap: false
-wp_id: 1126
-wp_slug: "quote-of-the-day-7"
-permalink_slug: "quote-of-the-day-7"
-wp_url: "https://gdfm.me/2014/04/30/quote-of-the-day-7/"
 ---
 
 > The best way to verify that you are alive

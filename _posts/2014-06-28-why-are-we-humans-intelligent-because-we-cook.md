@@ -13,20 +13,7 @@ tags:
   - "evolution"
   - "human"
   - "intelligence"
-category_names:
-  - "Research"
-tag_names:
-  - "brain"
-  - "cook"
-  - "evolution"
-  - "human"
-  - "intelligence"
 comments: false
-sitemap: false
-wp_id: 1147
-wp_slug: "why-are-we-humans-intelligent-because-we-cook"
-permalink_slug: "why-are-we-humans-intelligent-because-we-cook"
-wp_url: "https://gdfm.me/2014/06/28/why-are-we-humans-intelligent-because-we-cook/"
 ---
 
 [Suzana Herculano-Houzel: What is so special about the human brain?](http://www.ted.com/talks/suzana_herculano_houzel_what_is_so_special_about_the_human_brain)

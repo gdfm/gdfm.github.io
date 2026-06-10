@@ -13,20 +13,7 @@ tags:
   - "notes"
   - "san-francisco"
   - "usa"
-category_names:
-  - "Fun"
-  - "Travel"
-tag_names:
-  - "California"
-  - "notes"
-  - "San Francisco"
-  - "USA"
 comments: false
-sitemap: false
-wp_id: 874
-wp_slug: "random-notes-about-san-francisco-california-the-universe-and-everything"
-permalink_slug: "random-notes-about-san-francisco-california-the-universe-and-everything"
-wp_url: "https://gdfm.me/2012/12/24/random-notes-about-san-francisco-california-the-universe-and-everything/"
 ---
 
 - The number of homeless people living in San Francisco is astounding. And they stay right there in the heart of the city, a few meters away from the chic luxury stores. One second you are looking at a Gucci shop window and the next thing you see is people playing dices for money on the street in front of an erotic club.

@@ -15,22 +15,7 @@ tags:
   - "quote"
   - "thought"
   - "word"
-category_names:
-  - "Musing"
-tag_names:
-  - "action"
-  - "character"
-  - "destiny"
-  - "habit"
-  - "quote"
-  - "thought"
-  - "word"
 comments: false
-sitemap: false
-wp_id: 1173
-wp_slug: "quote-of-the-day-9"
-permalink_slug: "quote-of-the-day-9"
-wp_url: "https://gdfm.me/2014/08/18/quote-of-the-day-9/"
 ---
 
 > Watch your thoughts; they become words.

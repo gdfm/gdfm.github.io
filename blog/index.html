@@ -4,36 +4,22 @@ title: "Blog"
 hidden: true
 nav_exclude: true
 exclude_from_nav: true
-sitemap: true
 ---
 
-<p><a href="{{ '/categories/' | relative_url }}">Categories</a> &middot; <a href="{{ '/tags/' | relative_url }}">Tags</a></p>
-
-{% assign blog_posts = paginator.posts | default: site.posts %}
-{% if blog_posts.size > 0 %}
-  <ul class="post-list">
-  {% for post in blog_posts %}
-    <li>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y-%m-%d' }}</time></p>
-      {% if post.excerpt %}
-        <div class="post-excerpt">{{ post.excerpt }}</div>
-      {% endif %}
-    </li>
-  {% endfor %}
-  </ul>
+{% if paginator %}
+  {% assign blog_posts = paginator.posts %}
 {% else %}
-  <p>No blog posts found.</p>
+  {% assign blog_posts = site.posts %}
 {% endif %}
-
-{% if paginator.total_pages > 1 %}
+<ul class="post-list">
+{% for post in blog_posts %}
+  <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+{% if paginator and paginator.total_pages > 1 %}
 <nav class="pagination" aria-label="Blog pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Previous</a>
-  {% endif %}
+  {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">Previous</a>{% endif %}
   <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-  {% endif %}
+  {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">Next</a>{% endif %}
 </nav>
 {% endif %}

@@ -11,18 +11,7 @@ tags:
   - "cloud"
   - "facebook"
   - "freedom"
-category_names:
-  - "Technology"
-tag_names:
-  - "cloud"
-  - "Facebook"
-  - "freedom"
 comments: false
-sitemap: false
-wp_id: 83
-wp_slug: "freedom-in-the-cloud"
-permalink_slug: "freedom-in-the-cloud"
-wp_url: "https://gdfm.me/2010/04/12/freedom-in-the-cloud/"
 ---
 
 A.K.A. why I do not have a Facebook profile (actually, why Facebook does not have a profile on *me*)

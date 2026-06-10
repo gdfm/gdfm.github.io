@@ -11,18 +11,7 @@ categories:
 tags:
   - "data-mining"
   - "wikipedia"
-category_names:
-  - "PhD"
-  - "Technology"
-tag_names:
-  - "data mining"
-  - "Wikipedia"
 comments: false
-sitemap: false
-wp_id: 394
-wp_slug: "wikipedia-miner"
-permalink_slug: "wikipedia-miner"
-wp_url: "https://gdfm.me/2011/04/18/wikipedia-miner/"
 ---
 
 I have been playing with [Wikipedia Miner](http://wikipedia-miner.sourceforge.net/ "Wikipedia Miner") for my new research project. Wikipedia Miner is a toolkit that does many interesting things with Wikipedia. The one I am using is *"wikification"*, that is "The process of adding wiki links to specific named entities and other appropriate phrases in an arbitrary text." It is a very useful procedure to enrich a text. "The process consists of *automatic keyword extraction*, *word sense disambiguation*, and automatically adding links to documents to Wikipedia". In my case, I am more interested in topic detection so I care only about the first two (emphasized) phases.

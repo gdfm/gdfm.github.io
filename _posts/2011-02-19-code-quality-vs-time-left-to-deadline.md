@@ -14,21 +14,7 @@ tags:
   - "programming"
   - "quality"
   - "time"
-category_names:
-  - "Fun"
-tag_names:
-  - "comic"
-  - "deadline"
-  - "graph"
-  - "programming"
-  - "quality"
-  - "time"
 comments: false
-sitemap: false
-wp_id: 336
-wp_slug: "code-quality-vs-time-left-to-deadline"
-permalink_slug: "code-quality-vs-time-left-to-deadline"
-wp_url: "https://gdfm.me/2011/02/19/code-quality-vs-time-left-to-deadline/"
 ---
 
 [![Code Quality vs Time to deadline](/assets/media/2011/02/codequality.png "Code Quality vs Time to deadline")](/assets/media/2011/02/codequality.png)

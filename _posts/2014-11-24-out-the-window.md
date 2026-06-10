@@ -13,20 +13,7 @@ tags:
   - "industry"
   - "microsoft"
   - "research"
-category_names:
-  - "Research"
-tag_names:
-  - "academia"
-  - "business"
-  - "industry"
-  - "Microsoft"
-  - "research"
 comments: false
-sitemap: false
-wp_id: 1209
-wp_slug: "out-the-window"
-permalink_slug: "out-the-window"
-wp_url: "https://gdfm.me/2014/11/24/out-the-window/"
 ---
 
 A thoughtful piece on industrial labs and research styles. My favorite bit is the part about "empowering researchers". All the managers dealing with researchers should read this [paper by Roy Levin](http://msrsvc.org/roylevin/osrresearchmgmt.pdf).

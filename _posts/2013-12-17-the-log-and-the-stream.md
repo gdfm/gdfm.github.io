@@ -11,18 +11,7 @@ tags:
   - "linkedin"
   - "log"
   - "stream-processing"
-category_names:
-  - "Technology"
-tag_names:
-  - "LinkedIn"
-  - "log"
-  - "stream processing"
 comments: false
-sitemap: false
-wp_id: 1092
-wp_slug: "the-log-and-the-stream"
-permalink_slug: "the-log-and-the-stream"
-wp_url: "https://gdfm.me/2013/12/17/the-log-and-the-stream/"
 ---
 
 > LinkedIn, for example, has almost **no batch data collection at all**. The majority of our data is either activity data or database changes, both of which occur continuously. In fact, **when you think about any business, the underlying mechanics are almost always a continuous process**—events happen in real-time, as Jack Bauer would tell us. When data is collected in batches, it is almost always due to some manual step or lack of digitization or is a historical relic left over from the automation of some non-digital process. Transmitting and reacting to data used to be very slow when the mechanics were mail and humans did the processing. A first pass at automation always retains the form of the original process, so this often lingers for a long time.

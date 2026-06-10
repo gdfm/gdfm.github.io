@@ -11,24 +11,13 @@ tags:
   - "gsoc"
   - "pig"
   - "syntactic-sugar"
-category_names:
-  - "Technology"
-tag_names:
-  - "GSoC"
-  - "pig"
-  - "syntactic sugar"
 comments: false
-sitemap: false
-wp_id: 576
-wp_slug: "sugar-for-pig-update"
-permalink_slug: "sugar-for-pig-update"
-wp_url: "https://gdfm.me/2011/07/25/sugar-for-pig-update/"
 ---
 
-Actually it should not be an update, but a wrap-up, as I basically have finished my project for this year. My last patch already got a [+1](http://www.apache.org/foundation/voting.html) and it's just waiting for the tests to finish to be committed.
-I completed my selected tasks [PIG-1926](https://issues.apache.org/jira/browse/PIG-1926) and [PIG-1904](https://issues.apache.org/jira/browse/PIG-1904) (see my [previous post](/blog/2011/04/sugar-for-pig-gsoc11/) for an explanation of what they do), plus some more small fixes here and there: [PIG-2156](https://issues.apache.org/jira/browse/PIG-2156) [PIG-2136](https://issues.apache.org/jira/browse/PIG-2136) [PIG-2060](https://issues.apache.org/jira/browse/PIG-2060) [PIG-2026](https://issues.apache.org/jira/browse/PIG-2026) [PIG-2025](https://issues.apache.org/jira/browse/PIG-2025) [PIG-2024](https://issues.apache.org/jira/browse/PIG-2024)
-I also gave some longer term ideas on how to refactor the grammar to make it safer and easier to modify, and on some new features: [PIG-2138](https://issues.apache.org/jira/browse/PIG-2138) [PIG-2123](https://issues.apache.org/jira/browse/PIG-2123) [PIG-2119](https://issues.apache.org/jira/browse/PIG-2119) [PIG-2047](https://issues.apache.org/jira/browse/PIG-2047)
-However, given that I have still 1 month left before the official end of the GSoC, I will tackle the rest of the "Sugar" projects listed on the [PIG GSoC page](http://wiki.apache.org/pig/GSoc2011), which means adding syntax support for Tuple/Map/Bag conversions: [PIG-1387](https://issues.apache.org/jira/browse/PIG-1387)
+Actually it should not be an update, but a wrap-up, as I basically have finished my project for this year. My last patch already got a [+1](http://www.apache.org/foundation/voting.html) and it's just waiting for the tests to finish to be committed.
+I completed my selected tasks [PIG-1926](https://issues.apache.org/jira/browse/PIG-1926) and [PIG-1904](https://issues.apache.org/jira/browse/PIG-1904) (see my [previous post](/blog/2011/04/sugar-for-pig-gsoc11/) for an explanation of what they do), plus some more small fixes here and there: [PIG-2156](https://issues.apache.org/jira/browse/PIG-2156) [PIG-2136](https://issues.apache.org/jira/browse/PIG-2136) [PIG-2060](https://issues.apache.org/jira/browse/PIG-2060) [PIG-2026](https://issues.apache.org/jira/browse/PIG-2026) [PIG-2025](https://issues.apache.org/jira/browse/PIG-2025) [PIG-2024](https://issues.apache.org/jira/browse/PIG-2024)
+I also gave some longer term ideas on how to refactor the grammar to make it safer and easier to modify, and on some new features: [PIG-2138](https://issues.apache.org/jira/browse/PIG-2138) [PIG-2123](https://issues.apache.org/jira/browse/PIG-2123) [PIG-2119](https://issues.apache.org/jira/browse/PIG-2119) [PIG-2047](https://issues.apache.org/jira/browse/PIG-2047)
+However, given that I have still 1 month left before the official end of the GSoC, I will tackle the rest of the "Sugar" projects listed on the [PIG GSoC page](http://wiki.apache.org/pig/GSoc2011), which means adding syntax support for Tuple/Map/Bag conversions: [PIG-1387](https://issues.apache.org/jira/browse/PIG-1387)
 All my fixes will go in Pig 0.10, as 0.9 has already been branched and will be out very soon.
 Working on the front end has been a very interesting and enriching experience.
 

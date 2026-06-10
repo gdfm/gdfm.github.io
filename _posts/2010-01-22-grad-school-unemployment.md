@@ -13,20 +13,7 @@ tags:
   - "graph"
   - "phdcomics"
   - "unemployment"
-category_names:
-  - "Fun"
-tag_names:
-  - "comic"
-  - "grad school"
-  - "graph"
-  - "phdcomics"
-  - "unemployment"
 comments: false
-sitemap: false
-wp_id: 47
-wp_slug: "grad-school-unemployment"
-permalink_slug: "grad-school-unemployment"
-wp_url: "https://gdfm.me/2010/01/22/grad-school-unemployment/"
 ---
 
 [![](http://www.phdcomics.com/comics/archive/phd100108s.gif "Guess who's coming to Grad School")](http://www.phdcomics.com/comics/archive/phd100108s.gif)

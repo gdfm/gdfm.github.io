@@ -13,20 +13,7 @@ tags:
   - "social-media"
   - "workshop"
   - "www"
-category_names:
-  - "Research"
-tag_names:
-  - "news"
-  - "SNOW"
-  - "social media"
-  - "workshop"
-  - "WWW"
 comments: false
-sitemap: false
-wp_id: 1078
-wp_slug: "let-it-snow"
-permalink_slug: "let-it-snow"
-wp_url: "https://gdfm.me/2013/11/20/let-it-snow/"
 ---
 
 Christmas is approaching, even in Korea :)

@@ -10,17 +10,7 @@ categories:
 tags:
   - "gsoc"
   - "pig"
-category_names:
-  - "Technology"
-tag_names:
-  - "GSoC"
-  - "pig"
 comments: false
-sitemap: false
-wp_id: 146
-wp_slug: "gsoc-wrap-up"
-permalink_slug: "gsoc-wrap-up"
-wp_url: "https://gdfm.me/2010/09/01/gsoc-wrap-up/"
 ---
 
 GSoC 2010 is over!

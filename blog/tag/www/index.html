@@ -8,21 +8,10 @@ exclude_from_nav: true
 sitemap: false
 ---
 
-<p><a href="{{ '/tags/' | relative_url }}">&larr; All tags</a></p>
-
-{% assign found_posts = false %}
+{% assign posts_for_archive = site.posts | where_exp: "post", "post.tags contains 'www'" %}
+{% assign archive_posts = posts_for_archive %}
 <ul class="post-list">
-{% for post in site.posts %}
-  {% if post.tags contains "www" %}
-    {% assign found_posts = true %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y-%m-%d' }}</time>
-    </li>
-  {% endif %}
+{% for post in archive_posts %}
+  <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
-
-{% unless found_posts %}
-<p>No posts found.</p>
-{% endunless %}

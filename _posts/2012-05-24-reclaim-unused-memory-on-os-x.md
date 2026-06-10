@@ -10,17 +10,7 @@ categories:
 tags:
   - "mac-os-x"
   - "memory"
-category_names:
-  - "Technology"
-tag_names:
-  - "Mac OS X"
-  - "memory"
 comments: false
-sitemap: false
-wp_id: 785
-wp_slug: "reclaim-unused-memory-on-os-x"
-permalink_slug: "reclaim-unused-memory-on-os-x"
-wp_url: "https://gdfm.me/2012/05/24/reclaim-unused-memory-on-os-x/"
 ---
 
 Just discovered this command line tool today!

@@ -11,18 +11,7 @@ categories:
 tags:
   - "acceptance-rate"
   - "competition"
-category_names:
-  - "Musing"
-  - "Research"
-tag_names:
-  - "acceptance rate"
-  - "competition"
 comments: false
-sitemap: false
-wp_id: 711
-wp_slug: "on-reporting-acceptance-rates"
-permalink_slug: "on-reporting-acceptance-rates"
-wp_url: "https://gdfm.me/2012/02/16/on-reporting-acceptance-rates/"
 ---
 
 Just to be clear, this is my own biased opinion on the issue.

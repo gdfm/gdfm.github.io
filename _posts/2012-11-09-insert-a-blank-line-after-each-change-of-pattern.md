@@ -11,21 +11,10 @@ tags:
   - "blank"
   - "text"
   - "vim"
-category_names:
-  - "Technology"
-tag_names:
-  - "blank"
-  - "text"
-  - "vim"
 comments: false
-sitemap: false
-wp_id: 893
-wp_slug: "insert-a-blank-line-after-each-change-of-pattern"
-permalink_slug: "insert-a-blank-line-after-each-change-of-pattern"
-wp_url: "https://gdfm.me/2012/11/09/insert-a-blank-line-after-each-change-of-pattern/"
 ---
 
-<pre>:g/^\(\w\+\).*\n\1\@!./pu_</pre>
+@@WXR\_RAW\_BLOCK\_0@@
 Inserts a blank after every line that does not start with the same word as the immediately following line.
 Extremely useful for .tsv and .csv files.
 (might need some tweaking for non-word characters)

@@ -13,20 +13,7 @@ tags:
   - "latte"
   - "starbucks"
   - "usa"
-category_names:
-  - "Travel"
-tag_names:
-  - "breakfast"
-  - "cookie"
-  - "latte"
-  - "Starbucks"
-  - "USA"
 comments: false
-sitemap: false
-wp_id: 753
-wp_slug: "american-style-breakfast"
-permalink_slug: "american-style-breakfast"
-wp_url: "https://gdfm.me/2012/07/07/american-style-breakfast/"
 ---
 
 [![American style breakfast](/assets/media/2012/04/cookie-latte.jpg "Cookie Latte")](/assets/media/2012/04/cookie-latte.jpg)

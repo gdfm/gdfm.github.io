@@ -16,23 +16,7 @@ tags:
   - "samoa"
   - "storm"
   - "stream-processing"
-category_names:
-  - "Research"
-  - "Technology"
-tag_names:
-  - "big data"
-  - "data mining"
-  - "machine learning"
-  - "S4"
-  - "SAMOA"
-  - "Storm"
-  - "stream processing"
 comments: false
-sitemap: false
-wp_id: 1072
-wp_slug: "samoa-an-open-source-platform-for-mining-big-data-streams"
-permalink_slug: "samoa-an-open-source-platform-for-mining-big-data-streams"
-wp_url: "https://gdfm.me/2013/10/29/samoa-an-open-source-platform-for-mining-big-data-streams/"
 ---
 
 Ever itched to do machine learning and data mining on streams? On huge, *big data*streams?

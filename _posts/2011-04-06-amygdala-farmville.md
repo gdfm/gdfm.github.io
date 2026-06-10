@@ -12,19 +12,7 @@ tags:
   - "facebook"
   - "google"
   - "privacy"
-category_names:
-  - "Musing"
-  - "Technology"
-tag_names:
-  - "Facebook"
-  - "Google"
-  - "privacy"
 comments: false
-sitemap: false
-wp_id: 359
-wp_slug: "amygdala-farmville"
-permalink_slug: "amygdala-farmville"
-wp_url: "https://gdfm.me/2011/04/06/amygdala-farmville/"
 ---
 
 Are you really aware of the price you are paying for Web commodities?

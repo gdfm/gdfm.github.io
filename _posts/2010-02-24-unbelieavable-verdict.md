@@ -11,18 +11,7 @@ tags:
   - "google"
   - "italy"
   - "net-neutrality"
-category_names:
-  - "Technology"
-tag_names:
-  - "Google"
-  - "Italy"
-  - "net neutrality"
 comments: false
-sitemap: false
-wp_id: 63
-wp_slug: "unbelieavable-verdict"
-permalink_slug: "unbelieavable-verdict"
-wp_url: "https://gdfm.me/2010/02/24/unbelieavable-verdict/"
 ---
 
 Three executives of Google Italy have been sentenced to 6 month of reclusion for not avoiding the diffusion of a video on Google video. The video portrayed a group of students beating up and insulting another student who has Down syndrome. They are being held responsible for the content of the video and this puts Google video on the same level of a newspaper.

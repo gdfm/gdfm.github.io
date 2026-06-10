@@ -9,16 +9,7 @@ categories:
   - "phd"
 tags:
   - "thesis"
-category_names:
-  - "PhD"
-tag_names:
-  - "thesis"
 comments: false
-sitemap: false
-wp_id: 700
-wp_slug: "endthesis"
-permalink_slug: "endthesis"
-wp_url: "https://gdfm.me/2012/01/13/endthesis/"
 ---
 
 Fiuuuuuu.

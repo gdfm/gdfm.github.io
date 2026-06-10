@@ -10,17 +10,7 @@ categories:
 tags:
   - "comic"
   - "zebra"
-category_names:
-  - "Fun"
-tag_names:
-  - "comic"
-  - "zebra"
 comments: false
-sitemap: false
-wp_id: 124
-wp_slug: "zebras-do-not-have-feelings"
-permalink_slug: "zebras-do-not-have-feelings"
-wp_url: "https://gdfm.me/2010/08/07/zebras-do-not-have-feelings/"
 ---
 
 [Be a zebra!](http://dresdencodak.com/2006/03/23/be-a-zebra/)

@@ -8,15 +8,7 @@ permalink: "/blog/2015/12/matplotlib-scipy-numpy-and-pandas-coming-together-in-p
 categories:
   - "uncategorized"
 tags: []
-category_names:
-  - "Uncategorized"
-tag_names: []
 comments: false
-sitemap: false
-wp_id: 1326
-wp_slug: "matplotlib-scipy-numpy-and-pandas-coming-together-in-perfect-harmony"
-permalink_slug: "matplotlib-scipy-numpy-and-pandas-coming-together-in-perfect-harmony"
-wp_url: "https://gdfm.me/2015/12/06/matplotlib-scipy-numpy-and-pandas-coming-together-in-perfect-harmony/"
 ---
 
 Source: [Matplotlib, SciPy, NumPy, and pandas: Coming Together in Perfect Harmony](http://sabermetricinsights.blogspot.com/2014/05/matplotlib-scipy-numpy-and-pandas.html)

@@ -11,18 +11,7 @@ tags:
   - "japanese"
   - "kenkyuu"
   - "research"
-category_names:
-  - "Fun"
-tag_names:
-  - "japanese"
-  - "kenkyuu"
-  - "research"
 comments: false
-sitemap: false
-wp_id: 331
-wp_slug: "kenkyuu-means"
-permalink_slug: "kenkyuu-means"
-wp_url: "https://gdfm.me/2011/01/23/kenkyuu-means/"
 ---
 
 ...research, in Japanese.

@@ -12,19 +12,7 @@ tags:
   - "philosophy"
   - "problem"
   - "quote"
-category_names:
-  - "Musing"
-tag_names:
-  - "attitude"
-  - "philosophy"
-  - "problem"
-  - "quote"
 comments: false
-sitemap: false
-wp_id: 888
-wp_slug: "quote-of-the-day-5"
-permalink_slug: "quote-of-the-day-5"
-wp_url: "https://gdfm.me/2012/11/07/quote-of-the-day-5/"
 ---
 
 > The problem is not the problem.

@@ -13,20 +13,7 @@ categories:
 tags:
   - "phd"
   - "research"
-category_names:
-  - "Fun"
-  - "Musing"
-  - "PhD"
-  - "Research"
-tag_names:
-  - "phd"
-  - "research"
 comments: false
-sitemap: false
-wp_id: 992
-wp_slug: "research-makes-you-feel-stupid"
-permalink_slug: "research-makes-you-feel-stupid"
-wp_url: "https://gdfm.me/2013/03/01/research-makes-you-feel-stupid/"
 ---
 
 If it doesn’t, you’re not doing it right.

@@ -13,20 +13,7 @@ tags:
   - "quote"
   - "shadow"
   - "time"
-category_names:
-  - "Musing"
-tag_names:
-  - "latin"
-  - "life"
-  - "quote"
-  - "shadow"
-  - "time"
 comments: false
-sitemap: false
-wp_id: 799
-wp_slug: "vita-fugit-sicut-umbra"
-permalink_slug: "vita-fugit-sicut-umbra"
-wp_url: "https://gdfm.me/2012/08/31/vita-fugit-sicut-umbra/"
 ---
 
 > Life passes like the shadow.

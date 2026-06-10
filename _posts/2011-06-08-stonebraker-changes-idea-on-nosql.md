@@ -11,18 +11,7 @@ tags:
   - "data-base"
   - "distributed-systems"
   - "nosql"
-category_names:
-  - "PhD"
-tag_names:
-  - "data base"
-  - "distributed systems"
-  - "nosql"
 comments: false
-sitemap: false
-wp_id: 512
-wp_slug: "stonebraker-changes-idea-on-nosql"
-permalink_slug: "stonebraker-changes-idea-on-nosql"
-wp_url: "https://gdfm.me/2011/06/08/stonebraker-changes-idea-on-nosql/"
 ---
 
 A much more objective article on NoSQL storage systems by Stonebraker.

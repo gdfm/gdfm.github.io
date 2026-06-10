@@ -9,16 +9,7 @@ categories:
   - "fun"
 tags:
   - "experience"
-category_names:
-  - "Fun"
-tag_names:
-  - "experience"
 comments: false
-sitemap: false
-wp_id: 221
-wp_slug: "experience-is-overrated"
-permalink_slug: "experience-is-overrated"
-wp_url: "https://gdfm.me/2010/12/29/experience-is-overrated/"
 ---
 
 [![Dilbert - 30 years of experience](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/00000/8000/700/108771/108771.strip.gif "Dilbert - 30 years of experience")](http://dilbert.com/strips/comic/2010-12-23/ "Dilbert - 30 years of experience")

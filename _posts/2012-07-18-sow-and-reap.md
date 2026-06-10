@@ -17,24 +17,7 @@ tags:
   - "reap"
   - "sow"
   - "thought"
-category_names:
-  - "Musing"
-tag_names:
-  - "action"
-  - "character"
-  - "destiny"
-  - "habit"
-  - "philosophy"
-  - "quote"
-  - "reap"
-  - "sow"
-  - "thought"
 comments: false
-sitemap: false
-wp_id: 816
-wp_slug: "sow-and-reap"
-permalink_slug: "sow-and-reap"
-wp_url: "https://gdfm.me/2012/07/18/sow-and-reap/"
 ---
 
 > Sow a thought, reap an action.
@@ -42,4 +25,4 @@ wp_url: "https://gdfm.me/2012/07/18/sow-and-reap/"
 > Sow a habit, reap a character.
 > Sow a character, reap a destiny.
 >
-> *Old Chinese saying  (allegedly)*
+> *Old Chinese saying  (allegedly)*

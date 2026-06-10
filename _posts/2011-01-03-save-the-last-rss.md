@@ -12,19 +12,7 @@ tags:
   - "freedom"
   - "privacy"
   - "rss"
-category_names:
-  - "Technology"
-tag_names:
-  - "Facebook"
-  - "freedom"
-  - "privacy"
-  - "rss"
 comments: false
-sitemap: false
-wp_id: 271
-wp_slug: "save-the-last-rss"
-permalink_slug: "save-the-last-rss"
-wp_url: "https://gdfm.me/2011/01/03/save-the-last-rss/"
 ---
 
 I have already explained [why I don't have a Facebook account](/blog/2010/04/freedom-in-the-cloud/).

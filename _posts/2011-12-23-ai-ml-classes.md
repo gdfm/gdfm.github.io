@@ -13,20 +13,7 @@ tags:
   - "learning"
   - "machine-learning"
   - "stanford"
-category_names:
-  - "Research"
-tag_names:
-  - "artificial intelligence"
-  - "class"
-  - "learning"
-  - "machine learning"
-  - "Stanford"
 comments: false
-sitemap: false
-wp_id: 653
-wp_slug: "ai-ml-classes"
-permalink_slug: "ai-ml-classes"
-wp_url: "https://gdfm.me/2011/12/23/ai-ml-classes/"
 ---
 
 Finally over, the [AI](https://www.ai-class.com "AI Class") and [ML](http://www.ml-class.org "ML Class") Stanford classes finished last week.

@@ -10,17 +10,7 @@ categories:
 tags:
   - "philosophy"
   - "tradition"
-category_names:
-  - "Musing"
-tag_names:
-  - "philosophy"
-  - "tradition"
 comments: false
-sitemap: false
-wp_id: 193
-wp_slug: "night-thought"
-permalink_slug: "night-thought"
-wp_url: "https://gdfm.me/2010/12/09/night-thought/"
 ---
 
 > Traditions = Wisdom - Understanding

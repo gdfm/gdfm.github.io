@@ -13,20 +13,7 @@ tags:
   - "rant"
   - "slogan"
   - "twitter"
-category_names:
-  - "Musing"
-  - "Technology"
-tag_names:
-  - "conversation"
-  - "rant"
-  - "slogan"
-  - "Twitter"
 comments: false
-sitemap: false
-wp_id: 781
-wp_slug: "140-character-slogan"
-permalink_slug: "140-character-slogan"
-wp_url: "https://gdfm.me/2012/05/12/140-character-slogan/"
 ---
 
 <rant>

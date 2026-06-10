@@ -11,18 +11,7 @@ categories:
 tags:
   - "big-data"
   - "failure"
-category_names:
-  - "Musing"
-  - "Research"
-tag_names:
-  - "big data"
-  - "failure"
 comments: false
-sitemap: false
-wp_id: 778
-wp_slug: "the-true-problem-with-big-data-2"
-permalink_slug: "the-true-problem-with-big-data-2"
-wp_url: "https://gdfm.me/2012/05/03/the-true-problem-with-big-data-2/"
 ---
 
 Is that if anything has the slightest chance to go wrong, it will go *horribly* wrong.

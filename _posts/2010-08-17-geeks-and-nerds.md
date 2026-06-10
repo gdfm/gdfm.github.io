@@ -12,19 +12,7 @@ tags:
   - "geek"
   - "nerd"
   - "xkcd"
-category_names:
-  - "Fun"
-tag_names:
-  - "comic"
-  - "geek"
-  - "nerd"
-  - "xkcd"
 comments: false
-sitemap: false
-wp_id: 159
-wp_slug: "geeks-and-nerds"
-permalink_slug: "geeks-and-nerds"
-wp_url: "https://gdfm.me/2010/08/17/geeks-and-nerds/"
 ---
 
 [![Geends and Nerds Venn diagram](http://imgs.xkcd.com/comics/geeks_and_nerds.png "Geeks vs Nerds")](http://xkcd.com/747/)

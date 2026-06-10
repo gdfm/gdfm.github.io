@@ -11,18 +11,7 @@ tags:
   - "math"
   - "philosophy"
   - "quote"
-category_names:
-  - "Musing"
-tag_names:
-  - "math"
-  - "philosophy"
-  - "quote"
 comments: false
-sitemap: false
-wp_id: 180
-wp_slug: "quote-of-the-day"
-permalink_slug: "quote-of-the-day"
-wp_url: "https://gdfm.me/2010/10/18/quote-of-the-day/"
 ---
 
 > The greatest shortcoming of the human race

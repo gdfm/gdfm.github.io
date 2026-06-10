@@ -11,18 +11,7 @@ tags:
   - "research"
   - "usa"
   - "yahoo"
-category_names:
-  - "Travel"
-tag_names:
-  - "research"
-  - "USA"
-  - "Yahoo"
 comments: false
-sitemap: false
-wp_id: 830
-wp_slug: "california-dreamin"
-permalink_slug: "california-dreamin"
-wp_url: "https://gdfm.me/2012/09/21/california-dreamin/"
 ---
 
 The american dream awaits.

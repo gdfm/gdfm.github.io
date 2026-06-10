@@ -13,20 +13,7 @@ tags:
   - "phd"
   - "philosophy"
   - "self-realization"
-category_names:
-  - "Musing"
-  - "PhD"
-tag_names:
-  - "meaning"
-  - "phd"
-  - "philosophy"
-  - "self realization"
 comments: false
-sitemap: false
-wp_id: 616
-wp_slug: "the-real-meaning-of-a-phd"
-permalink_slug: "the-real-meaning-of-a-phd"
-wp_url: "https://gdfm.me/2012/07/14/the-real-meaning-of-a-phd/"
 ---
 
 It is not about research, science, publishing, or conferences: it is about *you*.

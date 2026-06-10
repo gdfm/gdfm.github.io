@@ -11,18 +11,7 @@ tags:
   - "disappointment"
   - "expexctation"
   - "philosophy"
-category_names:
-  - "Musing"
-tag_names:
-  - "disappointment"
-  - "expexctation"
-  - "philosophy"
 comments: false
-sitemap: false
-wp_id: 555
-wp_slug: "expectations"
-permalink_slug: "expectations"
-wp_url: "https://gdfm.me/2011/06/22/expectations/"
 ---
 
 Recipe for disappointment.

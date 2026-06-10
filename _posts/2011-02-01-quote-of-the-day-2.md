@@ -12,19 +12,7 @@ tags:
   - "growth"
   - "mad"
   - "quote"
-category_names:
-  - "Musing"
-tag_names:
-  - "economy"
-  - "growth"
-  - "mad"
-  - "quote"
 comments: false
-sitemap: false
-wp_id: 339
-wp_slug: "quote-of-the-day-2"
-permalink_slug: "quote-of-the-day-2"
-wp_url: "https://gdfm.me/2011/02/01/quote-of-the-day-2/"
 ---
 
 > Anyone who believes exponential growth can go on forever

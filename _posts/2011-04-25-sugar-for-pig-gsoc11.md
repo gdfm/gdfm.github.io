@@ -12,19 +12,7 @@ tags:
   - "gsoc"
   - "pig"
   - "syntactic-sugar"
-category_names:
-  - "Technology"
-tag_names:
-  - "cheers"
-  - "GSoC"
-  - "pig"
-  - "syntactic sugar"
 comments: false
-sitemap: false
-wp_id: 442
-wp_slug: "sugar-for-pig-gsoc11"
-permalink_slug: "sugar-for-pig-gsoc11"
-wp_url: "https://gdfm.me/2011/04/25/sugar-for-pig-gsoc11/"
 ---
 
 My proposal for this year's Google Summer of Code (GSoC) has been accepted!

@@ -11,18 +11,7 @@ tags:
   - "complexity"
   - "philosophy"
   - "quote"
-category_names:
-  - "Musing"
-tag_names:
-  - "complexity"
-  - "philosophy"
-  - "quote"
 comments: false
-sitemap: false
-wp_id: 191
-wp_slug: "quote-of-the-day-4"
-permalink_slug: "quote-of-the-day-4"
-wp_url: "https://gdfm.me/2011/11/05/quote-of-the-day-4/"
 ---
 
 > When things get complicated enough,

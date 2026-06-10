@@ -12,19 +12,7 @@ tags:
   - "award"
   - "patent"
   - "yahoo"
-category_names:
-  - "Fun"
-  - "Research"
-tag_names:
-  - "award"
-  - "patent"
-  - "Yahoo"
 comments: false
-sitemap: false
-wp_id: 1018
-wp_slug: "my-first-cube"
-permalink_slug: "my-first-cube"
-wp_url: "https://gdfm.me/2014/01/11/my-first-cube/"
 ---
 
 ![Yahoo patent cube](/assets/media/2014/02/2014-02-13-14-12-04.jpg)

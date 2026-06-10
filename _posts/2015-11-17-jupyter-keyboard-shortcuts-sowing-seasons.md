@@ -8,15 +8,7 @@ permalink: "/blog/2015/11/jupyter-keyboard-shortcuts-sowing-seasons/"
 categories:
   - "uncategorized"
 tags: []
-category_names:
-  - "Uncategorized"
-tag_names: []
 comments: false
-sitemap: false
-wp_id: 1324
-wp_slug: "jupyter-keyboard-shortcuts-sowing-seasons"
-permalink_slug: "jupyter-keyboard-shortcuts-sowing-seasons"
-wp_url: "https://gdfm.me/2015/11/17/jupyter-keyboard-shortcuts-sowing-seasons/"
 ---
 
 Cheat sheet for the IPython shell's keyboard shortcuts.

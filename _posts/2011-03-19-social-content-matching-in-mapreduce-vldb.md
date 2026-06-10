@@ -15,22 +15,7 @@ tags:
   - "paper"
   - "vldb"
   - "yahoo"
-category_names:
-  - "PhD"
-tag_names:
-  - "content"
-  - "graph"
-  - "mapreduce"
-  - "matching"
-  - "paper"
-  - "vldb"
-  - "Yahoo"
 comments: false
-sitemap: false
-wp_id: 366
-wp_slug: "social-content-matching-in-mapreduce-vldb"
-permalink_slug: "social-content-matching-in-mapreduce-vldb"
-wp_url: "https://gdfm.me/2011/03/19/social-content-matching-in-mapreduce-vldb/"
 ---
 
 My last work *"Social Content Matching in MapReduce"* got accepted in VLDB

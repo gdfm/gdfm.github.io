@@ -8,15 +8,7 @@ permalink: "/blog/2012/02/closing-circles/"
 categories:
   - "uncategorized"
 tags: []
-category_names:
-  - "Uncategorized"
-tag_names: []
 comments: false
-sitemap: false
-wp_id: 716
-wp_slug: "closing-circles"
-permalink_slug: "closing-circles"
-wp_url: "https://gdfm.me/2012/02/28/closing-circles/"
 ---
 
 ...

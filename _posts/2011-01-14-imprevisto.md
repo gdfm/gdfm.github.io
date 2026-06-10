@@ -8,15 +8,7 @@ permalink: "/blog/2011/01/imprevisto/"
 categories:
   - "uncategorized"
 tags: []
-category_names:
-  - "Uncategorized"
-tag_names: []
 comments: false
-sitemap: false
-wp_id: 325
-wp_slug: "imprevisto"
-permalink_slug: "imprevisto"
-wp_url: "https://gdfm.me/2011/01/14/imprevisto/"
 ---
 
 !

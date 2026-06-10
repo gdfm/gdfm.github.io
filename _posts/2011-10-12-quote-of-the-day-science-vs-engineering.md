@@ -13,20 +13,7 @@ tags:
   - "engineer"
   - "quote"
   - "science"
-category_names:
-  - "Musing"
-  - "Technology"
-tag_names:
-  - "abstraction"
-  - "engineer"
-  - "quote"
-  - "science"
 comments: false
-sitemap: false
-wp_id: 629
-wp_slug: "quote-of-the-day-science-vs-engineering"
-permalink_slug: "quote-of-the-day-science-vs-engineering"
-wp_url: "https://gdfm.me/2011/10/12/quote-of-the-day-science-vs-engineering/"
 ---
 
 > In science, if you know what you are doing, you should not be doing it. In engineering, if you do not know what you are doing, you should not be doing it. Of course, you seldom, if ever, see either pure state.

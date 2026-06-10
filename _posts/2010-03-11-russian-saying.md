@@ -11,18 +11,7 @@ tags:
   - "russian"
   - "saying"
   - "vodka"
-category_names:
-  - "Fun"
-tag_names:
-  - "russian"
-  - "saying"
-  - "vodka"
 comments: false
-sitemap: false
-wp_id: 77
-wp_slug: "russian-saying"
-permalink_slug: "russian-saying"
-wp_url: "https://gdfm.me/2010/03/11/russian-saying/"
 ---
 
 There can be no ugly women,

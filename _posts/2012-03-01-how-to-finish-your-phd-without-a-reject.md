@@ -11,18 +11,7 @@ categories:
 tags:
   - "luck"
   - "reject"
-category_names:
-  - "Fun"
-  - "PhD"
-tag_names:
-  - "luck"
-  - "reject"
 comments: false
-sitemap: false
-wp_id: 657
-wp_slug: "how-to-finish-your-phd-without-a-reject"
-permalink_slug: "how-to-finish-your-phd-without-a-reject"
-wp_url: "https://gdfm.me/2012/03/01/how-to-finish-your-phd-without-a-reject/"
 ---
 
 Be lucky.

@@ -14,21 +14,7 @@ tags:
   - "google"
   - "information-overload"
   - "society"
-category_names:
-  - "Musing"
-  - "Technology"
-tag_names:
-  - "black mirror"
-  - "glass"
-  - "Google"
-  - "information overload"
-  - "society"
 comments: false
-sitemap: false
-wp_id: 914
-wp_slug: "google-glass-and-the-black-mirror"
-permalink_slug: "google-glass-and-the-black-mirror"
-wp_url: "https://gdfm.me/2013/04/06/google-glass-and-the-black-mirror/"
 ---
 
 > In the future, thanks to the Grain, a chip which can be implanted on a hard drive in the brain,every single action that a person makes is recorded and may be played back. Liam, a lawyer, married with a child, suspects that his wife Fi is having a fling with the brash Jonas,whom they meet at a dinner party. After playing clips from his own 'Grain' his suspicions are confirmed, and he gets drunk and attacks Jonas, forcing the guilty pair to show him what is in their memory banks. In fact the affair has been going on for months and Liam attacks Jonas, demanding that he erase all memories of Fi from his brain. This, however, does not result in marital reconciliation.

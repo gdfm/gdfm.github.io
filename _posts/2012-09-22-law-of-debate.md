@@ -12,19 +12,7 @@ tags:
   - "argue"
   - "idiot"
   - "murphy"
-category_names:
-  - "Fun"
-  - "Musing"
-tag_names:
-  - "argue"
-  - "idiot"
-  - "murphy"
 comments: false
-sitemap: false
-wp_id: 841
-wp_slug: "law-of-debate"
-permalink_slug: "law-of-debate"
-wp_url: "https://gdfm.me/2012/09/22/law-of-debate/"
 ---
 
 > "Never argue with an idiot.

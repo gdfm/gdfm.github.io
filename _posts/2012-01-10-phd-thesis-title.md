@@ -13,20 +13,7 @@ tags:
   - "phdcomics"
   - "thesis"
   - "title"
-category_names:
-  - "Fun"
-  - "PhD"
-tag_names:
-  - "comic"
-  - "phdcomics"
-  - "thesis"
-  - "title"
 comments: false
-sitemap: false
-wp_id: 691
-wp_slug: "phd-thesis-title"
-permalink_slug: "phd-thesis-title"
-wp_url: "https://gdfm.me/2012/01/10/phd-thesis-title/"
 ---
 
 ![PhD Comics - How to choose your PhD thesis title](http://www.phdcomics.com/comics/archive/phd053106s.gif "How to choose your PhD thesis title")

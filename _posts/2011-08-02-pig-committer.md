@@ -12,19 +12,7 @@ tags:
   - "cheers"
   - "committer"
   - "pig"
-category_names:
-  - "Technology"
-tag_names:
-  - "acknowledgement"
-  - "cheers"
-  - "committer"
-  - "pig"
 comments: false
-sitemap: false
-wp_id: 599
-wp_slug: "pig-committer"
-permalink_slug: "pig-committer"
-wp_url: "https://gdfm.me/2011/08/02/pig-committer/"
 ---
 
 Starting from today, I am officially a Pig committer!

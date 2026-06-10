@@ -10,17 +10,7 @@ categories:
 tags:
   - "barcelona"
   - "bike"
-category_names:
-  - "Fun"
-tag_names:
-  - "Barcelona"
-  - "bike"
 comments: false
-sitemap: false
-wp_id: 565
-wp_slug: "gentle-manners"
-permalink_slug: "gentle-manners"
-wp_url: "https://gdfm.me/2011/07/06/gentle-manners/"
 ---
 
 Asking to use the appropriate cycling track by ramming into the biker with your 85 years old wife on a wheelchair.

@@ -14,21 +14,7 @@ tags:
   - "research"
   - "science"
   - "technology"
-category_names:
-  - "Fun"
-  - "Technology"
-tag_names:
-  - "data science"
-  - "machine learning"
-  - "research"
-  - "science"
-  - "technology"
 comments: false
-sitemap: false
-wp_id: 902
-wp_slug: "data-scientist"
-permalink_slug: "data-scientist"
-wp_url: "https://gdfm.me/2012/11/27/data-scientist/"
 ---
 
 > Person that does not know how machine learning works,

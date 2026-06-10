@@ -12,19 +12,7 @@ tags:
   - "cubicle"
   - "desk"
   - "yahoo"
-category_names:
-  - "Fun"
-  - "PhD"
-tag_names:
-  - "cubicle"
-  - "desk"
-  - "Yahoo"
 comments: false
-sitemap: false
-wp_id: 446
-wp_slug: "tough-environment"
-permalink_slug: "tough-environment"
-wp_url: "https://gdfm.me/2011/05/07/tough-environment/"
 ---
 
 At Yahoo! Research, you need a Ph.D. to get a cubicle.
