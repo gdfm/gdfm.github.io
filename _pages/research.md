@@ -6,16 +6,16 @@ permalink: /research/
 
 ## Publications
 
-- D. Bär, F. Corso, G. De Francisci Morales, S. Feuerriegel, F. Pierri
-[“Gender-based discrepancies in the algorithmic delivery of political ads on social media”](https://arxiv.org/abs/2606.10834)
+- D. Bär, F. Corso, G. De Francisci Morales, S. Feuerriegel, F. Pierri  
+[“Gender-based discrepancies in the algorithmic delivery of political ads on social media”](https://arxiv.org/abs/2606.10834)  
 arXiv:2606.10834, 2026.
 
-- A. Cercas Curry, L. La Cava, L. M. Aiello, G. De Francisci Morales,
-[“Learning Perspectivist Social Meaning via Demographic-Conditioned Fusion Embeddings”](https://arxiv.org/abs/2606.07123)
+- A. Cercas Curry, L. La Cava, L. M. Aiello, G. De Francisci Morales  
+[“Learning Perspectivist Social Meaning via Demographic-Conditioned Fusion Embeddings”](https://arxiv.org/abs/2606.07123)  
 arXiv:2606.07123, 2026.
 
-- A. Cercas Curry, G. De Francisci Morales, L. M. Aiello
-[“P1SCO: Social Dimensions from a Perspectivist Lens”](https://arxiv.org/abs/2605.25312)
+- A. Cercas Curry, G. De Francisci Morales, L. M. Aiello  
+[“P1SCO: Social Dimensions from a Perspectivist Lens”](https://arxiv.org/abs/2605.25312)  
 arXiv:2605.25312, 2026.
 
 - B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
@@ -36,11 +36,11 @@ arXiv:2601.17658, 2026.
 
 - A. Attanasio, F. Corso, G. De Francisci Morales, F. Pierri  
 [“Effects of Mainstream Visibility on Conspiracy Communities: Reddit after Epstein's 'Suicide'”](https://arxiv.org/abs/2512.24351)  
-ICWSM '26: International AAAI Conference on Web and Social Media, pp. _−_, Los Angeles, 2026.
+ICWSM '26: International AAAI Conference on Web and Social Media, pp. 174−185, Los Angeles, 2026.
 
 - S. Feuerriegel, C. Barrie, M. J. Crockett, L. K. Globig, K. L. McLoughlin, D. M. Mirea, A. Spirling, D. Yang, T. Althoff, M. Antoniak, L. P. Argyle, A. Ashokkumar, M. Atari, H. Bailey, K. Bauer, U. Bhatt, H. Daumé III, G. De Francisci Morales, M. Dehghani, D. Dillion, J. C. Eichstaedt, K. Forster, D. Geissler, K. Gray, T. L. Griffiths, J. Hartmann, O. P. Hauser, J. K. He, F. Holzmeister, A. H.-C. Hwang, T. Hu, A. A. Ivanova, N. Köbis, Y. Kyrychenko, H. Lakkaraju, A. Maarouf, S. Maier, L. Meincke, R. Mihalcea, B. Mittelstadt, S. M. Mohammad, M. Naaman, O. Netzer, D. C. Ong, B. Plank, F. Pierri, I. Rahwan, C. E. Robertson, D. M. Rothschild, M. J. Salganik, E. Schulz, C. Shah, Y. R. Shrestha, E. Shutova, A. A. Siegel, H. Sun, M. Toetzke, J. J. Van Bavel, M. Vaccaro, J. W. Vaughan, E. Vayena, B. Vecchione, A. Wang, R. West, R. Willer, D. U. Wulff, S. Zhang, S. Rathje, M. H. Ribeiro  
-[“GUIDE-LLM: A consensus-based reporting checklist for large language models in behavioral and social science”](https://www.llm-checklist.com)  
-NatHB: Nature Human Behaviour, _, 2026.
+[“GUIDE-LLM: A reporting checklist for LLMs in behavioural science”](https://www.llm-checklist.com)  
+NatHB: [Nature Human Behaviour](https://doi.org/10.1038/s41562-026-02492-7), 2026.
 
 - J. Lenti, G. De Francisci Morales  
 [“Estimating Parameters of Agent-Based Models from Data: A Methodological Review”](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6275619)  
