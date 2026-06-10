@@ -6,6 +6,18 @@ permalink: /research/
 
 ## Publications
 
+- D. Bär, F. Corso, G. De Francisci Morales, S. Feuerriegel, F. Pierri
+[“Gender-based discrepancies in the algorithmic delivery of political ads on social media”](https://arxiv.org/abs/2606.10834)
+arXiv:2606.10834, 2026.
+
+- A. Cercas Curry, L. La Cava, L. M. Aiello, G. De Francisci Morales,
+[“Learning Perspectivist Social Meaning via Demographic-Conditioned Fusion Embeddings”](https://arxiv.org/abs/2606.07123)
+arXiv:2606.07123, 2026.
+
+- A. Cercas Curry, G. De Francisci Morales, L. M. Aiello
+[“P1SCO: Social Dimensions from a Perspectivist Lens”](https://arxiv.org/abs/2605.25312)
+arXiv:2605.25312, 2026.
+
 - B. Kolic, C. Monti, G. De Francisci Morales, M. Pangallo  
 [“Comparing Data Assimilation and Likelihood-Based Inference on Latent State Estimation in Agent-Based Models”](http://arxiv.org/abs/2509.17625)  
 PNAS Nexus, 5(5):[pgag161](https://doi.org/10.1093/pnasnexus/pgag161), 2026.
