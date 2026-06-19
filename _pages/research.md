@@ -6,6 +6,10 @@ permalink: /research/
 
 ## Publications
 
+- M. Bianchetti, G. D'Acunto, G. De Francisci Morales, Y. Kuroki, M. Scaringi, F. Vitale  
+[“Risk-Aware Trading Portfolio Optimization”](https://arxiv.org/pdf/2503.04662)  
+ANOR: Annals of Operations Research, \_(\_):\_, 2026.
+
 - D. Bär, F. Corso, G. De Francisci Morales, S. Feuerriegel, F. Pierri  
 [“Gender-based discrepancies in the algorithmic delivery of political ads on social media”](https://arxiv.org/abs/2606.10834)  
 arXiv:2606.10834, 2026.
@@ -81,10 +85,6 @@ ACL '25: Annual Meeting of the Association for Computational Linguistics, pp. 83
 - J. Lenti, F. Silvestri, G. De Francisci Morales  
 [“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/pdf/2403.05358)   
 ICWSM '25: International AAAI Conference on Web and Social Media, pp. 2622−2627, Copenhagen, 2025.
-
-- M. Bianchetti, G. D'Acunto, G. De Francisci Morales, Y. Kuroki, M. Scaringi, F. Vitale  
-[“Risk-Aware Trading Portfolio Optimization”](https://arxiv.org/pdf/2503.04662)  
-arXiv:2503.04662, 2025.
 
 - F. Cinus, C. Monti, P. Bajardi, G. De Francisci Morales  
 [“On the Inference of Sociodemographics on Reddit”](https://arxiv.org/pdf/2502.05049)  
