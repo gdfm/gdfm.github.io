@@ -612,7 +612,7 @@ PC Chair:
 
 Senior PC member / Area chair:
 - WWW '23-24-26
-- KDD '26
+- KDD '26-27
 - ICWSM '22-23-24-25-26
 - WSDM '23
 - WebSci '23-24-25-26
