@@ -32,7 +32,7 @@ arXiv:2604.05800, 2026.
 
 - F. Corso, G. Russo, F. Pierri, G. De Francisci Morales  
 [“Among Us: Language of Conspiracy Theorists on Mainstream Reddit”](https://arxiv.org/abs/2506.05086)  
-ACL '26: Annual Meeting of the Association for Computational Linguistics, pp. _−_, San Diego, 2026.
+ACL '26: Annual Meeting of the Association for Computational Linguistics, pp. 12996−13017, San Diego, 2026.
 
 - B. N. Doan, G. Russo, G. De Francisci Morales, R. West  
 [“Beyond the Rabbit Hole: Mapping the Relational Harms of QAnon Radicalization”](https://arxiv.org/abs/2601.17658)  
