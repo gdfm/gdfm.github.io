@@ -316,7 +316,7 @@ LBS '18: International Conference on Location Based Services, pp. 91−109, Zuri
 
 - K. Garimella, G. De Francisci Morales, A. Gionis, M. Mathioudakis  
 [“Quantifying Controversy on Social Media”](/assets/media/2018/02/quantifying-controversy-on-social-media.pdf)  
-TSC: ACM Transactions on Social Computing, 1(1):3, pp. 1−27, 2018.
+TSC: ACM Transactions on Social Computing, 1(1):3, pp. 1−27, 2018. **(landmark paper award)**
 
 - T. Vasiloudis, F. Beligianni, G. De Francisci Morales  
 [“BoostVHT: Boosting Distributed Streaming Decision Trees”](/assets/media/2010/05/boostvht-boosting-distributed-streaming-decision-trees.pdf)  
