@@ -8,7 +8,7 @@ permalink: /research/
 
 - M. Bianchetti, G. D'Acunto, G. De Francisci Morales, Y. Kuroki, M. Scaringi, F. Vitale  
 [“Risk-Aware Trading Portfolio Optimization”](https://arxiv.org/pdf/2503.04662)  
-ANOR: Annals of Operations Research, \_(\_):\_, 2026.
+ANOR: Annals of Operations Research, 2026.
 
 - D. Bär, F. Corso, G. De Francisci Morales, S. Feuerriegel, F. Pierri  
 [“Gender-based discrepancies in the algorithmic delivery of political ads on social media”](https://arxiv.org/abs/2606.10834)  
