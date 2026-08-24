@@ -6,6 +6,14 @@ permalink: /research/
 
 ## Publications
 
+- F. Corso, F. Pierri, G. De Francisci Morales  
+[“Do Androids Dream of Unseen Puppeteers? Probing for a Conspiracy Mindset in Large Language Models”](https://arxiv.org/abs/2511.03699)  
+EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. \_−\_, 2026
+
+- B. N. Doan, G. Russo, G. De Francisci Morales  
+[“Beyond the Rabbit Hole: Mapping the Relational Harms of QAnon Radicalization”](https://arxiv.org/abs/2601.17658)  
+EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. \_−\_, 2026
+
 - M. Bianchetti, G. D'Acunto, G. De Francisci Morales, Y. Kuroki, M. Scaringi, F. Vitale  
 [“Risk-Aware Trading Portfolio Optimization”](https://arxiv.org/pdf/2503.04662)  
 ANOR: Annals of Operations Research, 2026.
@@ -34,10 +42,6 @@ arXiv:2604.05800, 2026.
 [“Among Us: Language of Conspiracy Theorists on Mainstream Reddit”](https://arxiv.org/abs/2506.05086)  
 ACL '26: Annual Meeting of the Association for Computational Linguistics, pp. 12996−13017, San Diego, 2026.
 
-- B. N. Doan, G. Russo, G. De Francisci Morales, R. West  
-[“Beyond the Rabbit Hole: Mapping the Relational Harms of QAnon Radicalization”](https://arxiv.org/abs/2601.17658)  
-arXiv:2601.17658, 2026.
-
 - A. Attanasio, F. Corso, G. De Francisci Morales, F. Pierri  
 [“Effects of Mainstream Visibility on Conspiracy Communities: Reddit after Epstein's 'Suicide'”](https://arxiv.org/abs/2512.24351)  
 ICWSM '26: International AAAI Conference on Web and Social Media, pp. 174−185, Los Angeles, 2026.
@@ -65,10 +69,6 @@ TCSS: IEEE Transactions on Computational Social Systems _(_):_, 2026.
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
 [“DSP: A Statistically-Principled Structural Polarization Measure”](https://arxiv.org/abs/2512.03937)  
 WSDM '26: ACM International Conference on Web Search and Data Mining, pp. 531−540, Boise, 2026.
-
-- F. Corso, F. Pierri, G. De Francisci Morales  
-[“Do Androids Dream of Unseen Puppeteers? Probing for a Conspiracy Mindset in Large Language Models”](https://arxiv.org/abs/2511.03699)  
-arXiv:2511.03699, 2025.
 
 - L. Betti, P. Bajardi, G. De Francisci Morales  
 [“Moral Judgments in Online Discourse are not Biased by Gender”](https://arxiv.org/pdf/2408.12872)  
