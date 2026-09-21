@@ -15,7 +15,7 @@ EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. \
 EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. \_−\_, 2026
 
 - M. Bianchetti, G. D'Acunto, G. De Francisci Morales, Y. Kuroki, M. Scaringi, F. Vitale  
-[“Risk-Aware Trading Portfolio Optimization”](https://arxiv.org/pdf/2503.04662)  
+[“Risk-Aware Trading Portfolio Optimization”](https://arxiv.org/abs/2503.04662)  
 ANOR: Annals of Operations Research, 2026.
 
 - D. Bär, F. Corso, G. De Francisci Morales, S. Feuerriegel, F. Pierri  
@@ -59,11 +59,11 @@ PhysRep: Physics Reports, (under review), 2026.
 RSOS: Royal Society Open Science, 13(3):[251253](https://royalsocietypublishing.org/rsos/article/13/3/1/480677/Bias-and-identifiability-in-the-bounded-confidence), 2026.
 
 - A. Pera, G. De Francisci Morales, L. M. Aiello  
-[“Measuring Behavior Change with Observational Studies: a Review”](https://arxiv.org/pdf/2310.19951)  
+[“Measuring Behavior Change with Observational Studies: a Review”](https://arxiv.org/abs/2310.19951)  
 CSUR: ACM Computing Surveys, 58(10):1−36, 2026.
 
 - J. Lenti, F. Silvestri, G. De Francisci Morales  
-[“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/pdf/2403.05358)   
+[“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/abs/2403.05358)   
 TCSS: IEEE Transactions on Computational Social Systems _(_):_, 2026.
 
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
@@ -71,7 +71,7 @@ TCSS: IEEE Transactions on Computational Social Systems _(_):_, 2026.
 WSDM '26: ACM International Conference on Web Search and Data Mining, pp. 531−540, Boise, 2026.
 
 - L. Betti, P. Bajardi, G. De Francisci Morales  
-[“Moral Judgments in Online Discourse are not Biased by Gender”](https://arxiv.org/pdf/2408.12872)  
+[“Moral Judgments in Online Discourse are not Biased by Gender”](https://arxiv.org/abs/2408.12872)  
 SciRep: Scientific Reports, 15:[21555](https://www.nature.com/articles/s41598-025-08749-x), 2025.
 
 - E. Calikus, G. De Francisci Morales, A. Gionis  
@@ -79,31 +79,31 @@ SciRep: Scientific Reports, 15:[21555](https://www.nature.com/articles/s41598-02
 ECMLPKDD '25: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases, pp. 375−392, Porto, 2025.
 
 - F. Corso, F. Pierri, G. De Francisci Morales  
-[“Conspiracy theories and where to find them on TikTok”](https://arxiv.org/pdf/2407.12545)  
+[“Conspiracy theories and where to find them on TikTok”](https://arxiv.org/abs/2407.12545)  
 ACL '25: Annual Meeting of the Association for Computational Linguistics, pp. 8346−8362, Vienna, 2025.
 
 - J. Lenti, F. Silvestri, G. De Francisci Morales  
-[“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/pdf/2403.05358)   
+[“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/abs/2403.05358)   
 ICWSM '25: International AAAI Conference on Web and Social Media, pp. 2622−2627, Copenhagen, 2025.
 
 - F. Cinus, C. Monti, P. Bajardi, G. De Francisci Morales  
-[“On the Inference of Sociodemographics on Reddit”](https://arxiv.org/pdf/2502.05049)  
+[“On the Inference of Sociodemographics on Reddit”](https://arxiv.org/abs/2502.05049)  
 arXiv:2502.05049, 2025.
 
 - J. Lenti, L. M. Aiello, C. Monti, G. De Francisci Morales  
-[“Causal Modeling of Climate Activism on Reddit”](https://arxiv.org/pdf/2410.10562)  
+[“Causal Modeling of Climate Activism on Reddit”](https://arxiv.org/abs/2410.10562)  
 WWW '25: The Web Conference, pp. 590−600, Sydney, 2025.
 
 - Y. Mejova, A. Capozzi, C. Monti, G. De Francisci Morales  
-[“Narratives of War: Ukrainian Memetic Warfare on Twitter”](https://arxiv.org/pdf/2309.08363)  
+[“Narratives of War: Ukrainian Memetic Warfare on Twitter”](https://arxiv.org/abs/2309.08363)  
 CSCW '25: ACM Conference on Computer-Supported Cooperative Work and Social Computing, pp. 1−28, Bergen, 2025. **(methods recognition award)**
 
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
-[“Polaris: Sampling from the Multigraph Configuration Model with Prescribed Color Assortativity”](https://arxiv.org/pdf/2409.01363)  
+[“Polaris: Sampling from the Multigraph Configuration Model with Prescribed Color Assortativity”](https://arxiv.org/abs/2409.01363)  
 WSDM '25: ACM International Conference on Web Search and Data Mining, pp. 30−39, Hannover, 2025.
 
 - G. Preti, A. Fazzone, G. Petri, G. De Francisci Morales  
-[“Higher-Order Null Models as a Lens for Social Systems”](https://arxiv.org/pdf/2402.18470.pdf)  
+[“Higher-Order Null Models as a Lens for Social Systems”](https://arxiv.org/abs/2402.18470.pdf)  
 PRX: Physical Review X, 14, [031032](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.031032https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.031032), 2024.
 
 - D. Bär, F. Pierri, G. De Francisci Morales, S. Feuerriegel  
@@ -115,19 +115,19 @@ PNAS Nexus, 3(7):[pgae247](https://doi.org/10.1093/pnasnexus/pgae247), 2024.
 DHOW '24: Diffusion of Harmful Content on Online Web Workshop, @WebSci, Stuttgart, 2024.
 
 - G. Preti, G. De Francisci Morales, M. Riondato  
-[“Impossibility result for Markov Chain Monte Carlo sampling from micro-canonical bipartite graph ensembles”](https://arxiv.org/pdf/2308.10838)  
+[“Impossibility result for Markov Chain Monte Carlo sampling from micro-canonical bipartite graph ensembles”](https://arxiv.org/abs/2308.10838)  
 PRE: Physical Review E, 109, L053301, 2024.
 
 - G. Preti, G. De Francisci Morales, F. Bonchi  
-[“Hyper-distance Oracles in Hypergraphs”](https://arxiv.org/pdf/2306.02696)  
+[“Hyper-distance Oracles in Hypergraphs”](https://arxiv.org/abs/2306.02696)  
 VLDBJ: The VLDB Journal, 10.1007/s00778-024-00851-2, 2024.
 
 - E. Colacrai, F. Cinus, G. De Francisci Morales, M. Starnini  
-[“Navigating Multidimensional Ideologies with Reddit's Political Compass: Economic Conflict and Social Affinity”](https://arxiv.org/pdf/2401.13656)  
+[“Navigating Multidimensional Ideologies with Reddit's Political Compass: Economic Conflict and Social Affinity”](https://arxiv.org/abs/2401.13656)  
 WWW '24: The Web Conference, pp. 2582−2593, Singapore, 2024.
 
 - G. D'Acunto, F. Bonchi, G. De Francisci Morales, G. Petri  
-[“Extracting the Multiscale Causal Backbone of Brain Dynamics”](https://arxiv.org/pdf/2311.00118)  
+[“Extracting the Multiscale Causal Backbone of Brain Dynamics”](https://arxiv.org/abs/2311.00118)  
 CLeaR '24: Causal Learning and Reasoning, Los Angeles, 2024.
 
 - J. Lenti, C. Monti, G. De Francisci Morales  
@@ -251,7 +251,7 @@ SocInfo' 20: International Conference on Social Informatics, pp. 43−57, Pisa,
 KDD '20: ACM Conference on Knowledge Discovery and Data Mining, pp. 764−773, San Diego, 2020.
 
 - M. Cinelli, G. De Francisci Morales, A. Galeazzi, W. Quattrociocchi, M. Starnini  
-[“Echo Chambers on Social Media: A comparative analysis”](https://arxiv.org/pdf/2004.09603)  
+[“Echo Chambers on Social Media: A comparative analysis”](https://arxiv.org/abs/2004.09603)  
 arXiv:2004.09603, 2020.
 
 - J. Massachs, C. Monti, G. De Francisci Morales, F. Bonchi  
@@ -263,7 +263,7 @@ WebSci '20: ACM International Conference on Web Science, pp. 49−58, Southampto
 ICWSM '20: International AAAI Conference on Web and Social Media, pp, 130−140, Atlanta, 2020.
 
 - S. Esteves, G. De Francisci Morales, R. Rodrigues, M. Serafini, L. Veiga  
-[“Aion: Better Late than Never in Event-Time Streams”](https://arxiv.org/pdf/2003.03604)  
+[“Aion: Better Late than Never in Event-Time Streams”](https://arxiv.org/abs/2003.03604)  
 arXiv:2003.03604, 2020.
 
 - A. Atanasov, G. De Francisci Morales, P. Nakov  
@@ -407,7 +407,7 @@ WSDM '16: ACM International Conference on Web Search and Data Mining, pp. 33−4
 MUSE '15: Workshop on Mining Ubiquitous and Social Environments, @ECMLPKDD, Porto, 2015.
 
 - M. A. U. Nasir, G. De Francisci Morales, D. Garcia-Soriano, N. Kourtellis, M. Serafini  
-[“Partial Key Grouping: Load-Balanced Partitioning of Distributed Streams”](http://arxiv.org/pdf/1510.07623)  
+[“Partial Key Grouping: Load-Balanced Partitioning of Distributed Streams”](http://arxiv.org/abs/1510.07623)  
 arXiv:1510.07623, 2015.
 
 - K. Garimella, G. De Francisci Morales, A. Gionis, M. Sozio  
