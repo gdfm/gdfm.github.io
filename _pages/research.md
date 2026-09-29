@@ -6,6 +6,10 @@ permalink: /research/
 
 ## Publications
 
+- M. Sanchez-Cortes, C. Monti, G. De Francisci Morales  
+[“Conspiracy and Environment Communities on Reddit Sort Along Different Demographic Axes”](https://arxiv.org/abs/2609.34846)  
+arXiv:2609.34846, 2026.
+
 - F. Corso, F. Pierri, G. De Francisci Morales  
 [“Do Androids Dream of Unseen Puppeteers? Probing for a Conspiracy Mindset in Large Language Models”](https://arxiv.org/abs/2511.03699)  
 EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. \_−\_, 2026
