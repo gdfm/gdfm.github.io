@@ -6,6 +6,10 @@ permalink: /research/
 
 ## Publications
 
+- F. Cinus, C. Monti, P. Bajardi, G. De Francisci Morales  
+[“Transparent Sociodemographic Inference on Reddit from Self-Declarations”](https://arxiv.org/abs/2502.05049)  
+SciRep: Scientific Reports, \_:\_, 2026.
+
 - M. Sanchez-Cortes, C. Monti, G. De Francisci Morales  
 [“Conspiracy and Environment Communities on Reddit Sort Along Different Demographic Axes”](https://arxiv.org/abs/2609.34846)  
 arXiv:2609.34846, 2026.
@@ -89,10 +93,6 @@ ACL '25: Annual Meeting of the Association for Computational Linguistics, pp. 83
 - J. Lenti, F. Silvestri, G. De Francisci Morales  
 [“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/abs/2403.05358)   
 ICWSM '25: International AAAI Conference on Web and Social Media, pp. 2622−2627, Copenhagen, 2025.
-
-- F. Cinus, C. Monti, P. Bajardi, G. De Francisci Morales  
-[“On the Inference of Sociodemographics on Reddit”](https://arxiv.org/abs/2502.05049)  
-arXiv:2502.05049, 2025.
 
 - J. Lenti, L. M. Aiello, C. Monti, G. De Francisci Morales  
 [“Causal Modeling of Climate Activism on Reddit”](https://arxiv.org/abs/2410.10562)  
