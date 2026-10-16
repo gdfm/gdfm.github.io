@@ -656,7 +656,8 @@ PC member:
 - RTStreams '15
 
 Other:
+- ACL '26 Outstanding Reviewer
 - ICWSM '25 Best Paper Award Committee
 - ICWSM '24 Best Paper Award Committee
-- External reviewer: KDD '12, ICDE '13, ICDM '14, KDD '14, ICALP '14.
-- Reviewer: TWEB, TKDE, TKDD, WWWJ, VLDBJ, KAIS, PARCO, MACH, JPDC, Network Science, PeerJ.
+- External reviewer: KDD '12, ICDE '13, ICDM '14, KDD '14, ICALP '14
+- Reviewer: TWEB, TKDE, TKDD, WWWJ, VLDBJ, KAIS, PARCO, MACH, JPDC, Network Science, PeerJ
