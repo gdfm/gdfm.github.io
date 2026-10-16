@@ -536,6 +536,8 @@ DSD '08: 11th Euromicro Conference on Digital System Design, pp. 656−659, Par
 
 ## Invited Talks & Presentations
 
+- “Is it Really a Rabbit Hole? The Social Life of Conspiracy Theories”  
+Swedish e-Science Academy Satellite on Social Cybersecurity, Uppsala, 14 Oct 2026. [[slides](https://speakerdeck.com/gdfm/is-it-really-a-rabbit-hole-the-social-life-of-conspiracy-theories)]
 - “Echo Chambers on Social Media”  
 Human and Network Sciences: Graph Computing for Humanities and Social Science Research, London, 18 Oct 2024. [[slides](https://speakerdeck.com/gdfm/echo-chambers-on-social-media)]
 - “Learning Agent-Based Models from Data”  
