@@ -617,7 +617,7 @@ PC Chair:
 - ASONAM '24 Industrial Track
 
 Senior PC member / Area chair:
-- WWW '23-24-26
+- WWW '23-24-26-27
 - KDD '26-27
 - ICWSM '22-23-24-25-26-27
 - WSDM '23
