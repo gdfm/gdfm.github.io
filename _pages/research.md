@@ -6,6 +6,10 @@ permalink: /research/
 
 ## Publications
 
+- F. Corso, C. Bono, F. Pierri, G. De Francisci Morales   
+“Comparing Fine Tuned Embeddings and Large Language Models for Detecting Multimodal Online Conspiracy Theories”  
+DAI: Discover Artificial Intelligence, \_:[\_], 2026.
+
 - F. Cinus, C. Monti, P. Bajardi, G. De Francisci Morales  
 [“Transparent Sociodemographic Inference on Reddit from Self-Declarations”](https://arxiv.org/abs/2502.05049)  
 SciRep: Scientific Reports, \_:[\_](https://www.nature.com/articles/s41598-026-75155-2), 2026.
