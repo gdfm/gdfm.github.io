@@ -19,12 +19,12 @@ SciRep: Scientific Reports, \_:[\_](https://www.nature.com/articles/s41598-026-7
 arXiv:2609.34846, 2026.
 
 - F. Corso, F. Pierri, G. De Francisci Morales  
-[“Do Androids Dream of Unseen Puppeteers? Probing for a Conspiracy Mindset in Large Language Models”](https://arxiv.org/abs/2511.03699)  
-EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. \_−\_, 2026
+[“Do Androids Dream of Unseen Puppeteers? Probing for Conspiratorial Tendencies in Large Language Models”](https://arxiv.org/abs/2511.03699)  
+EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. 1606−1620, 2026
 
 - B. N. Doan, G. Russo, G. De Francisci Morales  
 [“Beyond the Rabbit Hole: Mapping the Relational Harms of QAnon Radicalization”](https://arxiv.org/abs/2601.17658)  
-EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. \_−\_, 2026
+EMNLP '26: Conference on Empirical Methods in Natural Language Processing, pp. 24971−24991, 2026
 
 - M. Bianchetti, G. D'Acunto, G. De Francisci Morales, Y. Kuroki, M. Scaringi, F. Vitale  
 [“Risk-Aware Trading Portfolio Optimization”](https://arxiv.org/abs/2503.04662)  
