@@ -7,8 +7,8 @@ permalink: /research/
 ## Publications
 
 - F. Corso, C. Bono, F. Pierri, G. De Francisci Morales   
-“Comparing Fine Tuned Embeddings and Large Language Models for Detecting Multimodal Online Conspiracy Theories”  
-DAI: Discover Artificial Intelligence, \_:[\_], 2026.
+[“Comparing Fine Tuned Embeddings and Large Language Models for Detecting Multimodal Online Conspiracy Theories”](https://doi.org/10.1007/s44163-026-02723-w)  
+DAI: Discover Artificial Intelligence, 6:1917, 2026.
 
 - F. Cinus, C. Monti, P. Bajardi, G. De Francisci Morales  
 [“Transparent Sociodemographic Inference on Reddit from Self-Declarations”](https://arxiv.org/abs/2502.05049)  
@@ -76,7 +76,7 @@ CSUR: ACM Computing Surveys, 58(10):1−36, 2026.
 
 - J. Lenti, F. Silvestri, G. De Francisci Morales  
 [“Variational Inference of Parameters in Opinion Dynamics Models”](https://arxiv.org/abs/2403.05358)   
-TCSS: IEEE Transactions on Computational Social Systems _(_):_, 2026.
+TCSS: IEEE Transactions on Computational Social Systems 13(5):6670−6681, 2026.
 
 - G. Preti, M. Riondato, A. Gionis, G. De Francisci Morales  
 [“DSP: A Statistically-Principled Structural Polarization Measure”](https://arxiv.org/abs/2512.03937)  
